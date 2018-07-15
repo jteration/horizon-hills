@@ -1,0 +1,41 @@
+main > .hero.is-fullheight {
+  min-height: calc(100vh - 52px);
+}
+
+.hero > .hero-body {
+  padding: 0;
+}
+
+h1.title.is-1 {
+  font-size: calc(2rem + 5vw);
+  font-family: 'Muli', sans-serif;
+  color: #131313;
+}
+
+.hero-video video {
+  max-width: none;
+  z-index: -1;
+}
+
+.hero-cover {
+  height: 100%;
+  width: 100%;
+  z-index: 9999;
+  background-color: rgba(176, 208, 255, 0.5);
+}
+
+.hero-body > .container > .columns {
+  align-items: center;
+}
+
+.columns > .hero-icon-column {
+  height: 100px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-icon {
+  height: 100px;
+}

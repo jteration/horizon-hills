@@ -7,7 +7,7 @@ main > .hero.is-fullheight {
 }
 
 h1.title.is-1 {
-  font-size: calc(2rem + 5vw);
+  font-size: calc(2rem + 4vw);
   /* font-family: 'Cinzel', serif; */
   font-family: 'Playfair Display SC', serif;
   /* font-family: 'IBM Plex Serif', serif; */

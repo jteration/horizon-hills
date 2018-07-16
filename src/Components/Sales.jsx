@@ -3,7 +3,7 @@ import * as React from 'react';
 class Sales extends React.Component {
   render() {
     return (
-      <section className="section">
+      <section id="sales" className="section">
         <div className="container">
           <div className="columns">
             <div className="column content">

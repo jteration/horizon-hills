@@ -2,12 +2,27 @@ import * as React from 'react';
 import './Nav.css';
 
 class Nav extends React.Component {
+  state = {
+    navClass: 'navbar transparent is-fixed-top',
+  };
+  componentDidMount() {
+    if (window.pageYOffset >= 50) {
+      this.setState({ navClass: 'navbar colored is-fixed-top' });
+    }
+    window.onscroll = () => {
+      if (window.pageYOffset >= 50) {
+        this.setState({ navClass: 'navbar colored is-fixed-top' });
+      } else {
+        this.setState({ navClass: 'navbar transparent is-fixed-top' });
+      }
+    };
+  }
   render() {
     return (
-      <nav className="navbar is-fixed-top" aria-label="main navigation">
+      <nav className={this.state.navClass} aria-label="main navigation">
         <div className="container">
           <div className="navbar-brand">
-            <a href="/" className="navbar-item">
+            <a href="/#" className="navbar-item">
               <img src="./HorizonHillsLogo.png" />
               <h2 className="brand-title">Horizon Hills</h2>
             </a>

@@ -5,7 +5,7 @@
 }
 
 nav {
-  transition: all 1.5s ease-out;
+  transition: all 0.75s ease-out;
 }
 
 .colored {
@@ -16,6 +16,18 @@ nav {
 .transparent {
   background-color: rgba(255, 255, 255, 0.3) !important;
   box-shadow: none;
+}
+
+.transparent > .container > .navbar-brand > .navbar-item > img {
+  visibility: hidden;
+  opacity: 0;
+  transition: all 1s ease-out;
+}
+
+.colored > .container > .navbar-brand > .navbar-item > img {
+  visibility: visible;
+  opacity: 1;
+  transition: all 1s ease-out;
 }
 
 .navbar-end > a {

@@ -23,7 +23,7 @@ class Nav extends React.Component {
         <div className="container">
           <div className="navbar-brand">
             <a href="/#" className="navbar-item">
-              <img src="./HorizonHillsLogo.png" />
+              <img src="./Logo1.png" />
               <h2 className="brand-title">Horizon Hills</h2>
             </a>
           </div>

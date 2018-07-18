@@ -15,14 +15,7 @@ class Hero extends React.Component {
           <div className="container">
             <div className="columns is-centered">
               <div className="hero-icon-column column is-narrow">
-                <img
-                  className="hero-icon"
-                  src="./HorizonHillsLogo.png"
-                  alt=""
-                />
-              </div>
-              <div className="hero-title column is-narrow">
-                <h1 className="title is-1 has-text-centered">Horizon Hills</h1>
+                <img className="hero-icon" src="./Logo2.png" alt="" />
               </div>
             </div>
           </div>

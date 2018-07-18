@@ -8,7 +8,10 @@ class About extends React.Component {
         <div className="container">
           <div className="columns">
             <div className="column content">
-              <h2>About</h2>
+              <h2 className="about-title has-text-centered">
+                Welcome to Horizon Hills
+              </h2>
+              <h5 className="has-text-centered">in Campion, Colorado</h5>
               <p>
                 Phasellus sodales ullamcorper eros eu sagittis. Donec sed semper
                 enim. Cras non mi tempor, maximus elit in, facilisis erat. In

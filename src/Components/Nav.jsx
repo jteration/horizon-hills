@@ -24,7 +24,10 @@ class Nav extends React.Component {
           <div className="navbar-brand">
             <a href="/#" className="navbar-item">
               <img src="./Logo1.png" />
-              <h2 className="brand-title">Horizon Hills</h2>
+              <h2 className="brand-title">
+                <span className="nav-big-letter">H</span>ORIZON{' '}
+                <span className="nav-big-letter">H</span>ILLS
+              </h2>
             </a>
           </div>
           <div className="navbar-menu">

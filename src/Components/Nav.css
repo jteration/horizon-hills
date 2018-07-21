@@ -1,7 +1,13 @@
 .brand-title {
+  font-size: 110%;
   margin-left: 6px;
-  font-family: 'Playfair Display SC', serif;
+  font-family: 'mod';
   font-weight: 800;
+  color: black;
+}
+
+.nav-big-letter {
+  font-size: 120%;
 }
 
 nav {

@@ -6,3 +6,8 @@ html {
 section.hero {
   margin-top: 52px;
 }
+
+@font-face {
+  font-family: mod;
+  src: url('MOD20.TTF') format('ttf');
+}

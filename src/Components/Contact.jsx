@@ -1,4 +1,5 @@
 import * as React from 'react';
+import './Contact.css';
 
 class Contact extends React.Component {
   render() {
@@ -37,7 +38,7 @@ class Contact extends React.Component {
                   </span>
                 </div>
               </div>
-              <div class="field">
+              <div className="field">
                 <label className="label">Message</label>
                 <div className="control">
                   <textarea
@@ -49,7 +50,11 @@ class Contact extends React.Component {
               </div>
               <div className="field">
                 <div className="control">
-                  <button type="submit" value="Send" className="button is-link">
+                  <button
+                    type="submit"
+                    value="Send"
+                    className="submit-btn button is-link"
+                  >
                     Submit
                   </button>
                 </div>

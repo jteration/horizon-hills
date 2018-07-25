@@ -8,12 +8,23 @@ import Area from './Components/Area';
 import Entertainment from './Components/Entertainment';
 import Restrictions from './Components/Restrictions';
 import Footer from './Components/Footer';
+import Contact from './Components/Contact';
 
 class App extends Component {
+  state = {
+    modalClass: 'modal',
+  };
+  _toggleModal = () => {
+    if (this.state.modalClass === 'modal') {
+      this.setState({ modalClass: 'modal is-active' });
+    } else {
+      this.setState({ modalClass: 'modal' });
+    }
+  };
   render() {
     return (
       <main>
-        <Nav />
+        <Nav _toggleModal={this._toggleModal} />
         <Hero />
         <About />
         <Sales />
@@ -21,6 +32,10 @@ class App extends Component {
         <Entertainment />
         <Restrictions />
         <Footer />
+        <Contact
+          _toggleModal={this._toggleModal}
+          modalClass={this.state.modalClass}
+        />
       </main>
     );
   }

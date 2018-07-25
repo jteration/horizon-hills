@@ -38,8 +38,16 @@ h1.title.is-1 {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
 
 .hero-icon {
   height: 300px;
+}
+
+.hero-tagline {
+  margin-right: 20px;
+  font-size: 1.5rem;
+  color: black;
+  font-weight: 600;
 }

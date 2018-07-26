@@ -1,10 +1,26 @@
 html {
   scroll-behavior: smooth;
-  background-color: #f7f7f7 !important;
+}
+
+.section:nth-child(even) {
+  background-color: #5d6f8d !important;
+}
+
+.section:nth-child(even) > .container > .columns > .content p {
+  color: white;
+}
+
+section.section {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
 }
 
 section.hero {
   margin-top: 52px;
+}
+
+.footer {
+  background-color: #c7d0dd !important;
 }
 
 @font-face {

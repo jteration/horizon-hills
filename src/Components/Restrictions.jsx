@@ -6,8 +6,8 @@ class Restrictions extends React.Component {
       <section id="restrictions" className="section">
         <div className="container">
           <div className="columns">
-            <div className="column content">
-              <h2>Restrictions</h2>
+            <div className="column is-8 is-offset-2 content">
+              <h2>Horizon Hills Community Rules and Restrictions</h2>
               <p>
                 Phasellus sodales ullamcorper eros eu sagittis. Donec sed semper
                 enim. Cras non mi tempor, maximus elit in, facilisis erat. In

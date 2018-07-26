@@ -1,5 +1,10 @@
 .about-title.about-title {
   font-family: 'IBM Plex Serif', serif;
-  margin-bottom: 0.2em;
+  margin-bottom: 0.4em;
   font-size: 4rem;
+}
+
+section.about {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
 }

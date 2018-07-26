@@ -3,7 +3,7 @@
   margin-left: 6px;
   font-family: 'mod';
   font-weight: 800;
-  color: black;
+  color: #292929;
 }
 
 .nav-big-letter {
@@ -14,13 +14,17 @@ nav {
   transition: all 0.75s ease-out;
 }
 
+.navbar-item {
+  color: #292929 !important;
+}
+
 .colored {
-  background-color: white !important;
+  background-color: rgb(209, 227, 255) !important;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.03), 0 1px 2px rgba(0, 0, 0, 0.06);
 }
 
 .transparent {
-  background-color: rgba(255, 255, 255, 0.3) !important;
+  background-color: rgba(209, 227, 255, 0.3) !important;
   box-shadow: none;
 }
 

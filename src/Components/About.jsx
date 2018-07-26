@@ -7,19 +7,20 @@ class About extends React.Component {
       <section id="about" className="about section">
         <div className="container">
           <div className="columns">
-            <div className="column content">
+            <div className="column is-8 is-offset-2 content">
               <h2 className="about-title has-text-centered">
-                Welcome to Horizon Hills
+                Introducing Horizon Hills
               </h2>
-              <h5 className="has-text-centered">in Campion, Colorado</h5>
-              <p>
-                Phasellus sodales ullamcorper eros eu sagittis. Donec sed semper
-                enim. Cras non mi tempor, maximus elit in, facilisis erat. In
-                suscipit nulla ac eros sagittis mattis. Fusce dignissim
-                tristique erat, at consectetur magna tempor ac. Nullam et risus
-                sit amet sem commodo viverra ac sagittis elit. Class aptent
-                taciti sociosqu ad litora torquent per conubia nostra, per
-                inceptos himenaeos.
+              <hr />
+              <p className="has-text-justified">
+                Horizon Hills is a 55+ active adult community in Campion,
+                Colorado. This new development is located just south of
+                Loveland, Colorado in Larimer County on the west side of I-25.
+                Residents of Horizon Hills enjoy an unobstructed view of the
+                Front Range as well as a convenient location. The Fort Collins,
+                Boulder, and Denver metro areas are all within a reasonable
+                driving distance of Horizon Hills, making this a great place to
+                retire or vacation.
               </p>
             </div>
           </div>

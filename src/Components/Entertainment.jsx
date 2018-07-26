@@ -38,7 +38,11 @@ class Entertainment extends React.Component {
                 many nearby courses.
               </p>
               <p>
-                <a href="https://tpc.com/colorado/" target="_blank">
+                <a
+                  rel="noopener noreferrer"
+                  href="https://tpc.com/colorado/"
+                  target="_blank"
+                >
                   TPC Colorado
                 </a>{' '}
                 (2.3 miles from Horizon Hills in Berthud, CO): TPC Colorado is
@@ -51,6 +55,7 @@ class Entertainment extends React.Component {
               </p>
               <p>
                 <a
+                  rel="noopener noreferrer"
                   href="http://www.cityofloveland.org/departments/parks-recreation/golf-courses/the-olde-course-at-loveland"
                   target="_blank"
                 >
@@ -65,6 +70,7 @@ class Entertainment extends React.Component {
               </p>
               <p>
                 <a
+                  rel="noopener noreferrer"
                   href="https://www.highlandmeadowsgolfcourse.com/"
                   target="_blank"
                 >
@@ -79,7 +85,11 @@ class Entertainment extends React.Component {
                 a popular place to eat after your round is finished.
               </p>
               <p>
-                <a href="https://ptarmigancc.com/" target="_blank">
+                <a
+                  rel="noopener noreferrer"
+                  href="https://ptarmigancc.com/"
+                  target="_blank"
+                >
                   Ptarmigan
                 </a>{' '}
                 (14.4 miles from Horizon Hills in Fort Collins, CO):

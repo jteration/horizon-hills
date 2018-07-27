@@ -15,6 +15,31 @@ class Contact extends React.Component {
               </div>
             </div>
             <div className="card-content">
+              <div className="columns">
+                <div className="column is-8 content">
+                  <h1>Hello</h1>
+                  <p>
+                    This could be where we put some sales copy or brief
+                    information about what a person would need to know before
+                    contacting us by phone
+                  </p>
+                  <p>
+                    Tel: <a href="tel:555-555-1212">555-555-1212</a>
+                  </p>
+                </div>
+                <div className="column is-4">
+                  <img src="./placeholder1.jpg" />
+                </div>
+              </div>
+              <hr />
+              <div className="contact-divider content">
+                <h2 className="has-text-centered">OR</h2>
+              </div>
+              <p className="has-text-centered">
+                Fill out this form and we will get back to you as soon as
+                possible
+              </p>
+              <hr />
               <form
                 action="https://formspree.io/jaysull514@gmail.com"
                 method="POST"

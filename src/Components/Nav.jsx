@@ -48,7 +48,7 @@ class Nav extends React.Component {
                 onClick={() => this.props._toggleModal()}
                 className="navbar-item"
               >
-                Contact
+                <a className="button is-danger">Contact</a>
               </a>
             </div>
           </div>

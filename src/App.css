@@ -30,9 +30,9 @@ a.button {
   transition: all 0.2s ease-out;
 }
 
-a.button:hover {
+/* a.button:hover {
   transform: translateY(-0.1rem);
-}
+} */
 
 a.button:active {
   transform: translateY(calc(-0.1rem + 2px)) translateX(1px);

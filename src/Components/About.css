@@ -1,7 +1,7 @@
-.about-title.about-title {
+#about-title {
   font-family: 'IBM Plex Serif', serif;
   margin-bottom: 0.4em;
-  font-size: 4rem;
+  font-size: 4rem !important;
 }
 
 section.about {

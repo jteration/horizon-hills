@@ -12,6 +12,7 @@
 
 nav {
   transition: all 0.75s ease-out;
+  border-bottom: 1px solid rgba(55, 103, 58, 0.05);
 }
 
 .navbar-item {
@@ -19,12 +20,13 @@ nav {
 }
 
 .colored {
-  background-color: rgb(209, 227, 255) !important;
+  background-color: rgb(231, 240, 255) !important;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.03), 0 1px 2px rgba(0, 0, 0, 0.06);
+  border-bottom: 1px solid rgba(55, 103, 58, 0.1);
 }
 
 .transparent {
-  background-color: rgba(209, 227, 255, 0.3) !important;
+  background-color: rgba(231, 240, 255, 0.3) !important;
   box-shadow: none;
 }
 

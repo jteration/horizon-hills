@@ -8,7 +8,7 @@ class About extends React.Component {
         <div className="container">
           <div className="columns">
             <div className="column is-8 is-offset-2 content">
-              <h2 className="about-title has-text-centered">
+              <h2 id="about-title" className="has-text-centered">
                 Introducing Horizon Hills
               </h2>
               <hr />

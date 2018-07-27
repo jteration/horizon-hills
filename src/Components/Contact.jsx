@@ -8,58 +8,65 @@ class Contact extends React.Component {
       <div className={modalClass}>
         <div onClick={() => _toggleModal()} className="modal-background" />
         <div className="modal-content">
-          <div className="box">
-            <form
-              action="https://formspree.io/jaysull514@gmail.com"
-              method="POST"
-            >
-              <div className="field">
-                <label className="label">Name</label>
-                <div className="control">
-                  <input
-                    className="input"
-                    name="name"
-                    type="text"
-                    placeholder="Name"
-                  />
-                </div>
+          <div className="card">
+            <div className="card-header">
+              <div className="card-header-title">
+                We would love to get in touch
               </div>
-              <div className="field">
-                <label className="label">Email</label>
-                <div className="control has-icons-left">
-                  <input
-                    className="input"
-                    name="_replyto"
-                    type="email"
-                    placeholder="Email"
-                  />
-                  <span className="icon is-small is-left">
-                    <i className="fas fa-envelope" />
-                  </span>
+            </div>
+            <div className="card-content">
+              <form
+                action="https://formspree.io/jaysull514@gmail.com"
+                method="POST"
+              >
+                <div className="field">
+                  <label className="label">Name</label>
+                  <div className="control">
+                    <input
+                      className="input"
+                      name="name"
+                      type="text"
+                      placeholder="Name"
+                    />
+                  </div>
                 </div>
-              </div>
-              <div className="field">
-                <label className="label">Message</label>
-                <div className="control">
-                  <textarea
-                    className="textarea"
-                    name="message"
-                    placeholder="Message"
-                  />
+                <div className="field">
+                  <label className="label">Email</label>
+                  <div className="control has-icons-left">
+                    <input
+                      className="input"
+                      name="_replyto"
+                      type="email"
+                      placeholder="Email"
+                    />
+                    <span className="icon is-small is-left">
+                      <i className="fas fa-envelope" />
+                    </span>
+                  </div>
                 </div>
-              </div>
-              <div className="field">
-                <div className="control">
-                  <button
-                    type="submit"
-                    value="Send"
-                    className="submit-btn button is-link"
-                  >
-                    Submit
-                  </button>
+                <div className="field">
+                  <label className="label">Message</label>
+                  <div className="control">
+                    <textarea
+                      className="textarea"
+                      name="message"
+                      placeholder="Message"
+                    />
+                  </div>
                 </div>
-              </div>
-            </form>
+                <div className="field">
+                  <div className="control">
+                    <button
+                      type="submit"
+                      value="Send"
+                      className="submit-btn button is-link"
+                    >
+                      Submit
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
           </div>
         </div>
         <button

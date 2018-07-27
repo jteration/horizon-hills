@@ -2,25 +2,40 @@ html {
   scroll-behavior: smooth;
 }
 
-.section:nth-child(even) {
-  background-color: #5d6f8d !important;
+html > body {
+  font-size: 1.05rem;
+  font-weight: 500;
+  line-height: 1.55;
 }
 
-.section:nth-child(even) > .container > .columns > .content p {
-  color: white;
+.content h2 {
+  font-size: 2em !important;
+  text-align: center !important;
+}
+
+.content h3 {
+  font-size: 1.6em !important;
 }
 
 section.section {
-  padding-top: 8rem;
-  padding-bottom: 8rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 section.hero {
   margin-top: 52px;
 }
 
-.footer {
-  background-color: #c7d0dd !important;
+a.button {
+  transition: all 0.2s ease-out;
+}
+
+a.button:hover {
+  transform: translateY(-0.1rem);
+}
+
+a.button:active {
+  transform: translateY(calc(-0.1rem + 2px)) translateX(1px);
 }
 
 @font-face {

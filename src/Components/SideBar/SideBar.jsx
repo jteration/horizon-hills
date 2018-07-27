@@ -2,16 +2,6 @@ import * as React from 'react';
 import './SideBar.css';
 
 class SideBar extends React.Component {
-  _toggleFixed = () => {
-    if (this.state.sideBarClasses === 'section') {
-      this.setState({
-        sideBarClasses: 'section sidebar-section side-is-fixed',
-      });
-    } else {
-      this.setState({ sideBarClasses: 'section sidebar-section' });
-    }
-  };
-  componentDidMount() {}
   state = {
     sideBarClasses: 'section sidebar-section',
   };

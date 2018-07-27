@@ -1,3 +1,18 @@
+.side-is-fixed {
+  position: fixed;
+  top: 10px;
+  right: 0;
+  transition: 0.1s all ease-out;
+}
+
+.invisible {
+  opacity: 0;
+}
+
+.visible {
+  opacity: 1;
+}
+
 .padded-span {
   padding-left: 5px;
 }

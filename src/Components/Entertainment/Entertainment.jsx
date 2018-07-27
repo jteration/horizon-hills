@@ -102,7 +102,7 @@ class Entertainment extends React.Component {
       <section id="entertainment" className="section">
         <div className="columns">
           <div className="column">
-            <div className="tabs is-boxed is-large is-centered">
+            <div className="tabs is-toggle is-medium is-centered">
               <ul>{this._renderTabs(tabs)}</ul>
             </div>
             <div className="content">{this._renderActiveContent()}</div>

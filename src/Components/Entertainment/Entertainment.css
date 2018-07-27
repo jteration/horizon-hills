@@ -1,0 +1,14 @@
+.tabs ul {
+  flex-flow: wrap;
+  flex-shrink: 1 !important;
+}
+
+@media screen and (max-width: 768px) {
+  .tabs ul {
+    flex-direction: column;
+  }
+
+  .tabs ul > li {
+    width: 80%;
+  }
+}

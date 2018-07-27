@@ -1,0 +1,14 @@
+.portrait {
+  min-width: 100px;
+  max-width: 150px;
+}
+
+.card-columns {
+  display: flex;
+}
+
+@media screen and (min-width: 769px) {
+  .sidebar-section {
+    padding-left: 0 !important;
+  }
+}

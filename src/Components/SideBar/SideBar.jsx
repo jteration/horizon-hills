@@ -4,14 +4,16 @@ import './SideBar.css';
 class SideBar extends React.Component {
   _toggleFixed = () => {
     if (this.state.sideBarClasses === 'section') {
-      this.setState({ sideBarClasses: 'section side-is-fixed' });
+      this.setState({
+        sideBarClasses: 'section sidebar-section side-is-fixed',
+      });
     } else {
-      this.setState({ sideBarClasses: 'section' });
+      this.setState({ sideBarClasses: 'section sidebar-section' });
     }
   };
   componentDidMount() {}
   state = {
-    sideBarClasses: 'section',
+    sideBarClasses: 'section sidebar-section',
   };
   render() {
     const { _toggleModal } = this.props;
@@ -22,18 +24,22 @@ class SideBar extends React.Component {
             <div className="card-header-title">Your Real Estate Expert</div>
           </div>
           <div className="card-content">
-            <div className="columns">
-              <div className="column">
+            <div className="card-columns columns">
+              <div className="column is-5">
                 <figure>
-                  <img src="./placeholder1.jpg" alt="Jacob" />
+                  <img
+                    className="portrait"
+                    src="./placeholder1.jpg"
+                    alt="Jacob"
+                  />
                   <figcaption>Jacob Sullivan</figcaption>
                 </figure>
               </div>
-              <div className="column">
-                <p>blahblahblahblahblah</p>
+              <div className="column is-6 is-offset-1">
+                <p>blah blahb lah bla hblah</p>
               </div>
             </div>
-            <div className="columns">
+            <div className="card-columns columns">
               <div className="column">
                 <a
                   onClick={() => _toggleModal()}
@@ -59,7 +65,7 @@ class SideBar extends React.Component {
             <div className="card-header-title">Quick Facts</div>
           </div>
           <div className="card-content">
-            <div className="columns">
+            <div className="card-columns columns">
               <div className="column">
                 <p>Price Range:</p>
                 <p>Home Types:</p>

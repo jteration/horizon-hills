@@ -43,6 +43,10 @@ nav {
 }
 
 .navbar-end > a {
-  font-family: 'Cinzel', serif;
+  /* font-family: 'Cinzel', serif; */
+  font-family: 'Playfair Display SC', serif;
+  /* font-family: 'IBM Plex Serif', serif; */
+  /* font-family: 'Forum', cursive; */
+  /* font-family: 'mod'; */
   font-weight: 600;
 }

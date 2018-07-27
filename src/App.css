@@ -38,6 +38,10 @@ a.button:active {
   transform: translateY(calc(-0.1rem + 2px)) translateX(1px);
 }
 
+.side-column {
+  min-width: 386px;
+}
+
 @font-face {
   font-family: mod;
   src: url('MOD20.TTF') format('ttf');

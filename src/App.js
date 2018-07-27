@@ -33,7 +33,7 @@ class App extends Component {
               <Sales />
               <Entertainment />
             </div>
-            <div className="column is-5">
+            <div className="side-column column is-5">
               <SideBar _toggleModal={this._toggleModal} />
             </div>
           </div>

@@ -21,13 +21,16 @@ class Contact extends React.Component {
               >
                 <div className="field">
                   <label className="label">Name</label>
-                  <div className="control">
+                  <div className="control has-icons-left">
                     <input
                       className="input"
                       name="name"
                       type="text"
                       placeholder="Name"
                     />
+                    <span className="icon is-small is-left">
+                      <i className="fas fa-user-alt" />
+                    </span>
                   </div>
                 </div>
                 <div className="field">

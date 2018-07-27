@@ -1,3 +1,7 @@
+.padded-span {
+  padding-left: 5px;
+}
+
 .portrait {
   min-width: 100px;
   max-width: 150px;
@@ -5,6 +9,10 @@
 
 .card-columns {
   display: flex;
+}
+
+.card-header {
+  background-color: rgb(231, 240, 255) !important;
 }
 
 @media screen and (min-width: 769px) {

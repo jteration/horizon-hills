@@ -21,7 +21,10 @@ class SideBar extends React.Component {
       <section className={this.state.sideBarClasses}>
         <div className="card">
           <div className="card-header">
-            <div className="card-header-title">Your Real Estate Expert</div>
+            <div className="card-header-title">
+              <i className="fas fa-home" />
+              <span className="padded-span">Your Real Estate Expert</span>
+            </div>
           </div>
           <div className="card-content">
             <div className="card-columns columns">
@@ -62,7 +65,10 @@ class SideBar extends React.Component {
         <hr />
         <div className="card">
           <div className="card-header">
-            <div className="card-header-title">Quick Facts</div>
+            <div className="card-header-title">
+              <i className="fas fa-book" />
+              <span className="padded-span">Quick Facts</span>
+            </div>
           </div>
           <div className="card-content">
             <div className="card-columns columns">

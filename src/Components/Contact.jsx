@@ -36,8 +36,8 @@ class Contact extends React.Component {
                 <h2 className="has-text-centered">OR</h2>
               </div>
               <p className="has-text-centered">
-                Fill out this form and we will get back to you as soon as
-                possible
+                Fill out the form below to contact Jess about joining the
+                Horizon Hills community.
               </p>
               <hr />
               <form
@@ -63,7 +63,7 @@ class Contact extends React.Component {
                   <div className="control has-icons-left">
                     <input
                       className="input"
-                      name="_replyto"
+                      name="_replytoemail"
                       type="email"
                       placeholder="Email"
                     />
@@ -71,6 +71,29 @@ class Contact extends React.Component {
                       <i className="fas fa-envelope" />
                     </span>
                   </div>
+                </div>
+                <div className="field">
+                  <label className="label">Phone</label>
+                  <div className="control has-icons-left">
+                    <input
+                      className="input"
+                      name="_replytophone"
+                      type="phone"
+                      placeholder="Phone"
+                    />
+                    <span className="icon is-small is-left">
+                      <i className="fas fa-phone-square" />
+                    </span>
+                  </div>
+                </div>
+                <div class="control">
+                  <p>Preferred Method of Contact</p>
+                  <label class="radio">
+                    <input type="radio" name="Contact Me By Phone" /> Phone
+                  </label>
+                  <label class="radio">
+                    <input type="radio" name="Contact Me By Email" /> Email
+                  </label>
                 </div>
                 <div className="field">
                   <label className="label">Message</label>

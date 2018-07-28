@@ -30,6 +30,8 @@ class SideBar extends React.Component {
               </div>
               <div className="column is-6 is-offset-1">
                 <p>blah blahb lah bla hblah</p>
+                <p>Call us at </p>
+                <a href="tel:555-555-1212">555-555-1212</a>
               </div>
             </div>
             <div className="card-columns columns">

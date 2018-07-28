@@ -28,7 +28,7 @@ class Contact extends React.Component {
                   </p>
                 </div>
                 <div className="column is-4">
-                  <img src="./placeholder1.jpg" />
+                  <img alt="Jay" src="./placeholder1.jpg" />
                 </div>
               </div>
               <hr />
@@ -52,6 +52,7 @@ class Contact extends React.Component {
                       name="name"
                       type="text"
                       placeholder="Name"
+                      required
                     />
                     <span className="icon is-small is-left">
                       <i className="fas fa-user-alt" />
@@ -86,12 +87,17 @@ class Contact extends React.Component {
                     </span>
                   </div>
                 </div>
-                <div class="control">
+                <div className="control">
                   <p>Preferred Method of Contact</p>
-                  <label class="radio">
-                    <input type="radio" name="Contact Me By Phone" /> Phone
+                  <label className="radio">
+                    <input
+                      defaultChecked
+                      type="radio"
+                      name="Contact Me By Phone"
+                    />{' '}
+                    Phone
                   </label>
-                  <label class="radio">
+                  <label className="radio">
                     <input type="radio" name="Contact Me By Email" /> Email
                   </label>
                 </div>
@@ -102,6 +108,7 @@ class Contact extends React.Component {
                       className="textarea"
                       name="message"
                       placeholder="Message"
+                      required
                     />
                   </div>
                 </div>

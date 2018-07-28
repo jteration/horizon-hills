@@ -41,12 +41,12 @@ class Nav extends React.Component {
               <a href="/horizon-hills/#features" className="navbar-item">
                 Campion
               </a>
-              <a
+              <div
                 onClick={() => this.props._toggleModal()}
                 className="navbar-item"
               >
                 <a className="button is-danger">Contact</a>
-              </a>
+              </div>
             </div>
           </div>
         </div>

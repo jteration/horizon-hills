@@ -4,8 +4,7 @@ import Nav from './Components/Nav';
 import Hero from './Components/Hero';
 import About from './Components/About';
 import Sales from './Components/Sales';
-import Entertainment from './Components/Entertainment/Entertainment';
-import Restrictions from './Components/Restrictions';
+import TabCentral from './Components/Tabs/TabCentral';
 import SideBar from './Components/SideBar/SideBar';
 import Footer from './Components/Footer';
 import Contact from './Components/Contact';
@@ -49,9 +48,8 @@ class App extends Component {
               <SideBar _toggleModal={this._toggleModal} />
             </div>
           </div>
-          <Entertainment />
+          <TabCentral />
           <hr />
-          <Restrictions />
         </div>
         <Footer />
         <Contact

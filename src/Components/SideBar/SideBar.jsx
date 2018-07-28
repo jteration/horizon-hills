@@ -66,42 +66,30 @@ class SideBar extends React.Component {
             <div className="card-columns columns">
               <div className="column">
                 <p>Price Range:</p>
-                <p>Home Types:</p>
+                <p>Home Type:</p>
                 <p>Number of Homes:</p>
-                <p>New/Resale:</p>
                 <p>Age Restrictions:</p>
-                <p>Gated:</p>
-                <p>Construction Dates:</p>
+                <p>Construction Date:</p>
                 <p>Builder:</p>
-                <p>Rating:</p>
               </div>
               <div className="column has-text-right">
                 <p>
-                  <strong>Mid 100s - Mid 400s</strong>
+                  <strong>$189k and up</strong>
                 </p>
                 <p>
                   <strong>Single Family</strong>
                 </p>
                 <p>
-                  <strong>3,250</strong>
-                </p>
-                <p>
-                  <strong>Resale Homes Only</strong>
+                  <strong>275</strong>
                 </p>
                 <p>
                   <strong>55+</strong>
                 </p>
                 <p>
-                  <strong>Yes</strong>
+                  <strong>2018</strong>
                 </p>
                 <p>
-                  <strong>1996 - 2007</strong>
-                </p>
-                <p>
-                  <strong>Del Webb</strong>
-                </p>
-                <p>
-                  <strong>5 Stars~~</strong>
+                  <strong>Champion Homes</strong>
                 </p>
               </div>
             </div>

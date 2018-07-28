@@ -9,7 +9,8 @@ import Other from './Other';
 import Snow from './Snow';
 import Water from './Water';
 import Healthcare from './Healthcare';
-import './Entertainment.css';
+import Restrictions from './Restrictions';
+import './TabCentral.css';
 
 const tabs = [
   {
@@ -38,6 +39,9 @@ const tabs = [
   },
   {
     text: 'Other',
+  },
+  {
+    text: 'Restrictions',
   },
 ];
 
@@ -93,13 +97,15 @@ class Entertainment extends React.Component {
         return <Healthcare />;
       case 'Other':
         return <Other />;
+      case 'Restrictions':
+        return <Restrictions />;
       default:
         return null;
     }
   };
   render() {
     return (
-      <section id="entertainment" className="section">
+      <section id="features" className="section">
         <div className="columns">
           <div className="column">
             <div className="tabs is-toggle is-medium is-centered">

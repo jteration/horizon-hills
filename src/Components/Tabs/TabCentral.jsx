@@ -54,28 +54,51 @@ class Entertainment extends React.Component {
   };
   _renderTabs = (arr) => {
     const tabArr = [];
+    const tabArr2 = [];
     for (let i = 0; i < arr.length; i += 1) {
-      if (arr[i].text === this.state.activeTab) {
-        tabArr.push(
-          <Tab
-            key={arr[i].text}
-            active="is-active"
-            text={arr[i].text}
-            _handleTabToggle={this._handleTabToggle}
-          />,
-        );
+      if (i >= arr.length / 2) {
+        if (arr[i].text === this.state.activeTab) {
+          tabArr.push(
+            <Tab
+              key={arr[i].text}
+              active="is-active"
+              text={arr[i].text}
+              _handleTabToggle={this._handleTabToggle}
+            />,
+          );
+        } else {
+          tabArr.push(
+            <Tab
+              key={arr[i].text}
+              active=""
+              text={arr[i].text}
+              _handleTabToggle={this._handleTabToggle}
+            />,
+          );
+        }
       } else {
-        tabArr.push(
-          <Tab
-            key={arr[i].text}
-            active=""
-            text={arr[i].text}
-            _handleTabToggle={this._handleTabToggle}
-          />,
-        );
+        if (arr[i].text === this.state.activeTab) {
+          tabArr2.push(
+            <Tab
+              key={arr[i].text}
+              active="is-active"
+              text={arr[i].text}
+              _handleTabToggle={this._handleTabToggle}
+            />,
+          );
+        } else {
+          tabArr2.push(
+            <Tab
+              key={arr[i].text}
+              active=""
+              text={arr[i].text}
+              _handleTabToggle={this._handleTabToggle}
+            />,
+          );
+        }
       }
     }
-    return tabArr;
+    return [<ul>{tabArr}</ul>, <ul>{tabArr2}</ul>];
   };
   _renderActiveContent = () => {
     switch (this.state.activeTab) {
@@ -108,8 +131,8 @@ class Entertainment extends React.Component {
       <section id="features" className="section">
         <div className="columns">
           <div className="column">
-            <div className="tabs is-toggle is-medium is-centered">
-              <ul>{this._renderTabs(tabs)}</ul>
+            <div className="tabs is-boxed is-medium is-centered">
+              {this._renderTabs(tabs)}
             </div>
             <div className="content">{this._renderActiveContent()}</div>
           </div>

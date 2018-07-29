@@ -74,7 +74,7 @@ class SideBar extends React.Component {
               </div>
               <div className="column has-text-right">
                 <p>
-                  <strong>$189k and up</strong>
+                  <strong>$189K and up</strong>
                 </p>
                 <p>
                   <strong>Single Family</strong>

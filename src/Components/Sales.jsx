@@ -3,8 +3,9 @@ import './Sales.css';
 
 class Sales extends React.Component {
   render() {
+    const { _toggleModal } = this.props;
     return (
-      <section id="sales" className="sales section">
+      <section id="buy" className="sales section">
         <div className="columns">
           <div className="column content">
             <h2>Purchase a Manufactured Home in Campion, CO Today</h2>
@@ -20,10 +21,13 @@ class Sales extends React.Component {
             <p>
               Lots are filling up quickly. If you are interested in securing one
               for yourself, reach out to Jess Rodriguez by phone at
-              (###)-###-####, by email at ???@???.??? or by filling out this
-              Contact Us Form.
+              (###)-###-####, by email at ???@???.??? or by filling out this{' '}
+              <a onClick={() => _toggleModal()}>
+                <strong>Contact Us</strong>
+              </a>{' '}
+              Form.
             </p>
-            <h2>Why move to Campion, CO?</h2>
+            <h2>Why Move to Campion, Colorado?</h2>
             <p>
               If you’re tired of the hustle and bustle of city life or simply
               want a change of scenery, Campion, Colorado may be your ideal

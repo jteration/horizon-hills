@@ -1,9 +1,20 @@
 .tabs ul {
+  width: 80%;
   flex-flow: wrap;
   flex-shrink: 1 !important;
+  margin-top: 10px;
+}
+
+.tabs {
+  display: flex;
+  align-items: center !important;
+  flex-direction: column;
 }
 
 @media screen and (max-width: 768px) {
+  .tabs {
+    flex-direction: row;
+  }
   .tabs ul {
     flex-direction: column;
   }

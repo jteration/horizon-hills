@@ -35,7 +35,7 @@ class Nav extends React.Component {
               <a href="/horizon-hills/#about" className="navbar-item">
                 About
               </a>
-              <a href="/horizon-hills/#sales" className="navbar-item">
+              <a href="/horizon-hills/#buy" className="navbar-item">
                 Buy
               </a>
               <a href="/horizon-hills/#features" className="navbar-item">

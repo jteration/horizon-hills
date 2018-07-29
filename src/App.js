@@ -12,7 +12,6 @@ import Contact from './Components/Contact';
 class App extends Component {
   state = {
     modalClass: 'modal',
-    showFixed: false,
   };
   _toggleModal = () => {
     if (this.state.modalClass === 'modal') {
@@ -21,18 +20,6 @@ class App extends Component {
       this.setState({ modalClass: 'modal' });
     }
   };
-  componentDidMount() {
-    window.addEventListener('scroll', () => {
-      if (window.innerWidth < 768) {
-        return this.setState({ showFixed: false });
-      }
-      if (window.scrollY > 2250) {
-        this.setState({ showFixed: true });
-      } else {
-        this.setState({ showFixed: false });
-      }
-    });
-  }
   render() {
     return (
       <main>

@@ -2,3 +2,7 @@ footer.footer {
   background-color: #3f3f3f;
   color: #fefefe;
 }
+
+footer.footer p {
+  text-align: center !important;
+}

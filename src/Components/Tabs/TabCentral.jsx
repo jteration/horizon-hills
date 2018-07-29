@@ -48,7 +48,7 @@ const tabs = [
 
 class Entertainment extends React.Component {
   state = {
-    activeTab: 'Biking',
+    activeTab: 'Hunting',
   };
   _handleTabToggle = (tab) => {
     this.setState({ activeTab: tab });
@@ -130,7 +130,7 @@ class Entertainment extends React.Component {
   render() {
     return (
       <section id="features" className="section">
-        <div className="columns">
+        <div className="columns box">
           <div className="column">
             <div className="tabs is-boxed is-medium is-centered">
               {this._renderTabs(tabs)}

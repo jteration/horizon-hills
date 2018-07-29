@@ -26,6 +26,10 @@
   display: flex;
 }
 
+.card-columns > .column > .columns > .column {
+  padding: 0.25rem;
+}
+
 .card-header {
   background-color: rgb(231, 240, 255) !important;
 }
@@ -43,5 +47,14 @@
 @media screen and (max-width: 768px) {
   .sidebar-section {
     padding: 3rem 0.5rem !important;
+  }
+  .card-columns > .column {
+    flex-direction: column;
+  }
+  .card-columns > .column > .columns {
+    display: flex;
+  }
+  .card-columns > .column > .columns > .column.is-narrow {
+    flex: none;
   }
 }

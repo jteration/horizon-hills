@@ -65,32 +65,58 @@ class SideBar extends React.Component {
           <div className="card-content">
             <div className="card-columns columns">
               <div className="column">
-                <p>Price Range:</p>
-                <p>Home Type:</p>
-                <p>Number of Homes:</p>
-                <p>Age Restrictions:</p>
-                <p>Construction Date:</p>
-                <p>Builder:</p>
-              </div>
-              <div className="column has-text-right">
-                <p>
-                  <strong>$189K and up</strong>
-                </p>
-                <p>
-                  <strong>Single Family</strong>
-                </p>
-                <p>
-                  <strong>275</strong>
-                </p>
-                <p>
-                  <strong>55+</strong>
-                </p>
-                <p>
-                  <strong>2018</strong>
-                </p>
-                <p>
-                  <strong>Champion Homes</strong>
-                </p>
+                <div className="columns">
+                  <div className="column is-narrow">
+                    <p>Price Range:</p>
+                  </div>
+                  <div className="column has-text-right">
+                    <strong>$189K and up</strong>
+                  </div>
+                </div>
+                <div className="columns">
+                  <div className="column is-narrow">
+                    <p>Home Type:</p>
+                  </div>
+                  <div className="column has-text-right">
+                    <strong>Single Family</strong>
+                  </div>
+                </div>
+                <div className="columns">
+                  <div className="column is-narrow">
+                    <p>Number of Homes:</p>
+                  </div>
+                  <div className="column has-text-right">
+                    <strong>275</strong>
+                  </div>
+                </div>
+                <div className="columns">
+                  <div className="column is-narrow">
+                    <p>Age Restrictions:</p>
+                  </div>
+                  <div className="column has-text-right">
+                    <strong>55+</strong>
+                  </div>
+                </div>
+                <div className="columns">
+                  <div className="column is-narrow">
+                    <p>Construction Date:</p>
+                  </div>
+                  <div className="column has-text-right">
+                    <p>
+                      <strong>2018</strong>
+                    </p>
+                  </div>
+                </div>
+                <div className="columns">
+                  <div className="column is-narrow">
+                    <p>Builder:</p>
+                  </div>
+                  <div className="column has-text-right">
+                    <p>
+                      <strong>Champion Homes</strong>
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
             <a

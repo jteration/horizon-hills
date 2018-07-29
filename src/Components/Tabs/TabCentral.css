@@ -1,5 +1,5 @@
 .tabs ul {
-  width: 80%;
+  width: auto;
   flex-flow: wrap;
   flex-shrink: 1 !important;
   margin-top: 10px;

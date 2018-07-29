@@ -18,7 +18,7 @@ class SideBar extends React.Component {
           </div>
           <div className="card-content">
             <div className="card-columns columns">
-              <div className="column is-5">
+              <div className="column is-narrow">
                 <figure>
                   <img
                     className="portrait"
@@ -28,7 +28,7 @@ class SideBar extends React.Component {
                   <figcaption>Jacob Sullivan</figcaption>
                 </figure>
               </div>
-              <div className="column is-6 is-offset-1">
+              <div className="column">
                 <p>blah blahb lah bla hblah</p>
                 <p>Call us at </p>
                 <a href="tel:555-555-1212">555-555-1212</a>

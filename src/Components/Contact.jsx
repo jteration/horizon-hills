@@ -16,7 +16,7 @@ class Contact extends React.Component {
             </div>
             <div className="card-content">
               <div className="columns">
-                <div className="column is-8 content">
+                <div className="column content">
                   <h1>Hello</h1>
                   <p>
                     This could be where we put some sales copy or brief
@@ -27,8 +27,12 @@ class Contact extends React.Component {
                     Tel: <a href="tel:555-555-1212">555-555-1212</a>
                   </p>
                 </div>
-                <div className="column is-4">
-                  <img alt="Jay" src="./placeholder1.jpg" />
+                <div className="column is-narrow">
+                  <img
+                    className="portrait"
+                    alt="Jay"
+                    src="./placeholder1.jpg"
+                  />
                 </div>
               </div>
               <hr />

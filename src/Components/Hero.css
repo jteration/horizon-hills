@@ -48,6 +48,7 @@ h1.title.is-1 {
     height: auto;
   }
   .hero-tagline {
+    text-align: center;
     margin-right: 0 !important;
   }
 }

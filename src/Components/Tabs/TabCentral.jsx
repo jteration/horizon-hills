@@ -26,6 +26,9 @@ const tabs = [
     text: 'Hiking',
   },
   {
+    text: 'Restrictions',
+  },
+  {
     text: 'Hunting',
   },
   {
@@ -37,11 +40,9 @@ const tabs = [
   {
     text: 'Healthcare',
   },
+
   {
     text: 'Other',
-  },
-  {
-    text: 'Restrictions',
   },
 ];
 

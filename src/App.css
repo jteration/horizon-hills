@@ -30,16 +30,18 @@ a.button {
   transition: all 0.2s ease-out;
 }
 
+@media screen and (max-width: 768px) {
+  .columns {
+    margin: 0 !important;
+  }
+}
+
 /* a.button:hover {
   transform: translateY(-0.1rem);
 } */
 
 a.button:active {
   transform: translateY(calc(-0.1rem + 2px)) translateX(1px);
-}
-
-.side-column {
-  min-width: 386px;
 }
 
 @font-face {

@@ -33,8 +33,6 @@ h1.title.is-1 {
 }
 
 .columns > .hero-icon-column {
-  height: 100px;
-  padding: 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -43,6 +41,15 @@ h1.title.is-1 {
 
 .hero-icon {
   height: 300px;
+}
+
+@media screen and (max-width: 768px) {
+  .hero-icon {
+    height: auto;
+  }
+  .hero-tagline {
+    margin-right: 0 !important;
+  }
 }
 
 .hero-tagline {

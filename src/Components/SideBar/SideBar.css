@@ -34,4 +34,14 @@
   .sidebar-section {
     padding-left: 0 !important;
   }
+
+  .side-column {
+    min-width: 386px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .sidebar-section {
+    padding: 3rem 0.5rem !important;
+  }
 }

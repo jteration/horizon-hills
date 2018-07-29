@@ -98,7 +98,7 @@ class Entertainment extends React.Component {
         }
       }
     }
-    return [<ul>{tabArr}</ul>, <ul>{tabArr2}</ul>];
+    return [<ul key="tabs1">{tabArr}</ul>, <ul key="tabs2">{tabArr2}</ul>];
   };
   _renderActiveContent = () => {
     switch (this.state.activeTab) {

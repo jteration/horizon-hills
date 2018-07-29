@@ -4,6 +4,12 @@
   font-size: 4rem !important;
 }
 
+@media screen and (max-width: 768px) {
+  #about-title {
+    font-size: 3.5rem !important;
+  }
+}
+
 section.about {
   padding-top: 8rem;
   padding-bottom: 8rem;

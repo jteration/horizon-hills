@@ -23,33 +23,35 @@ class Nav extends React.Component {
       <nav className={this.state.navClass} aria-label="main navigation">
         <div className="container">
           <div className="navbar-brand">
-            <a href="/horizon-hills/#" className="navbar-item">
+            <Link to="/horizon-hills/#" className="navbar-item">
               <img alt="Horizon Hills Logo" src="./Logo1.png" />
               <h2 className="brand-title">
                 <span className="nav-big-letter">H</span>ORIZON{' '}
                 <span className="nav-big-letter">H</span>ILLS
               </h2>
-            </a>
+            </Link>
           </div>
           <div className="navbar-menu">
             <div className="navbar-end">
-              <a href="/horizon-hills/#about" className="navbar-item">
+              <Link to="/horizon-hills/#about" className="navbar-item">
                 About
-              </a>
-              <a href="/horizon-hills/#buy" className="navbar-item">
+              </Link>
+              <Link to="/horizon-hills/#buy" className="navbar-item">
                 Buy
-              </a>
-              <a href="/horizon-hills/#features" className="navbar-item">
+              </Link>
+              <Link to="/horizon-hills/#features" className="navbar-item">
                 Campion
-              </a>
+              </Link>
               <Link to="/company-info" className="navbar-item">
                 Progress
               </Link>
-              <div
-                onClick={() => this.props._toggleModal()}
-                className="navbar-item"
-              >
-                <a className="button is-danger">Contact</a>
+              <div className="navbar-item">
+                <a
+                  onClick={() => this.props._toggleModal()}
+                  className="button is-danger"
+                >
+                  Contact
+                </a>
               </div>
             </div>
           </div>

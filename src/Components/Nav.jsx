@@ -42,7 +42,7 @@ class Nav extends React.Component {
               <Link to="/horizon-hills/#features" className="navbar-item">
                 Campion
               </Link>
-              <Link to="/company-info" className="navbar-item">
+              <Link to="/horizon-hills/company-info" className="navbar-item">
                 Progress
               </Link>
               <div className="navbar-item">

@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { Link } from 'react-router-dom';
 import './Nav.css';
 
 class Nav extends React.Component {
@@ -41,6 +42,9 @@ class Nav extends React.Component {
               <a href="/horizon-hills/#features" className="navbar-item">
                 Campion
               </a>
+              <Link to="/company-info" className="navbar-item">
+                Progress
+              </Link>
               <div
                 onClick={() => this.props._toggleModal()}
                 className="navbar-item"

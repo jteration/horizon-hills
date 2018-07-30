@@ -3,8 +3,15 @@ import * as React from 'react';
 class Hiking extends React.Component {
   render() {
     return (
-      <section className="section">
+      <section className="section is-flex is-column">
         <h3>Hiking Mountains Big and Small</h3>
+        <img
+          alt="Horsetooth"
+          className="is-centered-img"
+          width="1024"
+          src="./horsetooth.jpg"
+        />
+        <hr />
         <p>
           Lace up your boots and get ready to hike some serious terrain! Horizon
           Hills’ close proximity to the Rocky Mountains means easy access to

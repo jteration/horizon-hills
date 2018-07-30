@@ -3,8 +3,15 @@ import * as React from 'react';
 class Hunting extends React.Component {
   render() {
     return (
-      <section className="section">
+      <section className="section is-flex is-column">
         <h3>Hunting The Front Range</h3>
+        <img
+          alt="Pineridge"
+          className="is-centered-img"
+          width="1024"
+          src="./pineridge.jpg"
+        />
+        <hr />
         <p>
           From elk to pheasant to goat and everything in between, the hunting
           grounds around Horizon Hills are full of game. No matter if you’re

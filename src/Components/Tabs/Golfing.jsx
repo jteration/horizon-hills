@@ -3,8 +3,15 @@ import * as React from 'react';
 class Golfing extends React.Component {
   render() {
     return (
-      <section className="section">
+      <section className="section is-flex is-column">
         <h3>World Class Golf</h3>
+        <img
+          alt="Man golfing"
+          className="is-centered-img"
+          width="1024"
+          src="./mangolf.jpg"
+        />
+        <hr />
         <p>
           During the spring and summer months, northern Colorado is home to some
           of the most beautiful golf courses in the world. Horizon Hill’s

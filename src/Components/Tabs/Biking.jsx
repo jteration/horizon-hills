@@ -3,8 +3,15 @@ import * as React from 'react';
 class Biking extends React.Component {
   render() {
     return (
-      <section className="section">
+      <section className="section is-flex is-column">
         <h3>Biking Scenic Trails </h3>
+        <img
+          alt="Devil's Backbone Entrance"
+          className="is-centered-img"
+          width="1024"
+          src="./devilsbb.jpg"
+        />
+        <hr />
         <p>
           If a bicycle and mile after mile of open trails are your idea of
           freedom, there are plenty of trails near Horizon Hills and many more

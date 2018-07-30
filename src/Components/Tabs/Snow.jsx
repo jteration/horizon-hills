@@ -3,8 +3,15 @@ import * as React from 'react';
 class Snow extends React.Component {
   render() {
     return (
-      <section className="section">
+      <section className="section is-flex is-column">
         <h3>Skiing, Snowboarding, and Fun in the Rockies</h3>
+        <img
+          alt="Winter park"
+          className="is-centered-img"
+          width="1024"
+          src="./winter.jpg"
+        />
+        <hr />
         <p>
           Northern Colorado is home to some of the best snow in the United
           States and residents of Horizon Hills don’t have to travel far to

@@ -3,8 +3,15 @@ import * as React from 'react';
 class Other extends React.Component {
   render() {
     return (
-      <section className="section">
+      <section className="section is-flex is-column">
         <h3>Other Conveniences</h3>
+        <img
+          alt="King Soopers"
+          className="is-centered-img"
+          width="1024"
+          src="./soopers.jpg"
+        />
+        <hr />
         <h4>Grocery Stores</h4>
         <p>
           <a

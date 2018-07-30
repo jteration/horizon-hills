@@ -11,6 +11,16 @@
   flex-direction: column;
 }
 
+.is-column {
+  flex-direction: column;
+  justify-content: center;
+}
+
+.is-centered-img {
+  align-self: center;
+  justify-self: center;
+}
+
 @media screen and (max-width: 768px) {
   .tabs {
     flex-direction: row;

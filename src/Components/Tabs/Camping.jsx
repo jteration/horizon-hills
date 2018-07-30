@@ -3,8 +3,15 @@ import * as React from 'react';
 class Camping extends React.Component {
   render() {
     return (
-      <section className="section">
+      <section className="section is-flex is-column">
         <h3>Camping</h3>
+        <img
+          alt="Estes Park"
+          className="is-centered-img"
+          width="1024"
+          src="./estes.jpg"
+        />
+        <hr />
         <p>
           There’s nothing like waking up, stepping out of your tent or RV, and
           experiencing the natural beauty of northern Colorado. Sharing camping

@@ -3,8 +3,15 @@ import * as React from 'react';
 class Water extends React.Component {
   render() {
     return (
-      <section className="section">
+      <section className="section is-flex is-column">
         <h3>Water Sports and Fishing</h3>
+        <img
+          alt="Carter Lake"
+          className="is-centered-img"
+          width="1024"
+          src="./carter.jpg"
+        />
+        <hr />
         <p>
           Summertime in northern Colorado means enjoying one of the dozens of
           lakes or reservoirs that border the front range. Anglers are drawn in

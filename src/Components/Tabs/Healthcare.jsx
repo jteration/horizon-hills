@@ -3,8 +3,15 @@ import * as React from 'react';
 class Healthcare extends React.Component {
   render() {
     return (
-      <section className="section">
+      <section className="section is-flex is-column">
         <h3>Top Tier Healthcare</h3>
+        <img
+          alt="Man surgerying"
+          className="is-centered-img"
+          width="1024"
+          src="./surgery.jpg"
+        />
+        <hr />
         <p>
           <a
             href="https://www.cpwshop.com/purchaseprivilege.page"

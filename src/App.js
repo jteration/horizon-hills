@@ -11,8 +11,12 @@ class App extends Component {
       <Router>
         <main>
           <Route exact path="/" component={Index} />
-          <Route path="/horizon-hills" component={Index} />
-          <Route path="/horizon-hills/company-info" component={CompanyInfo} />
+          <Route exact path="/horizon-hills" component={Index} />
+          <Route
+            exact
+            path="/horizon-hills/company-info"
+            component={CompanyInfo}
+          />
         </main>
       </Router>
     );

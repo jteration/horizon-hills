@@ -27,10 +27,10 @@ class Index extends Component {
         <About />
         <div className="container">
           <div className="columns">
-            <div className="column is-7">
+            <div className="column is-4">
               <Sales _toggleModal={this._toggleModal} />
             </div>
-            <div className="side-column column is-5">
+            <div className="side-column column is-8">
               <SideBar _toggleModal={this._toggleModal} />
             </div>
           </div>

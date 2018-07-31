@@ -7,7 +7,7 @@ class About extends React.Component {
       <section id="about" className="about section">
         <div className="container">
           <div className="columns">
-            <div className="column is-4 content">
+            <div className="column is-8 is-offset-2 content">
               <h2 id="about-title" className="has-text-centered">
                 Introducing Horizon Hills
               </h2>
@@ -22,12 +22,6 @@ class About extends React.Component {
                 driving distance of Horizon Hills, making this a great place to
                 retire or vacation.
               </p>
-            </div>
-            <div className="column is-8">
-              <img
-                alt="placeholder"
-                src="http://via.placeholder.com/1024x768"
-              />
             </div>
           </div>
         </div>

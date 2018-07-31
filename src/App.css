@@ -43,10 +43,6 @@ a.button {
   }
 }
 
-/* a.button:hover {
-  transform: translateY(-0.1rem);
-} */
-
 a.button:active {
   transform: translateY(calc(-0.1rem + 2px)) translateX(1px);
 }

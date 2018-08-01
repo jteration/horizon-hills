@@ -9,7 +9,7 @@ class Hiking extends React.Component {
           alt="Horsetooth"
           className="is-centered-img"
           width="1024"
-          src={`${process.env.PUBLIC_URL}/img/horsetooth.jpg`}
+          src={`${process.env.PUBLIC_URL}/img/horsetooth-thin.jpg`}
         />
         <hr />
         <p>

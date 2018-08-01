@@ -41,7 +41,6 @@
   .tabs ul {
     flex-direction: column;
   }
-
   .tabs ul > li {
     width: 80%;
   }

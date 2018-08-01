@@ -1,5 +1,9 @@
 {
-  "name": "App",
+  "name": "Horizon Hills",
+  "short_name": "Horizon Hills",
+  "default_locale": "en",
+  "description":
+    "Horizon Hills is a new 55+ development in Campion Colorado! Inquire on buying a house today!",
   "icons": [
     {
       "src": "/icons/android-icon-36x36.png",

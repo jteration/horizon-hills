@@ -17,7 +17,7 @@
 }
 
 .tab-heading.tab-heading {
-  font-size: 3em !important;
+  font-size: 2.5em !important;
   font-family: 'IBM Plex Serif', serif;
   /* font-family: 'prata'; */
   /* font-family: 'bodoni'; */
@@ -31,6 +31,8 @@
 .is-centered-img {
   align-self: center;
   justify-self: center;
+  max-width: 90%;
+  border-radius: 3px;
 }
 
 @media screen and (max-width: 768px) {

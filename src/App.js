@@ -15,7 +15,7 @@ class App extends Component {
           <Route exact path="/horizon-hills#buy" component={Index} />
           <Route exact path="/horizon-hills#features" component={Index} />
           <Route exact path="/horizon-hills" component={Index} />
-          <Route path="/horizon-hills-company-info" component={CompanyInfo} />
+          <Route path="/horizon-hills/company-info" component={CompanyInfo} />
         </main>
       </Router>
     );

@@ -31,7 +31,7 @@ class Contact extends React.Component {
                   <img
                     className="portrait"
                     alt="Jay"
-                    src="./placeholder1.jpg"
+                    src="./img/placeholder1.jpg"
                   />
                 </div>
               </div>

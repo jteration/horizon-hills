@@ -69,7 +69,7 @@ class SideBar extends React.Component {
                     <p>Price Range:</p>
                   </div>
                   <div className="column has-text-right">
-                    <strong>$189K and up</strong>
+                    <p className="fact-answer">$189K and up</p>
                   </div>
                 </div>
                 <div className="columns">
@@ -77,7 +77,7 @@ class SideBar extends React.Component {
                     <p>Home Type:</p>
                   </div>
                   <div className="column has-text-right">
-                    <strong>Single Family</strong>
+                    <p className="fact-answer">Single Family</p>
                   </div>
                 </div>
                 <div className="columns">
@@ -85,7 +85,7 @@ class SideBar extends React.Component {
                     <p>Number of Homes:</p>
                   </div>
                   <div className="column has-text-right">
-                    <strong>275</strong>
+                    <p className="fact-answer">275</p>
                   </div>
                 </div>
                 <div className="columns">
@@ -93,7 +93,7 @@ class SideBar extends React.Component {
                     <p>Age Restrictions:</p>
                   </div>
                   <div className="column has-text-right">
-                    <strong>55+</strong>
+                    <p className="fact-answer">55+</p>
                   </div>
                 </div>
                 <div className="columns">
@@ -101,9 +101,7 @@ class SideBar extends React.Component {
                     <p>Construction Date:</p>
                   </div>
                   <div className="column has-text-right">
-                    <p>
-                      <strong>2018</strong>
-                    </p>
+                    <p className="fact-answer">2018</p>
                   </div>
                 </div>
                 <div className="columns">
@@ -111,9 +109,7 @@ class SideBar extends React.Component {
                     <p>Builder:</p>
                   </div>
                   <div className="column has-text-right">
-                    <p>
-                      <strong>Champion Homes</strong>
-                    </p>
+                    <p className="fact-answer">Champion Homes</p>
                   </div>
                 </div>
               </div>

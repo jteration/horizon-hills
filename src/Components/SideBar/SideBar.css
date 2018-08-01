@@ -35,6 +35,10 @@
   background-color: rgb(231, 240, 255) !important;
 }
 
+.fact-answer {
+  font-family: 'gotham-bold';
+}
+
 @media screen and (min-width: 769px) {
   .sidebar-section {
     padding-left: 0 !important;

@@ -4,14 +4,18 @@ import './Nav.css';
 
 class Nav extends React.Component {
   state = {
-    navClass: 'navbar transparent is-fixed-top',
+    navClass: 'navbar colored is-fixed-top',
     menuClass: 'navbar-menu',
     burgerClass: 'navbar-burger',
   };
-  componentDidMount() {
+  componentWillMount() {
     if (window.pageYOffset >= 50) {
       this.setState({ navClass: 'navbar colored is-fixed-top' });
+    } else {
+      this.setState({ navClass: 'navbar transparent is-fixed-top' });
     }
+  }
+  componentDidMount() {
     window.onscroll = () => {
       if (window.pageYOffset >= 50) {
         this.setState({ navClass: 'navbar colored is-fixed-top' });

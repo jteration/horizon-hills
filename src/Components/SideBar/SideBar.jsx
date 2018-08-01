@@ -33,7 +33,7 @@ class SideBar extends React.Component {
                 <a href="tel:555-555-1212">555-555-1212</a>
               </div>
             </div>
-            <div className="card-columns columns">
+            <div className="card-columns button-column columns">
               <div className="column">
                 <a
                   onClick={() => _toggleModal()}

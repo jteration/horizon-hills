@@ -4,9 +4,15 @@ import './Hero.css';
 class Hero extends React.Component {
   render() {
     return (
-      <section className="hero is-fullheight video">
+      <section className="hero has-bg-image is-fullheight video">
         <div className="hero-video">
-          <video playsInline autoPlay muted loop>
+          <video
+            poster={`${process.env.PUBLIC_URL}/img/videostill.jpg`}
+            playsInline
+            autoPlay
+            muted
+            loop
+          >
             <source
               src={`${process.env.PUBLIC_URL}/video/hero.mp4`}
               type="video/mp4"

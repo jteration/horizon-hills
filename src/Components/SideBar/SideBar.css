@@ -39,10 +39,6 @@
   .sidebar-section {
     padding-left: 0 !important;
   }
-
-  .side-column {
-    min-width: 386px;
-  }
 }
 
 @media screen and (max-width: 768px) {
@@ -57,5 +53,14 @@
   }
   .card-columns > .column > .columns > .column.is-narrow {
     flex: none;
+  }
+  .button-column {
+    flex-direction: row !important;
+  }
+}
+
+@media screen and (max-width: 868px) {
+  .button-column {
+    flex-direction: column;
   }
 }

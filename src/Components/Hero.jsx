@@ -18,7 +18,7 @@ class Hero extends React.Component {
           <div className="container">
             <div className="columns is-centered">
               <div className="hero-icon-column column is-narrow">
-                <img className="hero-icon" src="./img/Logo2.png" alt="" />
+                <img className="hero-icon" src={`${process.env.PUBLIC_URL}/img/Logo2.png`} alt="" />
                 <h2 className="hero-tagline">An Active 55+ Living Community</h2>
               </div>
             </div>

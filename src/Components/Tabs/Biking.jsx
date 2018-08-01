@@ -9,7 +9,7 @@ class Biking extends React.Component {
           alt="Devil's Backbone Entrance"
           className="is-centered-img"
           width="1024"
-          src="./devilsbb.jpg"
+          src="./img/devilsbb.jpg"
         />
         <hr />
         <p>

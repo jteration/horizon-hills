@@ -9,7 +9,7 @@ class Hiking extends React.Component {
           alt="Horsetooth"
           className="is-centered-img"
           width="1024"
-          src="./horsetooth.jpg"
+          src="./img/horsetooth.jpg"
         />
         <hr />
         <p>

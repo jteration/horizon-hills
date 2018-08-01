@@ -9,7 +9,7 @@ class Hunting extends React.Component {
           alt="Pineridge"
           className="is-centered-img"
           width="1024"
-          src="./pineridge.jpg"
+          src="./img/pineridge.jpg"
         />
         <hr />
         <p>

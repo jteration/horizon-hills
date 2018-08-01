@@ -24,7 +24,7 @@ class Nav extends React.Component {
         <div className="container">
           <div className="navbar-brand">
             <Link to="/horizon-hills" className="navbar-item">
-              <img alt="Horizon Hills Logo" src="./Logo1.png" />
+              <img alt="Horizon Hills Logo" src="./img/Logo1.png" />
               <h2 className="brand-title">
                 <span className="nav-big-letter">H</span>ORIZON{' '}
                 <span className="nav-big-letter">H</span>ILLS

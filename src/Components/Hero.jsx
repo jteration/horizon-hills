@@ -7,7 +7,10 @@ class Hero extends React.Component {
       <section className="hero is-fullheight video">
         <div className="hero-video">
           <video playsInline autoPlay muted loop>
-            <source src="video/hero.mp4" type="video/mp4" />
+            <source
+              src={`${process.env.PUBLIC_URL}/video/hero.mp4`}
+              type="video/mp4"
+            />
           </video>
           <div className="hero-cover" />
         </div>

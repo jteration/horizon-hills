@@ -9,7 +9,7 @@ class Other extends React.Component {
           alt="King Soopers"
           className="is-centered-img"
           width="1024"
-          src="img/soopers.jpg"
+          src={`${process.env.PUBLIC_URL}/img/soopers.jpg`}
         />
         <hr />
         <h4>Grocery Stores</h4>

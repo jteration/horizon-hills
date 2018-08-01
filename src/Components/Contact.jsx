@@ -31,7 +31,7 @@ class Contact extends React.Component {
                   <img
                     className="portrait"
                     alt="Jay"
-                    src="./img/placeholder1.jpg"
+                    src={`${process.env.PUBLIC_URL}/img/placeholder1.jpg`}
                   />
                 </div>
               </div>

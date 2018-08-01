@@ -23,8 +23,8 @@ class Nav extends React.Component {
       <nav className={this.state.navClass} aria-label="main navigation">
         <div className="container">
           <div className="navbar-brand">
-            <Link to="/horizon-hills" className="navbar-item">
-              <img alt="Horizon Hills Logo" src="./img/Logo1.png" />
+            <Link to="/horizon-hills#" className="navbar-item">
+              <img alt="Horizon Hills Logo" src="/img/Logo1.png" />
               <h2 className="brand-title">
                 <span className="nav-big-letter">H</span>ORIZON{' '}
                 <span className="nav-big-letter">H</span>ILLS

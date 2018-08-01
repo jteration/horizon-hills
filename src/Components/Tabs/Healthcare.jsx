@@ -9,7 +9,7 @@ class Healthcare extends React.Component {
           alt="Man surgerying"
           className="is-centered-img"
           width="1024"
-          src="./img/surgery.jpg"
+          src="/img/surgery.jpg"
         />
         <hr />
         <p>

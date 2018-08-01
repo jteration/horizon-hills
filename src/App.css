@@ -4,8 +4,9 @@ html {
 
 html > body {
   font-size: 1.05rem;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 1.55;
+  font-family: 'gotham';
 }
 
 .content h2 {
@@ -69,4 +70,9 @@ a.button:active {
 @font-face {
   font-family: prata;
   src: url('Prata-Regular.ttf');
+}
+
+@font-face {
+  font-family: gotham;
+  src: url('Gotham-Light.otf');
 }

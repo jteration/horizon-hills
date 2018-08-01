@@ -44,7 +44,8 @@ nav {
 }
 
 .navbar-end > a {
-  font-family: 'prata';
+  font-family: 'gotham';
+  /* font-family: 'prata'; */
   /* font-family: 'bodoni'; */
   /* font-family: 'fabada'; */
   /* font-family: 'Cinzel', serif; */

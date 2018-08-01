@@ -5,6 +5,8 @@ import './Nav.css';
 class Nav extends React.Component {
   state = {
     navClass: 'navbar transparent is-fixed-top',
+    menuClass: 'navbar-menu',
+    burgerClass: 'navbar-burger',
   };
   componentDidMount() {
     if (window.pageYOffset >= 50) {
@@ -18,6 +20,19 @@ class Nav extends React.Component {
       }
     };
   }
+  _handleBurgerClick = () => {
+    if (
+      this.state.burgerClass === 'navbar-burger' &&
+      this.state.menuClass === 'navbar-menu'
+    ) {
+      this.setState({
+        burgerClass: 'navbar-burger is-active',
+        menuClass: 'navbar-menu is-active',
+      });
+    } else {
+      this.setState({ burgerClass: 'navbar-burger', menuClass: 'navbar-menu' });
+    }
+  };
   render() {
     return (
       <nav className={this.state.navClass} aria-label="main navigation">
@@ -33,8 +48,19 @@ class Nav extends React.Component {
                 <span className="nav-big-letter">H</span>ILLS
               </h2>
             </Link>
+            <a
+              role="button"
+              class={this.state.burgerClass}
+              aria-label="menu"
+              aria-expanded="false"
+              onClick={() => this._handleBurgerClick()}
+            >
+              <span aria-hidden="true" />
+              <span aria-hidden="true" />
+              <span aria-hidden="true" />
+            </a>
           </div>
-          <div className="navbar-menu">
+          <div className={this.state.menuClass}>
             <div className="navbar-end">
               <Link to="/horizon-hills#about" className="navbar-item">
                 About

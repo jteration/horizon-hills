@@ -38,14 +38,6 @@ class Sales extends React.Component {
               ever be built west of I-25 with an unobstructed view of the front
               range.
             </p>
-            <h3>The Great Outdoors</h3>
-            <p>
-              There are no shortage of outdoor activities in the areas
-              surrounding Horizon Hills. The Rocky Mountains are practically in
-              our backyard. If you’re looking for biking, hiking, camping,
-              hunting, water sports, skiing or snowboarding, you’re in the right
-              place.
-            </p>
           </div>
         </div>
       </section>

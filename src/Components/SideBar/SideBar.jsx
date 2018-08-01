@@ -22,10 +22,9 @@ class SideBar extends React.Component {
                 <figure>
                   <img
                     className="portrait"
-                    src={`${process.env.PUBLIC_URL}/img/placeholder1.jpg`}
+                    src={`${process.env.PUBLIC_URL}/img/placeholder2.png`}
                     alt="Jacob"
                   />
-                  <figcaption>Jacob Sullivan</figcaption>
                 </figure>
               </div>
               <div className="column">

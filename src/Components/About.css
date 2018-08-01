@@ -1,5 +1,13 @@
 #about-title {
-  font-family: 'IBM Plex Serif', serif;
+  /* font-family: 'IBM Plex Serif', serif; */
+  /* font-family: 'prata'; */
+  /* font-family: 'bodoni'; */
+  /* font-family: 'fabada'; */
+  /* font-family: 'Cinzel', serif; */
+  /* font-family: 'Playfair Display SC', serif; */
+  /* font-family: 'IBM Plex Serif', serif; */
+  font-family: 'Forum', cursive;
+  /* font-family: 'mod'; */
   margin-bottom: 0.4em;
   font-size: 4rem !important;
 }
@@ -11,6 +19,7 @@
 }
 
 section.about {
-  padding-top: 8rem;
-  padding-bottom: 8rem;
+  padding-top: 8rem !important;
+  padding-bottom: 8rem !important;
+  background-color: white;
 }

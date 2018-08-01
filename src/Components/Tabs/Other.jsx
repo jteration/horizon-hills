@@ -4,7 +4,7 @@ class Other extends React.Component {
   render() {
     return (
       <section className="section is-flex is-column">
-        <h3>Other Conveniences</h3>
+        <h3 className="tab-heading">Other Conveniences</h3>
         <img
           alt="King Soopers"
           className="is-centered-img"

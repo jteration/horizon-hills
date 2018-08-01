@@ -4,7 +4,9 @@ class Snow extends React.Component {
   render() {
     return (
       <section className="section is-flex is-column">
-        <h3>Skiing, Snowboarding, and Fun in the Rockies</h3>
+        <h3 className="tab-heading">
+          Skiing, Snowboarding, and Fun in the Rockies
+        </h3>
         <img
           alt="Winter park"
           className="is-centered-img"

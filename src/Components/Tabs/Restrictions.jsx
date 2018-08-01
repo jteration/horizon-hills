@@ -4,7 +4,9 @@ class Restrictions extends React.Component {
   render() {
     return (
       <section className="section content">
-        <h2>Horizon Hills Community Rules and Restrictions</h2>
+        <h2 className="tab-heading">
+          Horizon Hills Community Rules and Restrictions
+        </h2>
         <p>
           Phasellus sodales ullamcorper eros eu sagittis. Donec sed semper enim.
           Cras non mi tempor, maximus elit in, facilisis erat. In suscipit nulla

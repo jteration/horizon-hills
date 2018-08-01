@@ -4,7 +4,7 @@ class Hiking extends React.Component {
   render() {
     return (
       <section className="section is-flex is-column">
-        <h3>Hiking Mountains Big and Small</h3>
+        <h3 className="tab-heading">Hiking Mountains Big and Small</h3>
         <img
           alt="Horsetooth"
           className="is-centered-img"

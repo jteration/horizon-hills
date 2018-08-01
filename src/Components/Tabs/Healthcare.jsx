@@ -4,7 +4,7 @@ class Healthcare extends React.Component {
   render() {
     return (
       <section className="section is-flex is-column">
-        <h3>Top Tier Healthcare</h3>
+        <h3 className="tab-heading">Top Tier Healthcare</h3>
         <img
           alt="Man surgerying"
           className="is-centered-img"

@@ -25,7 +25,7 @@ class Index extends Component {
         <Nav _toggleModal={this._toggleModal} />
         <Hero />
         <About />
-        <div className="container">
+        <div className="main-content container">
           <div className="columns">
             <div className="column is-7">
               <Sales _toggleModal={this._toggleModal} />

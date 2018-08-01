@@ -30,6 +30,10 @@ a.button {
   transition: all 0.2s ease-out;
 }
 
+main {
+  background-color: #16161605;
+}
+
 @media screen and (max-width: 768px) {
   .columns {
     margin: 0 !important;
@@ -49,5 +53,20 @@ a.button:active {
 
 @font-face {
   font-family: mod;
-  src: url('MOD20.TTF') format('ttf');
+  src: url('MOD20.TTF');
+}
+
+@font-face {
+  font-family: fabada;
+  src: url('Fabada-regular.ttf');
+}
+
+@font-face {
+  font-family: bodoni;
+  src: url('BodoniXT.ttf');
+}
+
+@font-face {
+  font-family: prata;
+  src: url('Prata-Regular.ttf');
 }

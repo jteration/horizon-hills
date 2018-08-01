@@ -4,7 +4,7 @@ class Golfing extends React.Component {
   render() {
     return (
       <section className="section is-flex is-column">
-        <h3>World Class Golf</h3>
+        <h3 className="tab-heading">World Class Golf</h3>
         <img
           alt="Man golfing"
           className="is-centered-img"

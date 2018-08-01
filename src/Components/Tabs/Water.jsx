@@ -4,7 +4,7 @@ class Water extends React.Component {
   render() {
     return (
       <section className="section is-flex is-column">
-        <h3>Water Sports and Fishing</h3>
+        <h3 className="tab-heading">Water Sports and Fishing</h3>
         <img
           alt="Carter Lake"
           className="is-centered-img"

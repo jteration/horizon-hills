@@ -16,6 +16,18 @@
   justify-content: center;
 }
 
+.tab-heading.tab-heading {
+  font-size: 3em !important;
+  font-family: 'IBM Plex Serif', serif;
+  /* font-family: 'prata'; */
+  /* font-family: 'bodoni'; */
+  /* font-family: 'fabada'; */
+  /* font-family: 'Cinzel', serif; */
+  /* font-family: 'Playfair Display SC', serif; */
+  /* font-family: 'Forum', cursive; */
+  /* font-family: 'mod'; */
+}
+
 .is-centered-img {
   align-self: center;
   justify-self: center;

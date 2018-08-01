@@ -1,5 +1,6 @@
 .brand-title {
   font-size: 110%;
+  letter-spacing: 2px;
   margin-left: 6px;
   font-family: 'mod';
   font-weight: 800;
@@ -43,8 +44,11 @@ nav {
 }
 
 .navbar-end > a {
+  font-family: 'prata';
+  /* font-family: 'bodoni'; */
+  /* font-family: 'fabada'; */
   /* font-family: 'Cinzel', serif; */
-  font-family: 'Playfair Display SC', serif;
+  /* font-family: 'Playfair Display SC', serif; */
   /* font-family: 'IBM Plex Serif', serif; */
   /* font-family: 'Forum', cursive; */
   /* font-family: 'mod'; */

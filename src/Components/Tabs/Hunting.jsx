@@ -4,7 +4,7 @@ class Hunting extends React.Component {
   render() {
     return (
       <section className="section is-flex is-column">
-        <h3>Hunting The Front Range</h3>
+        <h3 className="tab-heading">Hunting The Front Range</h3>
         <img
           alt="Pineridge"
           className="is-centered-img"

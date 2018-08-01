@@ -33,13 +33,13 @@ class Nav extends React.Component {
           </div>
           <div className="navbar-menu">
             <div className="navbar-end">
-              <Link to="/horizon-hills/#about" className="navbar-item">
+              <Link to="/horizon-hills#about" className="navbar-item">
                 About
               </Link>
-              <Link to="/horizon-hills/#buy" className="navbar-item">
+              <Link to="/horizon-hills#buy" className="navbar-item">
                 Buy
               </Link>
-              <Link to="/horizon-hills/#features" className="navbar-item">
+              <Link to="/horizon-hills#features" className="navbar-item">
                 Campion
               </Link>
               <Link to="/horizon-hills/company-info" className="navbar-item">

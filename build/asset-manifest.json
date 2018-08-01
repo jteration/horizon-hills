@@ -1,7 +1,10 @@
 {
-  "main.css": "static/css/main.67a1256d.css",
-  "main.css.map": "static/css/main.67a1256d.css.map",
-  "main.js": "static/js/main.29c3c944.js",
-  "main.js.map": "static/js/main.29c3c944.js.map",
-  "static/media/MOD20.TTF": "static/media/MOD20.60d6c0a8.TTF"
+  "main.css": "static/css/main.0a50411d.css",
+  "main.css.map": "static/css/main.0a50411d.css.map",
+  "main.js": "static/js/main.e21db133.js",
+  "main.js.map": "static/js/main.e21db133.js.map",
+  "static/media/BodoniXT.ttf": "static/media/BodoniXT.ed9d9099.ttf",
+  "static/media/Fabada-regular.ttf": "static/media/Fabada-regular.1e2e0d77.ttf",
+  "static/media/MOD20.TTF": "static/media/MOD20.60d6c0a8.TTF",
+  "static/media/Prata-Regular.ttf": "static/media/Prata-Regular.3456391b.ttf"
 }

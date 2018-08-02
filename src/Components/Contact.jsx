@@ -1,4 +1,5 @@
 import * as React from 'react';
+import ReactGA from 'react-ga';
 import './Contact.css';
 
 class Contact extends React.Component {
@@ -12,6 +13,12 @@ class Contact extends React.Component {
     } else if (choice === 'phone') {
       this.setState({ emailRadio: false, phoneRadio: true });
     }
+  };
+  _handleRecordSubmit = () => {
+    ReactGA.event({
+      category: 'Submit',
+      action: 'Submitted Contact Form',
+    });
   };
   render() {
     const { modalClass, _toggleModal } = this.props;
@@ -52,7 +59,7 @@ class Contact extends React.Component {
               </p>
               <hr />
               <form
-                action="https://formspree.io/jaysull514@gmail.com"
+                action="https://formspree.io/contact@horizonhillscampionco.com"
                 method="POST"
               >
                 <div className="field">
@@ -133,6 +140,7 @@ class Contact extends React.Component {
                 <div className="field">
                   <div className="control">
                     <button
+                      onClick={() => this._handleRecordSubmit()}
                       type="submit"
                       value="Send"
                       className="submit-btn button is-link"

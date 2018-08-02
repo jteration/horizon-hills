@@ -64,7 +64,7 @@ class Camping extends React.Component {
           camping. There are cabins available as well.{' '}
         </p>
         <button
-          onClick={() => this.props._toggleModal()}
+          onClick={() => this.props._toggleModal('Camping Tab')}
           className="button is-danger is-medium tab-button"
         >
           Get in touch today!

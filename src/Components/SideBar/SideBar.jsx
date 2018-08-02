@@ -37,7 +37,7 @@ class SideBar extends React.Component {
             <div className="card-columns button-column columns">
               <div className="column">
                 <a
-                  onClick={() => _toggleModal()}
+                  onClick={() => _toggleModal('Sidebar Contact')}
                   className="is-danger is-fullwidth button"
                 >
                   Contact Me
@@ -45,7 +45,7 @@ class SideBar extends React.Component {
               </div>
               <div className="column">
                 <a
-                  onClick={() => _toggleModal()}
+                  onClick={() => _toggleModal('Sidebar Expert Request Info')}
                   className="is-danger is-fullwidth button"
                 >
                   Request Info
@@ -116,7 +116,7 @@ class SideBar extends React.Component {
               </div>
             </div>
             <a
-              onClick={() => _toggleModal()}
+              onClick={() => _toggleModal('Sidebar Facts Request Info')}
               className="is-danger is-fullwidth button"
             >
               Request Info

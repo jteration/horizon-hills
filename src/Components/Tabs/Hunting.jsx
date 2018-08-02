@@ -55,7 +55,7 @@ class Hunting extends React.Component {
           outdoors!
         </p>
         <button
-          onClick={() => this.props._toggleModal()}
+          onClick={() => this.props._toggleModal('Hunting Tab')}
           className="button is-danger is-medium tab-button"
         >
           Get in touch today!

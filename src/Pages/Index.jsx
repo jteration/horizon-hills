@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ReactGA from 'react-ga';
 import Nav from '../Components/Nav';
 import Hero from '../Components/Hero';
 import About from '../Components/About';
@@ -13,8 +14,23 @@ class Index extends Component {
   state = {
     modalClass: 'modal',
   };
-  _toggleModal = () => {
+  componentWillMount() {
+    ReactGA.initialize('UA-121443947-1');
+    ReactGA.pageview(window.location.pathname + window.location.search);
+  }
+  _toggleModal = (button) => {
     if (this.state.modalClass === 'modal') {
+      ReactGA.modalview('/');
+      ReactGA.event({
+        category: 'Modal',
+        action: 'Opened contact modal',
+      });
+      if (button) {
+        ReactGA.event({
+          category: 'Button',
+          action: 'Used ' + button + ' button to open modal',
+        });
+      }
       this.setState({ modalClass: 'modal is-active' });
     } else {
       this.setState({ modalClass: 'modal' });
@@ -36,7 +52,6 @@ class Index extends Component {
             </div>
           </div>
           <TabCentral _toggleModal={this._toggleModal} />
-          <hr />
         </div>
         <Footer />
         <Contact

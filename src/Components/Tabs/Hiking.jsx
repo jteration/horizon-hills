@@ -62,7 +62,7 @@ class Hiking extends React.Component {
           that rival mountains anywhere in the world.
         </p>
         <button
-          onClick={() => this.props._toggleModal()}
+          onClick={() => this.props._toggleModal('Hiking Tab')}
           className="button is-danger is-medium tab-button"
         >
           Get in touch today!

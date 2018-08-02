@@ -39,7 +39,7 @@ class Restrictions extends React.Component {
           <li>NO RENTERS ALLOWED - Owner Occupied Only.</li>
         </ul>
         <button
-          onClick={() => this.props._toggleModal()}
+          onClick={() => this.props._toggleModal('Restrictions Tab')}
           className="button is-danger is-medium tab-button"
         >
           Get in touch today!

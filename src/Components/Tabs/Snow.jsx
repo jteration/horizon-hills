@@ -66,7 +66,7 @@ class Snow extends React.Component {
           lifts have a capacity to move more than 40,000 people in an hour.
         </p>
         <button
-          onClick={() => this.props._toggleModal()}
+          onClick={() => this.props._toggleModal('Snow Tab')}
           className="button is-danger is-medium tab-button"
         >
           Get in touch today!

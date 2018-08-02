@@ -79,7 +79,7 @@ class Golfing extends React.Component {
           lessons.
         </p>
         <button
-          onClick={() => this.props._toggleModal()}
+          onClick={() => this.props._toggleModal('Golfing Tab')}
           className="button is-danger is-medium tab-button"
         >
           Get in touch today!

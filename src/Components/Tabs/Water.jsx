@@ -66,7 +66,7 @@ class Water extends React.Component {
           they are notoriously difficult to catch.{' '}
         </p>
         <button
-          onClick={() => this.props._toggleModal()}
+          onClick={() => this.props._toggleModal('Water Tab')}
           className="button is-danger is-medium tab-button"
         >
           Get in touch today!

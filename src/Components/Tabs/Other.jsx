@@ -112,7 +112,7 @@ class Other extends React.Component {
           </a>
         </p>
         <button
-          onClick={() => this.props._toggleModal()}
+          onClick={() => this.props._toggleModal('Other Tab')}
           className="button is-danger is-medium tab-button"
         >
           Get in touch today!

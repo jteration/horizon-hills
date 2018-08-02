@@ -1,4 +1,5 @@
 import * as React from 'react';
+import ReactGA from 'react-ga';
 import Nav from '../Components/Nav';
 import SideBar from '../Components/SideBar/SideBar';
 import Footer from '../Components/Footer';
@@ -8,6 +9,10 @@ class CompanyInfo extends React.Component {
   state = {
     modalClass: 'modal',
   };
+  componentWillMount() {
+    ReactGA.initialize('UA-121443947-1');
+    ReactGA.pageview(window.location.pathname + window.location.search);
+  }
   _toggleModal = () => {
     if (this.state.modalClass === 'modal') {
       this.setState({ modalClass: 'modal is-active' });

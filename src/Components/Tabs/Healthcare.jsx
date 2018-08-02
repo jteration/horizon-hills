@@ -54,7 +54,7 @@ class Healthcare extends React.Component {
           services are also available at this Kaiser office.{' '}
         </p>
         <button
-          onClick={() => this.props._toggleModal()}
+          onClick={() => this.props._toggleModal('Healthcare Tab')}
           className="button is-danger is-medium tab-button"
         >
           Get in touch today!

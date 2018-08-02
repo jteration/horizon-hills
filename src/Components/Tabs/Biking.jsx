@@ -80,7 +80,7 @@ class Biking extends React.Component {
           the most geologically diverse backdrops in Colorado.{' '}
         </p>
         <button
-          onClick={() => this.props._toggleModal()}
+          onClick={() => this.props._toggleModal('Biking Tab')}
           className="button is-danger is-medium tab-button"
         >
           Get in touch today!

@@ -1,4 +1,5 @@
 import * as React from 'react';
+import ReactGA from 'react-ga';
 import Nav from '../Components/Nav';
 import Footer from '../Components/Footer';
 import Contact from '../Components/Contact';
@@ -7,8 +8,22 @@ class PrivacyPolicy extends React.Component {
   state = {
     modalClass: 'modal',
   };
-  _toggleModal = () => {
+  componentWillMount() {
+    ReactGA.initialize('UA-121443947-1');
+    ReactGA.pageview(window.location.pathname + window.location.search);
+  }
+  _toggleModal = (button) => {
     if (this.state.modalClass === 'modal') {
+      ReactGA.event({
+        category: 'Modal',
+        action: 'Opened contact modal',
+      });
+      if (button) {
+        ReactGA.event({
+          category: 'Button',
+          action: 'Used ' + button + ' button to open modal',
+        });
+      }
       this.setState({ modalClass: 'modal is-active' });
     } else {
       this.setState({ modalClass: 'modal' });

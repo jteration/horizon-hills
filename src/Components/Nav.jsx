@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
+import ReactGA from 'react-ga';
 import './Nav.css';
 
 class Nav extends React.Component {
@@ -41,12 +42,22 @@ class Nav extends React.Component {
       this.setState({ burgerClass: 'navbar-burger', menuClass: 'navbar-menu' });
     }
   };
+  _handleNavClick = (nav) => {
+    ReactGA.event({
+      category: 'Nav',
+      action: 'Clicked ' + nav + ' on navbar',
+    });
+  };
   render() {
     return (
       <nav className={this.state.navClass} aria-label="main navigation">
         <div className="container">
           <div className="navbar-brand">
-            <Link to="/#" className="navbar-item">
+            <Link
+              onClick={() => this._handleNavClick('Logo')}
+              to="/#"
+              className="navbar-item"
+            >
               <img
                 alt="Horizon Hills Logo"
                 src={`${process.env.PUBLIC_URL}/img/Logo1.png`}
@@ -70,18 +81,30 @@ class Nav extends React.Component {
           </div>
           <div className={this.state.menuClass}>
             <div className="navbar-end">
-              <Link to="/#about" className="navbar-item">
+              <Link
+                onClick={() => this._handleNavClick('About')}
+                to="/#about"
+                className="navbar-item"
+              >
                 About
               </Link>
-              <Link to="/#buy" className="navbar-item">
+              <Link
+                onClick={() => this._handleNavClick('Buy')}
+                to="/#buy"
+                className="navbar-item"
+              >
                 Buy
               </Link>
-              <Link to="/#features" className="navbar-item">
+              <Link
+                onClick={() => this._handleNavClick('Campion')}
+                to="/#features"
+                className="navbar-item"
+              >
                 Campion
               </Link>
               <div className="navbar-item">
                 <a
-                  onClick={() => this.props._toggleModal()}
+                  onClick={() => this.props._toggleModal('Nav Bar')}
                   className="button is-danger"
                 >
                   Contact

@@ -1,15 +1,11 @@
 #about-title {
-  /* font-family: 'IBM Plex Serif', serif; */
-  /* font-family: 'prata'; */
-  /* font-family: 'bodoni'; */
-  /* font-family: 'fabada'; */
-  /* font-family: 'Cinzel', serif; */
-  /* font-family: 'Playfair Display SC', serif; */
-  /* font-family: 'IBM Plex Serif', serif; */
   font-family: 'Forum', cursive;
-  /* font-family: 'mod'; */
   margin-bottom: 0.4em;
   font-size: 3.8rem !important;
+}
+
+.about-paragraph {
+  font-size: 120%;
 }
 
 @media screen and (max-width: 768px) {

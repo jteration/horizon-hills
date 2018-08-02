@@ -12,7 +12,7 @@ class About extends React.Component {
                 Introducing Horizon Hills
               </h2>
               <hr />
-              <p className="has-text-justified">
+              <p className="about-paragraph has-text-justified">
                 Horizon Hills is a 55+ active adult community in Campion,
                 Colorado. This new development is located just south of
                 Loveland, Colorado in Larimer County on the west side of I-25.

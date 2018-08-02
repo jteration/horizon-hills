@@ -2,6 +2,17 @@ import * as React from 'react';
 import './Contact.css';
 
 class Contact extends React.Component {
+  state = {
+    emailRadio: true,
+    phoneRadio: false,
+  };
+  _handleRadioClick = (choice) => {
+    if (choice === 'email') {
+      this.setState({ emailRadio: true, phoneRadio: false });
+    } else if (choice === 'phone') {
+      this.setState({ emailRadio: false, phoneRadio: true });
+    }
+  };
   render() {
     const { modalClass, _toggleModal } = this.props;
     return (
@@ -53,7 +64,7 @@ class Contact extends React.Component {
                   <div className="control has-icons-left">
                     <input
                       className="input"
-                      name="name"
+                      name="Name:"
                       type="text"
                       placeholder="Name"
                       required
@@ -68,7 +79,7 @@ class Contact extends React.Component {
                   <div className="control has-icons-left">
                     <input
                       className="input"
-                      name="_replytoemail"
+                      name="Email:"
                       type="email"
                       placeholder="Email"
                     />
@@ -82,7 +93,7 @@ class Contact extends React.Component {
                   <div className="control has-icons-left">
                     <input
                       className="input"
-                      name="_replytophone"
+                      name="Phone:"
                       type="phone"
                       placeholder="Phone"
                     />
@@ -92,17 +103,24 @@ class Contact extends React.Component {
                   </div>
                 </div>
                 <div className="control">
-                  <p>Preferred Method of Contact</p>
+                  <legend>Preferred Method of Contact</legend>
                   <label className="radio">
                     <input
-                      defaultChecked
+                      checked={this.state.phoneRadio}
+                      onClick={() => this._handleRadioClick('phone')}
                       type="radio"
                       name="Contact Me By Phone"
                     />{' '}
                     Phone
                   </label>
                   <label className="radio">
-                    <input type="radio" name="Contact Me By Email" /> Email
+                    <input
+                      checked={this.state.emailRadio}
+                      onClick={() => this._handleRadioClick('email')}
+                      type="radio"
+                      name="Contact Me By Email"
+                    />{' '}
+                    Email
                   </label>
                 </div>
                 <div className="field">
@@ -110,7 +128,7 @@ class Contact extends React.Component {
                   <div className="control">
                     <textarea
                       className="textarea"
-                      name="message"
+                      name="Message:"
                       placeholder="Message"
                       required
                     />

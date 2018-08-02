@@ -134,7 +134,7 @@ class Entertainment extends React.Component {
           <div className="column">
             <div className="columns">
               <div className="column tab-intro content is-8 is-offset-2">
-                <h1>The Great Outdoors</h1>
+                <h1 className="has-text-centered">The Great Outdoors</h1>
                 <p>
                   There are no shortage of outdoor activities in the areas
                   surrounding Horizon Hills. The Rocky Mountains are practically

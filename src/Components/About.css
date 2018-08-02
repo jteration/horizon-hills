@@ -1,7 +1,8 @@
 #about-title {
-  font-family: 'Forum', cursive;
+  font-family: 'Merriweather', serif;
   margin-bottom: 0.4em;
-  font-size: 3.8rem !important;
+  font-size: 3.7rem !important;
+  line-height: 130%;
 }
 
 .about-paragraph {

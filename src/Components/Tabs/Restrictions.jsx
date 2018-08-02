@@ -38,6 +38,12 @@ class Restrictions extends React.Component {
           <li>Small satellite dishes are permitted.</li>
           <li>NO RENTERS ALLOWED - Owner Occupied Only.</li>
         </ul>
+        <button
+          onClick={() => this.props._toggleModal()}
+          className="button is-danger is-medium tab-button"
+        >
+          Get in touch today!
+        </button>
       </section>
     );
   }

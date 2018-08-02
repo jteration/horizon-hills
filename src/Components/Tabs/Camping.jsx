@@ -63,6 +63,12 @@ class Camping extends React.Component {
           Permits are required and the campground supports both tent and RV
           camping. There are cabins available as well.{' '}
         </p>
+        <button
+          onClick={() => this.props._toggleModal()}
+          className="button is-danger is-medium tab-button"
+        >
+          Get in touch today!
+        </button>
       </section>
     );
   }

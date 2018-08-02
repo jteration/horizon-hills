@@ -39,11 +39,7 @@ class Contact extends React.Component {
                   </p>
                 </div>
                 <div className="column is-narrow">
-                  <img
-                    className="portrait"
-                    alt="Jay"
-                    src={`/img/placeholder2.png`}
-                  />
+                  <img className="portrait" alt="Jay" src={`/img/jess.jpg`} />
                 </div>
               </div>
               <hr />
@@ -106,7 +102,7 @@ class Contact extends React.Component {
                   <legend>Preferred Method of Contact</legend>
                   <label className="radio">
                     <input
-                      checked={this.state.phoneRadio}
+                      defaultChecked={this.state.phoneRadio}
                       onClick={() => this._handleRadioClick('phone')}
                       type="radio"
                       name="Contact Me By Phone"
@@ -115,7 +111,7 @@ class Contact extends React.Component {
                   </label>
                   <label className="radio">
                     <input
-                      checked={this.state.emailRadio}
+                      defaultChecked={this.state.emailRadio}
                       onClick={() => this._handleRadioClick('email')}
                       type="radio"
                       name="Contact Me By Email"

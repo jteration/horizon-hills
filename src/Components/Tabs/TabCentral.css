@@ -46,6 +46,10 @@
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.08), 0 3px 6px rgba(0, 0, 0, 0.12);
 }
 
+.tab-button {
+  align-self: flex-start;
+}
+
 @media screen and (max-width: 768px) {
   .tabs {
     flex-direction: row;

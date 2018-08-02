@@ -65,6 +65,12 @@ class Snow extends React.Component {
           12,060 feet. You won’t have to wait long at this resort, since its
           lifts have a capacity to move more than 40,000 people in an hour.
         </p>
+        <button
+          onClick={() => this.props._toggleModal()}
+          className="button is-danger is-medium tab-button"
+        >
+          Get in touch today!
+        </button>
       </section>
     );
   }

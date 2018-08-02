@@ -41,6 +41,11 @@ main {
   background-color: #16161605;
 }
 
+.privacy-section {
+  background-color: #fefefe;
+  padding-top: 6rem !important;
+}
+
 @media screen and (max-width: 768px) {
   .columns {
     margin: 0 !important;

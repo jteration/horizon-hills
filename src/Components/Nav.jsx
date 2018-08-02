@@ -9,20 +9,24 @@ class Nav extends React.Component {
     burgerClass: 'navbar-burger',
   };
   componentWillMount() {
-    if (window.pageYOffset >= 50) {
-      this.setState({ navClass: 'navbar colored is-fixed-top' });
-    } else {
-      this.setState({ navClass: 'navbar transparent is-fixed-top' });
-    }
-  }
-  componentDidMount() {
-    window.onscroll = () => {
+    if (this.props.isTransparent) {
       if (window.pageYOffset >= 50) {
         this.setState({ navClass: 'navbar colored is-fixed-top' });
       } else {
         this.setState({ navClass: 'navbar transparent is-fixed-top' });
       }
-    };
+    }
+  }
+  componentDidMount() {
+    if (this.props.isTransparent) {
+      window.onscroll = () => {
+        if (window.pageYOffset >= 50) {
+          this.setState({ navClass: 'navbar colored is-fixed-top' });
+        } else {
+          this.setState({ navClass: 'navbar transparent is-fixed-top' });
+        }
+      };
+    }
   }
   _handleBurgerClick = () => {
     if (
@@ -54,7 +58,7 @@ class Nav extends React.Component {
             </Link>
             <a
               role="button"
-              class={this.state.burgerClass}
+              className={this.state.burgerClass}
               aria-label="menu"
               aria-expanded="false"
               onClick={() => this._handleBurgerClick()}
@@ -74,9 +78,6 @@ class Nav extends React.Component {
               </Link>
               <Link to="/#features" className="navbar-item">
                 Campion
-              </Link>
-              <Link to="/company-info" className="navbar-item">
-                Progress
               </Link>
               <div className="navbar-item">
                 <a

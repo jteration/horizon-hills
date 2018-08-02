@@ -53,6 +53,12 @@ class Healthcare extends React.Component {
           medical imaging. Dermatology, endocrinology, and pain management
           services are also available at this Kaiser office.{' '}
         </p>
+        <button
+          onClick={() => this.props._toggleModal()}
+          className="button is-danger is-medium tab-button"
+        >
+          Get in touch today!
+        </button>
       </section>
     );
   }

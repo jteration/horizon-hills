@@ -20,17 +20,18 @@ class SideBar extends React.Component {
             <div className="card-columns columns">
               <div className="column is-narrow">
                 <figure>
-                  <img
-                    className="portrait"
-                    src={`/img/placeholder2.png`}
-                    alt="Jacob"
-                  />
+                  <img className="portrait" src={`/img/jess.jpg`} alt="Jacob" />
                 </figure>
               </div>
               <div className="column">
-                <p>blah blahb lah bla hblah</p>
-                <p>Call us at </p>
-                <a href="tel:555-555-1212">555-555-1212</a>
+                <p>
+                  Jess Rodriguez has been working the Colorado real estate
+                  market for 800 years
+                </p>
+                <hr />
+                <p>
+                  Call us at <a href="tel:555-555-1212">555-555-1212</a>
+                </p>
               </div>
             </div>
             <div className="card-columns button-column columns">

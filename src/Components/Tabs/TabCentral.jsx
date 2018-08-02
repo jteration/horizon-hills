@@ -101,28 +101,47 @@ class Entertainment extends React.Component {
     }
     return [<ul key="tabs1">{tabArr}</ul>, <ul key="tabs2">{tabArr2}</ul>];
   };
-  _renderActiveContent = () => {
-    switch (this.state.activeTab) {
+  _renderActiveContent = (tab) => {
+    switch (tab) {
+      case 'all':
+        return [
+          <Biking _toggleModal={this.props._toggleModal} key="Biking" />,
+          <Camping _toggleModal={this.props._toggleModal} key="Camping" />,
+          <Golfing _toggleModal={this.props._toggleModal} key="Golfing" />,
+          <Hiking _toggleModal={this.props._toggleModal} key="Hiking" />,
+          <Hunting _toggleModal={this.props._toggleModal} key="Hunting" />,
+          <Snow _toggleModal={this.props._toggleModal} key="Snow" />,
+          <Water _toggleModal={this.props._toggleModal} key="Water" />,
+          <Healthcare
+            _toggleModal={this.props._toggleModal}
+            key="Healthcare"
+          />,
+          <Other _toggleModal={this.props._toggleModal} key="Other" />,
+          <Restrictions
+            _toggleModal={this.props._toggleModal}
+            key="Restrictions"
+          />,
+        ];
       case 'Biking':
-        return <Biking />;
+        return <Biking _toggleModal={this.props._toggleModal} />;
       case 'Camping':
-        return <Camping />;
+        return <Camping _toggleModal={this.props._toggleModal} />;
       case 'Golfing':
-        return <Golfing />;
+        return <Golfing _toggleModal={this.props._toggleModal} />;
       case 'Hiking':
-        return <Hiking />;
+        return <Hiking _toggleModal={this.props._toggleModal} />;
       case 'Hunting':
-        return <Hunting />;
+        return <Hunting _toggleModal={this.props._toggleModal} />;
       case 'Snow':
-        return <Snow />;
+        return <Snow _toggleModal={this.props._toggleModal} />;
       case 'Water':
-        return <Water />;
+        return <Water _toggleModal={this.props._toggleModal} />;
       case 'Healthcare':
-        return <Healthcare />;
+        return <Healthcare _toggleModal={this.props._toggleModal} />;
       case 'Other':
-        return <Other />;
+        return <Other _toggleModal={this.props._toggleModal} />;
       case 'Restrictions':
-        return <Restrictions />;
+        return <Restrictions _toggleModal={this.props._toggleModal} />;
       default:
         return null;
     }
@@ -147,10 +166,15 @@ class Entertainment extends React.Component {
                 </p>
               </div>
             </div>
-            <div className="tabs is-boxed is-medium is-centered">
+            <div className="tabs is-boxed is-medium is-centered is-hidden-mobile">
               {this._renderTabs(tabs)}
             </div>
-            <div className="content">{this._renderActiveContent()}</div>
+            <div className="content is-hidden-mobile">
+              {this._renderActiveContent(this.state.activeTab)}
+            </div>
+            <div className="content is-hidden-tablet">
+              {this._renderActiveContent('all')}
+            </div>
           </div>
         </div>
       </section>

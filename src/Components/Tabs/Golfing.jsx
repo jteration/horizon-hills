@@ -78,6 +78,12 @@ class Golfing extends React.Component {
           There are mens’ and womens’ leagues available as well as youth
           lessons.
         </p>
+        <button
+          onClick={() => this.props._toggleModal()}
+          className="button is-danger is-medium tab-button"
+        >
+          Get in touch today!
+        </button>
       </section>
     );
   }

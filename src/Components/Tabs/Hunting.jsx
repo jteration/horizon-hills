@@ -54,6 +54,12 @@ class Hunting extends React.Component {
           members. Time to start making friends if you want to enjoy these great
           outdoors!
         </p>
+        <button
+          onClick={() => this.props._toggleModal()}
+          className="button is-danger is-medium tab-button"
+        >
+          Get in touch today!
+        </button>
       </section>
     );
   }

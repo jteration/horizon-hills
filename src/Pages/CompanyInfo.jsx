@@ -18,7 +18,7 @@ class CompanyInfo extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <Nav _toggleModal={this._toggleModal} />
+        <Nav isTransparent={false} _toggleModal={this._toggleModal} />
         <div className="container">
           <div className="columns">
             <div className="column is-7">

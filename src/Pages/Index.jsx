@@ -23,7 +23,7 @@ class Index extends Component {
   render() {
     return (
       <React.Fragment>
-        <Nav _toggleModal={this._toggleModal} />
+        <Nav isTransparent={true} _toggleModal={this._toggleModal} />
         <Hero />
         <About />
         <div className="main-content container">
@@ -35,7 +35,7 @@ class Index extends Component {
               <SideBar _toggleModal={this._toggleModal} />
             </div>
           </div>
-          <TabCentral />
+          <TabCentral _toggleModal={this._toggleModal} />
           <hr />
         </div>
         <Footer />

@@ -79,6 +79,12 @@ class Biking extends React.Component {
           brave the challenge are rewarded with an exciting ride through one of
           the most geologically diverse backdrops in Colorado.{' '}
         </p>
+        <button
+          onClick={() => this.props._toggleModal()}
+          className="button is-danger is-medium tab-button"
+        >
+          Get in touch today!
+        </button>
       </section>
     );
   }

@@ -65,6 +65,12 @@ class Water extends React.Component {
           comes to angling. Lon Hagler is also famous for Tiger Muskie, though
           they are notoriously difficult to catch.{' '}
         </p>
+        <button
+          onClick={() => this.props._toggleModal()}
+          className="button is-danger is-medium tab-button"
+        >
+          Get in touch today!
+        </button>
       </section>
     );
   }

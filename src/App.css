@@ -79,21 +79,6 @@ a.button:active {
 }
 
 @font-face {
-  font-family: fabada;
-  src: url('Fabada-regular.ttf');
-}
-
-@font-face {
-  font-family: bodoni;
-  src: url('BodoniXT.ttf');
-}
-
-@font-face {
-  font-family: prata;
-  src: url('Prata-Regular.ttf');
-}
-
-@font-face {
   font-family: gotham;
   src: url('Gotham-Light.otf');
 }

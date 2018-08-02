@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} !^www\.horizonhillscampionco\.com$ [NC]
+RewriteRule ^(.*)$ https://www.horizonhillscampionco.com/$1 [R=301,L]

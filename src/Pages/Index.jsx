@@ -7,6 +7,7 @@ import TabCentral from '../Components/Tabs/TabCentral';
 import SideBar from '../Components/SideBar/SideBar';
 import Footer from '../Components/Footer';
 import Contact from '../Components/Contact';
+import Password from '../Components/Password';
 
 class Index extends Component {
   state = {
@@ -42,6 +43,7 @@ class Index extends Component {
           _toggleModal={this._toggleModal}
           modalClass={this.state.modalClass}
         />
+        <Password />
       </React.Fragment>
     );
   }

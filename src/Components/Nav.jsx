@@ -42,7 +42,7 @@ class Nav extends React.Component {
       <nav className={this.state.navClass} aria-label="main navigation">
         <div className="container">
           <div className="navbar-brand">
-            <Link to="/horizon-hills#" className="navbar-item">
+            <Link to="/#" className="navbar-item">
               <img
                 alt="Horizon Hills Logo"
                 src={`${process.env.PUBLIC_URL}/img/Logo1.png`}
@@ -66,16 +66,16 @@ class Nav extends React.Component {
           </div>
           <div className={this.state.menuClass}>
             <div className="navbar-end">
-              <Link to="/horizon-hills#about" className="navbar-item">
+              <Link to="/#about" className="navbar-item">
                 About
               </Link>
-              <Link to="/horizon-hills#buy" className="navbar-item">
+              <Link to="/#buy" className="navbar-item">
                 Buy
               </Link>
-              <Link to="/horizon-hills#features" className="navbar-item">
+              <Link to="/#features" className="navbar-item">
                 Campion
               </Link>
-              <Link to="/horizon-hills/company-info" className="navbar-item">
+              <Link to="/company-info" className="navbar-item">
                 Progress
               </Link>
               <div className="navbar-item">

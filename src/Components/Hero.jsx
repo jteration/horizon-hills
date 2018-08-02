@@ -7,10 +7,8 @@ class Hero extends React.Component {
       <section className="hero has-bg-image is-fullheight video">
         <div className="hero-video">
           <video playsInline autoPlay muted loop>
-            <source
-              src={`${process.env.PUBLIC_URL}/video/hero.mp4`}
-              type="video/mp4"
-            />
+            <source src={`/video/hero.mp4`} type="video/mp4" />
+            <source src={`/video/hero.webm`} type="video/webm" />
           </video>
           <div className="hero-cover" />
         </div>
@@ -18,7 +16,7 @@ class Hero extends React.Component {
           <div className="container">
             <div className="columns is-centered">
               <div className="hero-icon-column column is-narrow">
-                <img className="hero-icon" src={`${process.env.PUBLIC_URL}/img/Logo2.png`} alt="" />
+                <img className="hero-icon" src={`/img/Logo2.png`} alt="" />
                 <h2 className="hero-tagline">An Active 55+ Living Community</h2>
               </div>
             </div>

@@ -34,6 +34,10 @@ class Nav extends React.Component {
       this.state.burgerClass === 'navbar-burger' &&
       this.state.menuClass === 'navbar-menu'
     ) {
+      ReactGA.event({
+        category: 'Nav',
+        action: 'Opened Hamburger Menu',
+      });
       this.setState({
         burgerClass: 'navbar-burger is-active',
         menuClass: 'navbar-menu is-active',
@@ -80,7 +84,7 @@ class Nav extends React.Component {
             </a>
           </div>
           <div className={this.state.menuClass}>
-            <div className="navbar-end">
+            <div className="navbar-end is-centered-mobile">
               <Link
                 onClick={() => this._handleNavClick('About')}
                 to="/#about"

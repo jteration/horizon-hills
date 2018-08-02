@@ -55,3 +55,11 @@ nav {
   /* font-family: 'mod'; */
   font-weight: 600;
 }
+
+@media screen and (max-width: 1087px) {
+  .is-centered-mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

@@ -29,6 +29,7 @@
 
 .tab-main-heading {
   font-size: 5em !important;
+  margin-bottom: 0 !important;
 }
 
 .tab-main-paragraph {
@@ -54,5 +55,48 @@
   }
   .tabs ul > li {
     width: 80%;
+  }
+  .tab-main-paragraph {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .tab-heading.tab-heading {
+    font-size: 3em !important;
+    font-family: 'gotham-bold';
+    text-align: center;
+  }
+
+  .tab-main-heading {
+    font-size: 4em !important;
+    margin-bottom: 0 !important;
+  }
+}
+
+@media screen and (max-width: 454px) {
+  .tab-heading.tab-heading {
+    font-size: 2.5em !important;
+    font-family: 'gotham-bold';
+    text-align: center;
+  }
+
+  .tab-main-heading {
+    font-size: 3.5em !important;
+    margin-bottom: 0 !important;
+  }
+}
+
+@media screen and (max-width: 413px) {
+  .tab-heading.tab-heading {
+    font-size: 2em !important;
+    font-family: 'gotham-bold';
+    text-align: center;
+  }
+
+  .tab-main-heading {
+    font-size: 3em !important;
+    margin-bottom: 0 !important;
   }
 }

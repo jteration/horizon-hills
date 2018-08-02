@@ -1,7 +1,7 @@
 #about-title {
   font-family: 'Merriweather', serif;
   margin-bottom: 0.4em;
-  font-size: 3.7rem !important;
+  font-size: 6rem !important;
   line-height: 130%;
 }
 
@@ -16,7 +16,7 @@
 }
 
 section.about {
-  padding-top: 8rem !important;
-  padding-bottom: 8rem !important;
+  padding-top: 4rem !important;
+  padding-bottom: 4rem !important;
   background-color: white;
 }

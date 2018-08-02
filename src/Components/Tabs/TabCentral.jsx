@@ -133,9 +133,11 @@ class Entertainment extends React.Component {
         <div className="columns box">
           <div className="column">
             <div className="columns">
-              <div className="column tab-intro content is-8 is-offset-2">
-                <h1 className="has-text-centered">The Great Outdoors</h1>
-                <p>
+              <div className="column tab-intro content is-10 is-offset-1">
+                <h1 className="has-text-centered tab-main-heading">
+                  The Great Outdoors
+                </h1>
+                <p className="tab-main-paragraph">
                   There are no shortage of outdoor activities in the areas
                   surrounding Horizon Hills. The Rocky Mountains are practically
                   in our backyard. If you’re looking for biking, hiking,

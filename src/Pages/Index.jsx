@@ -12,14 +12,14 @@ import Password from '../Components/Password';
 
 class Index extends Component {
   state = {
-    modalClass: 'modal',
+    modalClass: 'modal contact-modal',
   };
   componentWillMount() {
     ReactGA.initialize('UA-121443947-1');
     ReactGA.pageview(window.location.pathname + window.location.search);
   }
   _toggleModal = (button) => {
-    if (this.state.modalClass === 'modal') {
+    if (this.state.modalClass === 'modal contact-modal') {
       ReactGA.modalview('/');
       ReactGA.event({
         category: 'Modal',
@@ -31,9 +31,9 @@ class Index extends Component {
           action: 'Used ' + button + ' button to open modal',
         });
       }
-      this.setState({ modalClass: 'modal is-active' });
+      this.setState({ modalClass: 'modal contact-modal is-active' });
     } else {
-      this.setState({ modalClass: 'modal' });
+      this.setState({ modalClass: 'modal contact-modal' });
     }
   };
   render() {

@@ -111,12 +111,12 @@ class Other extends React.Component {
             Mini Food Mart in Loveland, Colorado.
           </a>
         </p>
-        <button
+        <a
           onClick={() => this.props._toggleModal('Other Tab')}
           className="button is-danger is-medium tab-button"
         >
           Get in touch today!
-        </button>
+        </a>
       </section>
     );
   }

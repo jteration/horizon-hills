@@ -11,7 +11,7 @@ class About extends React.Component {
               <h2 id="about-title" className="has-text-centered">
                 Introducing Horizon Hills
               </h2>
-              <hr />
+              <hr className="green-rule" />
               <p className="about-paragraph has-text-justified">
                 Horizon Hills is a 55+ active adult community in Campion,
                 Colorado. This new development is located just south of

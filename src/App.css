@@ -9,6 +9,10 @@ html > body {
   font-family: 'gotham';
 }
 
+.green-rule {
+  background-color: #636b46;
+}
+
 .content h1 {
   font-family: 'gotham-bold';
 }
@@ -35,6 +39,14 @@ section.hero {
 
 a.button {
   transition: all 0.2s ease-out;
+}
+
+a.is-danger {
+  background-color: #ff6a5c !important;
+}
+
+a.is-danger:hover {
+  background-color: #fd4837 !important;
 }
 
 main {

@@ -61,12 +61,12 @@ class Hiking extends React.Component {
           hiker’s paradise that has trails to test every skill level and views
           that rival mountains anywhere in the world.
         </p>
-        <button
+        <a
           onClick={() => this.props._toggleModal('Hiking Tab')}
           className="button is-danger is-medium tab-button"
         >
           Get in touch today!
-        </button>
+        </a>
       </section>
     );
   }

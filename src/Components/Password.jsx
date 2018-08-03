@@ -18,13 +18,16 @@ class Password extends React.Component {
     return (
       <div className={this.state.modalClass}>
         <div className="modal-background password-modal" />
-        <div className="modal-content">
-          <p>Enter password</p>
-          <input
-            onChange={(event) => this._onInputChange(event.target.value)}
-            value={this.state.password}
-            type="password"
-          />
+        <div className="modal-content content">
+          <div className="field">
+            <label className="label">Enter password</label>
+            <input
+              className="input"
+              onChange={(event) => this._onInputChange(event.target.value)}
+              value={this.state.password}
+              type="password"
+            />
+          </div>
           <button onClick={() => this._handleClick()} className="button">
             Submit
           </button>

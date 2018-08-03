@@ -19,19 +19,24 @@
   }
 }
 
+@media screen and (max-width: 1087px) {
+  section#about {
+    padding-top: 2rem !important;
+    margin-top: -5rem !important;
+    margin-left: 1rem !important;
+    margin-right: 1rem !important;
+  }
+}
+
 @media screen and (max-width: 930px) {
   #about-title {
     font-size: 4.5rem !important;
   }
 }
+
 @media screen and (max-width: 530px) {
   #about-title {
     font-size: 2.9rem !important;
-  }
-  section#about {
-    padding-top: 2rem !important;
-    margin-left: 1rem !important;
-    margin-right: 1rem !important;
   }
 }
 

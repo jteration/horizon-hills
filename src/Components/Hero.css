@@ -20,6 +20,12 @@ h1.title.is-1 {
   z-index: -1;
 }
 
+@media screen and (max-width: 1087px) {
+  .hero-video {
+    overflow: hidden !important;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .hero-video {
     display: block !important;

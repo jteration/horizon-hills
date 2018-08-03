@@ -1,0 +1,32 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.home-img-container {
+  display: flex;
+  align-items: center;
+  margin-top: 1em;
+  user-select: none;
+}
+
+.home-info-container {
+  margin-top: 2em;
+  margin-left: 3.4em;
+  margin-right: 3.4em;
+  user-select: none;
+}
+
+.img-container {
+  width: 100%;
+}
+
+.right-arrow:hover {
+  cursor: pointer;
+  color: black;
+}
+
+.left-arrow:hover {
+  cursor: pointer;
+  color: black;
+}

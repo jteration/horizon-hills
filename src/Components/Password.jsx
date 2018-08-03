@@ -22,7 +22,7 @@ class Password extends React.Component {
           <div className="field">
             <label className="label">Enter password</label>
             <input
-              className="input"
+              className="input password-input"
               onChange={(event) => this._onInputChange(event.target.value)}
               value={this.state.password}
               type="password"

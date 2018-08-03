@@ -1,4 +1,5 @@
 import * as React from 'react';
+import HomeGallery from './HomeGallery/HomeGallery';
 import './Sales.css';
 
 class Sales extends React.Component {
@@ -38,6 +39,7 @@ class Sales extends React.Component {
               ever be built west of I-25 with an unobstructed view of the front
               range.
             </p>
+            <HomeGallery />
           </div>
         </div>
       </section>

@@ -17,8 +17,8 @@ class SideBar extends React.Component {
             </div>
           </div>
           <div className="card-content">
-            <div className="card-columns columns">
-              <div className="column is-narrow">
+            <div className="card-columns expert-columns columns">
+              <div className="column portrait-column is-narrow">
                 <figure>
                   <img className="portrait" src={`/img/jess.jpg`} alt="Jacob" />
                 </figure>

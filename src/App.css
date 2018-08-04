@@ -18,7 +18,7 @@ html > body {
 }
 
 .content h2 {
-  font-size: 2em !important;
+  font-size: 2.8em !important;
   text-align: center !important;
   font-family: 'gotham-bold';
 }
@@ -42,11 +42,11 @@ a.button {
 }
 
 a.is-danger {
-  background-color: #ff6a5c !important;
+  background-color: #a01919 !important;
 }
 
 a.is-danger:hover {
-  background-color: #fd4837 !important;
+  background-color: #d60000 !important;
 }
 
 main {

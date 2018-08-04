@@ -55,6 +55,10 @@
   border-radius: 3px !important;
 }
 
+.tab-info-section > section > p {
+  margin-bottom: 2em !important;
+}
+
 @media screen and (max-width: 768px) {
   .tabs {
     flex-direction: row;

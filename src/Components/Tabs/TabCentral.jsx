@@ -174,10 +174,10 @@ class Entertainment extends React.Component {
             <div className="tabs is-boxed is-medium is-centered is-hidden-mobile">
               {this._renderTabs(tabs)}
             </div>
-            <div className="content is-hidden-mobile">
+            <div className="content is-hidden-mobile tab-info-section">
               {this._renderActiveContent(this.state.activeTab)}
             </div>
-            <div className="content is-hidden-tablet">
+            <div className="content is-hidden-tablet tab-info-section">
               {this._renderActiveContent('all')}
             </div>
           </div>

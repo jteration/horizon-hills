@@ -4,6 +4,7 @@ import Nav from '../Components/Nav';
 import Hero from '../Components/Hero';
 import About from '../Components/About';
 import Sales from '../Components/Sales';
+import HomeGallery from '../Components/HomeGallery/HomeGallery';
 import TabCentral from '../Components/Tabs/TabCentral';
 import SideBar from '../Components/SideBar/SideBar';
 import Footer from '../Components/Footer';
@@ -51,6 +52,7 @@ class Index extends Component {
               <SideBar _toggleModal={this._toggleModal} />
             </div>
           </div>
+          <HomeGallery />
           <TabCentral _toggleModal={this._toggleModal} />
         </div>
         <Footer />
@@ -58,7 +60,7 @@ class Index extends Component {
           _toggleModal={this._toggleModal}
           modalClass={this.state.modalClass}
         />
-        {/* <Password /> */}
+        <Password />
       </React.Fragment>
     );
   }

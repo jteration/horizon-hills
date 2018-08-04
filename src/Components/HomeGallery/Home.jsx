@@ -4,13 +4,15 @@ class Home extends React.Component {
   render() {
     const { home, _handleArrowClick } = this.props;
     const name = home.name;
+    const description = home.description;
     const sqft = home.sqft;
     const bedrooms = home.bedrooms;
     const bathrooms = home.bathrooms;
     const img = home.img;
     return (
       <React.Fragment>
-        <h2>See some of our home designs here</h2>
+        <h2>Example Homes</h2>
+        <p>{description}</p>
         <div className="home-img-container">
           <div onClick={() => _handleArrowClick('left')} className="left-arrow">
             <i className="fas fa-caret-left fa-4x" />

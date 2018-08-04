@@ -9,7 +9,8 @@ class About extends React.Component {
           <div className="columns">
             <div className="column is-8 is-offset-2 content">
               <h2 id="about-title" className="has-text-centered">
-                Introducing Horizon Hills
+                <span className="text1 shadow1">Introducing</span>{' '}
+                <span className="text2 shadow2">Horizon Hills</span>
               </h2>
               <hr className="green-rule" />
               <p className="about-paragraph has-text-justified">

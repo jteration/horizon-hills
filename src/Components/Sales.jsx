@@ -1,5 +1,4 @@
 import * as React from 'react';
-import HomeGallery from './HomeGallery/HomeGallery';
 import './Sales.css';
 
 class Sales extends React.Component {
@@ -9,7 +8,9 @@ class Sales extends React.Component {
       <section id="buy" className="sales section">
         <div className="columns">
           <div className="column content">
-            <h2>Purchase a Manufactured Home in Campion, CO Today</h2>
+            <h2 className="sales-h2">
+              Purchase a Manufactured Home in Campion, CO Today
+            </h2>
             <p>
               Groundbreaking for this development is scheduled for August 2018.
               Upon completion, Horizon Hills will be the site of more than 250
@@ -39,7 +40,6 @@ class Sales extends React.Component {
               ever be built west of I-25 with an unobstructed view of the front
               range.
             </p>
-            <HomeGallery />
           </div>
         </div>
       </section>

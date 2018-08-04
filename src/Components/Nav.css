@@ -27,7 +27,7 @@ nav {
 }
 
 .transparent {
-  background-color: rgba(245, 245, 245, 0.3) !important;
+  background-color: rgba(245, 245, 245, 0.15) !important;
   box-shadow: none;
 }
 

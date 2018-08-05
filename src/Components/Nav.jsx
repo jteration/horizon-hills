@@ -92,6 +92,7 @@ class Nav extends React.Component {
               >
                 About
               </Link>
+              <hr className="is-hidden-desktop thin-hr" />
               <Link
                 onClick={() => this._handleNavClick('Buy')}
                 to="/#buy"
@@ -99,6 +100,7 @@ class Nav extends React.Component {
               >
                 Buy
               </Link>
+              <hr className="is-hidden-desktop thin-hr" />
               <Link
                 onClick={() => this._handleNavClick('Campion')}
                 to="/#features"
@@ -106,6 +108,7 @@ class Nav extends React.Component {
               >
                 Campion
               </Link>
+              <hr className="is-hidden-desktop thin-hr" />
               <div className="navbar-item">
                 <a
                   onClick={() => this.props._toggleModal('Nav Bar')}

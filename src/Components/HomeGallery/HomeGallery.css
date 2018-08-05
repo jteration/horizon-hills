@@ -1,6 +1,15 @@
+section.gallery-section {
+  padding-left: 0;
+  padding-right: 0;
+}
+
 .home-container {
   display: flex;
   flex-direction: column;
+}
+
+.home-description {
+  min-height: 6rem;
 }
 
 .home-img-container {

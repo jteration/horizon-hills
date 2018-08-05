@@ -12,7 +12,7 @@ class Home extends React.Component {
     return (
       <React.Fragment>
         <h2>Example Homes</h2>
-        <p>{description}</p>
+        <p className="home-description">{description}</p>
         <div className="home-img-container">
           <div onClick={() => _handleArrowClick('left')} className="left-arrow">
             <i className="fas fa-caret-left fa-4x" />

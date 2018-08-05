@@ -79,7 +79,7 @@ class HomeGallery extends React.Component {
   };
   render() {
     return (
-      <section className="section">
+      <section className="section gallery-section">
         <div className="columns">
           <div className="home-container column is-8 is-offset-2 content">
             {this._renderHomes()}

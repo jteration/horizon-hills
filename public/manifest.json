@@ -1,6 +1,9 @@
 {
   "name": "Horizon Hills",
   "short_name": "HorizonHills",
+  "display": "fullscreen",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
   "default_locale": "en",
   "description":
     "Horizon Hills is a new 55+ development in Campion Colorado! Inquire on buying a house today! Live in beautiful Campion!",

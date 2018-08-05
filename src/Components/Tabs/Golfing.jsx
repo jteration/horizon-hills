@@ -9,7 +9,7 @@ class Golfing extends React.Component {
           alt="Man golfing"
           className="is-centered-img"
           width="1024"
-          src={`/img/mangolf-thin.jpg`}
+          src={`/img/mangolf-thinopt.jpg`}
         />
         <hr />
         <p>

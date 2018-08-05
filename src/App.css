@@ -49,6 +49,11 @@ a.is-danger:hover {
   background-color: #d60000 !important;
 }
 
+.colored > .container > .navbar-menu > .navbar-end > a.navbar-item:hover {
+  background-color: rgb(170, 170, 170) !important;
+  color: #3273dc;
+}
+
 main {
   background-color: #a5c4d430;
 }

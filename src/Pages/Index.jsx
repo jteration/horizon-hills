@@ -43,18 +43,20 @@ class Index extends Component {
         <Nav isTransparent={true} _toggleModal={this._toggleModal} />
         <Hero />
         <About />
-        <div className="main-content container">
-          <div className="columns">
-            <div className="column">
-              <Sales _toggleModal={this._toggleModal} />
-            </div>
-            <div className="side-column column is-4">
-              <SideBar _toggleModal={this._toggleModal} />
+        <section className="section">
+          <div className="container">
+            <div className="main-content columns">
+              <div className="column">
+                <Sales _toggleModal={this._toggleModal} />
+              </div>
+              <div className="side-column column is-4">
+                <SideBar _toggleModal={this._toggleModal} />
+              </div>
             </div>
           </div>
-          <HomeGallery />
-          <TabCentral _toggleModal={this._toggleModal} />
-        </div>
+        </section>
+        <HomeGallery />
+        <TabCentral _toggleModal={this._toggleModal} />
         <Footer />
         <Contact
           _toggleModal={this._toggleModal}

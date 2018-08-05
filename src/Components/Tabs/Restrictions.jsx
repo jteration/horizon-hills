@@ -3,10 +3,16 @@ import * as React from 'react';
 class Restrictions extends React.Component {
   render() {
     return (
-      <section className="section content">
+      <section className="section is-flex is-column">
         <h2 className="tab-heading">
           Horizon Hills Community Rules and Restrictions
         </h2>
+        <img
+          alt="Locked door"
+          className="is-centered-img"
+          width="1024"
+          src={`/img/restrictions-thin.jpg`}
+        />
         <hr />
         <ul>
           <li>
@@ -27,12 +33,12 @@ class Restrictions extends React.Component {
             neat, clean condition and remain in good physical repair.
           </li>
           <li>
-            Sunflower facilities are provided for the exclusive use of the
+            Horizon Hills facilities are provided for the exclusive use of the
             residents and their guests.
           </li>
           <li>
             Home-based businesses are permitted, but must seek management's
-            written approval, and are subject to the Sunflower Rules and
+            written approval, and are subject to the Horizon Hills Rules and
             Regulations. Automotive repair businesses are prohibited.
           </li>
           <li>Small satellite dishes are permitted.</li>

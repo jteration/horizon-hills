@@ -21,13 +21,13 @@ nav {
 }
 
 .colored {
-  background-color: rgb(245, 245, 245) !important;
+  background-color: rgb(250, 250, 250) !important;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.015), 0 1px 2px rgba(0, 0, 0, 0.03);
   border-bottom: 1px solid rgba(55, 103, 58, 0.05);
 }
 
 .transparent {
-  background-color: rgba(245, 245, 245, 0.15) !important;
+  background-color: rgba(250, 250, 250, 0.15) !important;
   box-shadow: none;
 }
 
@@ -45,14 +45,6 @@ nav {
 
 .navbar-end > a {
   font-family: 'gotham';
-  /* font-family: 'prata'; */
-  /* font-family: 'bodoni'; */
-  /* font-family: 'fabada'; */
-  /* font-family: 'Cinzel', serif; */
-  /* font-family: 'Playfair Display SC', serif; */
-  /* font-family: 'IBM Plex Serif', serif; */
-  /* font-family: 'Forum', cursive; */
-  /* font-family: 'mod'; */
   font-weight: 600;
 }
 
@@ -61,5 +53,21 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+  .container > .navbar-brand > .navbar-item > img {
+    transition: 0.2s all ease-in;
+  }
+  .transparent > .container > .navbar-brand > .navbar-item > img {
+    width: 0;
+  }
+  .colored > .container > .navbar-brand > .navbar-item > img {
+    width: auto;
+  }
+  .navbar-menu.is-active {
+    min-width: 250px;
+    max-width: 500px;
+    position: absolute;
+    right: 0;
+    top: 52px;
   }
 }

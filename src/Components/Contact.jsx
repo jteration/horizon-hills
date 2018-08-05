@@ -33,7 +33,7 @@ class Contact extends React.Component {
               </div>
             </div>
             <div className="card-content">
-              <div className="columns">
+              <div className="columns contact-card-columns">
                 <div className="column content">
                   <h1>Hello</h1>
                   <p>

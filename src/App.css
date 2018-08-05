@@ -50,7 +50,7 @@ a.is-danger:hover {
 }
 
 main {
-  background-color: #16161605;
+  background-color: #a5c4d430;
 }
 
 .privacy-section {
@@ -64,6 +64,10 @@ main {
 
 .tabs a {
   padding: 0.25em 0.5em !important;
+}
+
+.tabs li.is-active a {
+  color: #881900 !important;
 }
 
 @media screen and (max-width: 768px) {

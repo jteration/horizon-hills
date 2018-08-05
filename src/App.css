@@ -58,6 +58,14 @@ main {
   padding-top: 6rem !important;
 }
 
+.tabs.is-boxed a {
+  border-radius: 3px 3px 0 0 !important;
+}
+
+.tabs a {
+  padding: 0.25em 0.5em !important;
+}
+
 @media screen and (max-width: 768px) {
   .columns {
     margin: 0 !important;

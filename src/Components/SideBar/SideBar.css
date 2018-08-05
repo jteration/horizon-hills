@@ -1,8 +1,5 @@
-.side-is-fixed {
-  position: fixed;
-  top: 10px;
-  right: 0;
-  transition: 0.1s all ease-out;
+.side-column {
+  min-width: 450px;
 }
 
 .invisible {
@@ -67,6 +64,9 @@
   .expert-columns {
     flex-direction: column;
   }
+  .side-column {
+    min-width: 400px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -90,5 +90,8 @@
 @media screen and (max-width: 868px) {
   .button-column {
     flex-direction: column;
+  }
+  .side-column {
+    min-width: 350px;
   }
 }

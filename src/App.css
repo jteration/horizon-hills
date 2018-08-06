@@ -10,12 +10,12 @@ html > body {
 }
 
 main {
-  background-image: url('/img/weave.png');
+  background-image: url('/img/topography.png');
 }
 
 .main-content-wrap-wrap {
   /* padding: 3em 0; */
-  background-color: #ffffff99;
+  background-color: rgba(241, 241, 255, 0.2);
   /* background-color: #c7d8c640; */
 }
 

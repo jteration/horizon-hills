@@ -10,11 +10,11 @@ class App extends Component {
   render() {
     return (
       <Router>
-        <main>
+        <React.Fragment>
           <Route exact path="/" component={Index} />
           <Route path="/company-info" component={CompanyInfo} />
           <Route path="/privacy-policy" component={PrivacyPolicy} />
-        </main>
+        </React.Fragment>
       </Router>
     );
   }

@@ -3,6 +3,11 @@ section.gallery-section {
   padding-right: 0;
 }
 
+section.gallery-section > .container {
+  border-radius: 3px;
+  /* box-shadow: 0 3px 6px rgba(0, 0, 0, 0.08), 0 3px 6px rgba(0, 0, 0, 0.12); */
+}
+
 .home-container {
   display: flex;
   flex-direction: column;

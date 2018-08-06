@@ -42,21 +42,25 @@ class Index extends Component {
       <React.Fragment>
         <Nav isTransparent={true} _toggleModal={this._toggleModal} />
         <Hero />
-        <About />
-        <section className="section">
-          <div className="container">
-            <div className="main-content columns">
-              <div className="column">
-                <Sales _toggleModal={this._toggleModal} />
-              </div>
-              <div className="side-column column is-4">
-                <SideBar _toggleModal={this._toggleModal} />
-              </div>
+        <main>
+          <About />
+          <div className="main-content-wrap-wrap">
+            <div className="container main-content-wrap">
+              <section className="section">
+                <div className="main-content columns">
+                  <div className="column">
+                    <Sales _toggleModal={this._toggleModal} />
+                  </div>
+                  <div className="side-column column is-4">
+                    <SideBar _toggleModal={this._toggleModal} />
+                  </div>
+                </div>
+              </section>
+              <HomeGallery />
+              <TabCentral _toggleModal={this._toggleModal} />
             </div>
           </div>
-        </section>
-        <HomeGallery />
-        <TabCentral _toggleModal={this._toggleModal} />
+        </main>
         <Footer />
         <Contact
           _toggleModal={this._toggleModal}

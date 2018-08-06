@@ -55,6 +55,22 @@
   border-radius: 3px !important;
 }
 
+.tabs.is-boxed a {
+  border-radius: 3px 3px 0 0 !important;
+}
+
+.tabs a {
+  padding: 0.25em 0.5em !important;
+}
+
+.tabs li.is-active a {
+  color: #881900 !important;
+}
+
+.tabs.is-boxed li.is-active a {
+  background-color: #fafafa !important;
+}
+
 .tab-info-section > section > p {
   margin-bottom: 2em !important;
 }

@@ -1,2 +1,5 @@
-.sales-h2 {
+@media screen and (min-width: 1280px) {
+  #purchase {
+    font-size: 4rem !important;
+  }
 }

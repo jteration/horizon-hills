@@ -9,6 +9,21 @@ html > body {
   font-family: 'gotham';
 }
 
+main {
+  background-image: url('/img/full-bloom.png');
+}
+
+.main-content-wrap-wrap {
+  /* padding: 3em 0; */
+  background-color: #001aff10;
+}
+
+.main-content-wrap {
+  /* margin-top: 3em !important; */
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.1), 0 10px 10px rgba(0, 0, 0, 0.09);
+  background-color: #f8f8f8;
+}
+
 .green-rule {
   background-color: #636b46;
 }
@@ -33,10 +48,6 @@ section.section {
   padding-bottom: 3rem;
 }
 
-section.hero {
-  margin-top: 52px;
-}
-
 a.button {
   transition: all 0.2s ease-out;
 }
@@ -54,25 +65,10 @@ a.is-danger:hover {
   color: #3273dc;
 }
 
-main {
-  background-color: #a5c4d430;
-}
-
 .privacy-section {
+  min-height: calc(100vh - 181px);
   background-color: #fefefe;
   padding-top: 6rem !important;
-}
-
-.tabs.is-boxed a {
-  border-radius: 3px 3px 0 0 !important;
-}
-
-.tabs a {
-  padding: 0.25em 0.5em !important;
-}
-
-.tabs li.is-active a {
-  color: #881900 !important;
 }
 
 @media screen and (max-width: 768px) {

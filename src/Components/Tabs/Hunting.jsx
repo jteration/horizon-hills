@@ -3,7 +3,7 @@ import * as React from 'react';
 class Hunting extends React.Component {
   render() {
     return (
-      <section className="section is-flex is-column">
+      <section id="hunting" className="section is-flex is-column">
         <h3 className="tab-heading">Hunting The Front Range</h3>
         <img
           alt="Pineridge"
@@ -54,12 +54,14 @@ class Hunting extends React.Component {
           members. Time to start making friends if you want to enjoy these great
           outdoors!
         </p>
-        <a
-          onClick={() => this.props._toggleModal('Hunting Tab')}
-          className="button is-danger is-medium tab-button"
-        >
-          Get in touch today!
-        </a>
+        <div className="buttons has-addons is-centered">
+          <a
+            onClick={() => this.props._toggleModal('Hunting Tab')}
+            className="button is-danger is-medium tab-button"
+          >
+            Get in touch today!
+          </a>
+        </div>
       </section>
     );
   }

@@ -6,7 +6,7 @@ const homeArr = [
   {
     name: 'Lifestyle D53',
     description:
-      "Use what you see, don't plan it. Don't hurry. Take your time and enjoy. Very easy to work these to death. We'll play with clouds today.",
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et enim in massa pulvinar porttitor. Aliquam vestibulum enim sed consequat blandit. Nunc molestie dolor odio, at luctus ligula viverra aliquet. Quisque tempus lectus at vulputate pulvinar. Aenean aliquam eros in velit lobortis lobortis. Etiam vulputate quam ut neque facilisis, ut feugiat odio fermentum. Maecenas eget massa lectus. Quisque feugiat dui non arcu porttitor fermentum non non sem. Proin molestie venenatis dolor quis varius.',
     sqft: '1972 Square Feet',
     bedrooms: '3 Bedrooms',
     bathrooms: '2 Bathrooms',
@@ -18,7 +18,7 @@ const homeArr = [
   {
     name: 'Lifestyle 493',
     description:
-      "Let's have a happy little tree in here. Just think about these things in your mind and drop em' on canvas. In this world, everything can be happy.",
+      'Pellentesque nec purus quam. Maecenas dui augue, consequat non gravida et, scelerisque quis arcu. Praesent dignissim magna libero, porttitor facilisis massa porttitor pharetra. Nam non cursus lectus. Duis ullamcorper nunc lectus, vel maximus metus accumsan ac. Nam sagittis nisl ut consectetur sollicitudin. Mauris at lacinia felis. Maecenas sed euismod erat. Mauris suscipit ex ac elit scelerisque blandit. Sed luctus sit amet felis et laoreet. Vestibulum vestibulum quam sed tellus pharetra, at rutrum quam dapibus. Phasellus at efficitur ipsum. Proin consectetur non elit eget cursus. Morbi venenatis venenatis nisi vel sollicitudin.',
     sqft: '2204 Square Feet',
     bedrooms: '4 Bedrooms',
     bathrooms: '2 Bathrooms',
@@ -30,7 +30,7 @@ const homeArr = [
   {
     name: 'Lifestyle 487',
     description:
-      "How to paint. That's easy. What to paint. That's much harder. Nice little clouds playing around in the sky. You got your heavy coat out yet? It's getting colder. We can fix anything.",
+      'In hac habitasse platea dictumst. Integer ultricies, ex non scelerisque lacinia, arcu nisi ullamcorper dolor, nec lacinia nibh tortor ut augue. Cras ac consectetur lorem. Donec sit amet porta leo, eget ultricies nunc. Integer varius velit consectetur massa scelerisque ullamcorper. Maecenas eleifend tempus eros eu imperdiet. Vivamus eu massa quis ex tempor condimentum.',
     sqft: '1152 Square Feet',
     bedrooms: '3 Bedrooms',
     bathrooms: '2 Bathrooms',
@@ -42,7 +42,7 @@ const homeArr = [
   {
     name: 'Lifestyle 468',
     description:
-      "We don't want to set these clouds on fire. Just beat the devil out of it. You can work and carry-on and put lots of little happy things in here. That's what makes life fun. That you can make these decisions. That you can create the world that you want.",
+      'Quisque accumsan vel diam eu rhoncus. Sed vel imperdiet ipsum, a dignissim lacus. Phasellus porttitor magna at nulla consectetur, vitae pulvinar erat gravida. Integer suscipit vehicula sapien et cursus. Proin vulputate neque enim, porttitor tincidunt diam venenatis vel. Aliquam libero neque, tincidunt in sodales et, pharetra in lacus. Sed vestibulum eros ante, a accumsan neque euismod ut. Nam a leo consectetur massa maximus volutpat. In et diam diam. Proin non purus leo.',
     sqft: '1600 Square Feet',
     bedrooms: '3 Bedrooms',
     bathrooms: '2 Bathrooms',
@@ -79,7 +79,7 @@ class HomeGallery extends React.Component {
   };
   render() {
     return (
-      <section className="section gallery-section">
+      <section id="homes" className="section gallery-section">
         <div className="container">
           <div className="columns">
             <div className="home-container column is-8 is-offset-2 content">

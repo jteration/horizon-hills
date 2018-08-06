@@ -21,10 +21,10 @@ const tabs = [
     text: 'Camping',
   },
   {
-    text: 'Golfing',
+    text: 'Healthcare',
   },
   {
-    text: 'Hiking',
+    text: 'Other',
   },
   {
     text: 'Restrictions',
@@ -39,11 +39,10 @@ const tabs = [
     text: 'Water',
   },
   {
-    text: 'Healthcare',
+    text: 'Golfing',
   },
-
   {
-    text: 'Other',
+    text: 'Hiking',
   },
 ];
 
@@ -158,16 +157,16 @@ class Entertainment extends React.Component {
           <div className="column">
             <div className="columns">
               <div className="column tab-intro content is-10 is-offset-1">
-                <h1 className="has-text-centered tab-main-heading">
-                  The Great Outdoors
-                </h1>
+                <h2 className="has-text-centered tab-main-heading">
+                  Still Not Convinced?
+                </h2>
                 <hr className="green-rule" />
                 <p className="tab-main-paragraph">
-                  There are no shortage of outdoor activities in the areas
-                  surrounding Horizon Hills. The Rocky Mountains are practically
-                  in our backyard. If you’re looking for biking, hiking,
-                  camping, hunting, water sports, skiing or snowboarding, you’re
-                  in the right place.
+                  There are no shortage of activities in the areas surrounding
+                  Horizon Hills. The Rocky Mountains are practically in our
+                  backyard. If you’re looking for biking, hiking, camping,
+                  hunting, water sports, skiing or snowboarding, you’re in the
+                  right place.
                 </p>
               </div>
             </div>

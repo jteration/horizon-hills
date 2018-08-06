@@ -3,7 +3,7 @@ import * as React from 'react';
 class Biking extends React.Component {
   render() {
     return (
-      <section className="section is-flex is-column">
+      <section id="biking" className="section is-flex is-column">
         <h3 className="tab-heading">Biking Scenic Trails </h3>
         <img
           alt="Devil's Backbone Entrance"
@@ -79,12 +79,14 @@ class Biking extends React.Component {
           brave the challenge are rewarded with an exciting ride through one of
           the most geologically diverse backdrops in Colorado.{' '}
         </p>
-        <a
-          onClick={() => this.props._toggleModal('Biking Tab')}
-          className="button is-danger is-medium tab-button"
-        >
-          Get in touch today!
-        </a>
+        <div className="buttons has-addons is-centered">
+          <a
+            onClick={() => this.props._toggleModal('Biking Tab')}
+            className="button is-danger is-medium tab-button"
+          >
+            Get in touch today!
+          </a>
+        </div>
       </section>
     );
   }

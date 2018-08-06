@@ -3,7 +3,7 @@ import * as React from 'react';
 class Other extends React.Component {
   render() {
     return (
-      <section className="section is-flex is-column">
+      <section id="other" className="section is-flex is-column">
         <h3 className="tab-heading">Other Conveniences</h3>
         <img
           alt="King Soopers"
@@ -111,12 +111,14 @@ class Other extends React.Component {
             Mini Food Mart in Loveland, Colorado.
           </a>
         </p>
-        <a
-          onClick={() => this.props._toggleModal('Other Tab')}
-          className="button is-danger is-medium tab-button"
-        >
-          Get in touch today!
-        </a>
+        <div className="buttons has-addons is-centered">
+          <a
+            onClick={() => this.props._toggleModal('Other Tab')}
+            className="button is-danger is-medium tab-button"
+          >
+            Get in touch today!
+          </a>
+        </div>
       </section>
     );
   }

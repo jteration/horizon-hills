@@ -32,32 +32,14 @@ class Contact extends React.Component {
                 We would love to get in touch
               </div>
             </div>
-            <div className="card-content">
-              <div className="columns contact-card-columns">
-                <div className="column content">
-                  <h1>Hello</h1>
-                  <p>
-                    This could be where we put some sales copy or brief
-                    information about what a person would need to know before
-                    contacting us by phone
-                  </p>
-                  <p>
-                    Tel: <a href="tel:555-555-1212">555-555-1212</a>
-                  </p>
-                </div>
-                <div className="column is-narrow">
-                  <img className="portrait" alt="Jay" src={`/img/jess.jpg`} />
-                </div>
-              </div>
+            <div className="card-content content">
+              <img src="/img/logo2.png" />
               <hr />
-              <div className="contact-divider content">
-                <h2 className="has-text-centered">OR</h2>
-              </div>
+              <h2>Contact Horizon Hills</h2>
               <p className="has-text-centered">
-                Fill out the form below to contact Jess about joining the
-                Horizon Hills community.
+                Fill out the form below and a representative from Horizon Hills
+                will reach out to you with more information.
               </p>
-              <hr />
               <form
                 action="https://formspree.io/contact@horizonhillscampionco.com"
                 method="POST"

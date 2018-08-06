@@ -3,7 +3,7 @@ import * as React from 'react';
 class Snow extends React.Component {
   render() {
     return (
-      <section className="section is-flex is-column">
+      <section id="snow" className="section is-flex is-column">
         <h3 className="tab-heading">
           Skiing, Snowboarding, and Fun in the Rockies
         </h3>
@@ -65,12 +65,14 @@ class Snow extends React.Component {
           12,060 feet. You won’t have to wait long at this resort, since its
           lifts have a capacity to move more than 40,000 people in an hour.
         </p>
-        <a
-          onClick={() => this.props._toggleModal('Snow Tab')}
-          className="button is-danger is-medium tab-button"
-        >
-          Get in touch today!
-        </a>
+        <div className="buttons has-addons is-centered">
+          <a
+            onClick={() => this.props._toggleModal('Snow Tab')}
+            className="button is-danger is-medium tab-button"
+          >
+            Get in touch today!
+          </a>
+        </div>
       </section>
     );
   }

@@ -3,7 +3,7 @@ import * as React from 'react';
 class Golfing extends React.Component {
   render() {
     return (
-      <section className="section is-flex is-column">
+      <section id="golfing" className="section is-flex is-column">
         <h3 className="tab-heading">World Class Golf</h3>
         <img
           alt="Man golfing"
@@ -78,12 +78,14 @@ class Golfing extends React.Component {
           There are mens’ and womens’ leagues available as well as youth
           lessons.
         </p>
-        <a
-          onClick={() => this.props._toggleModal('Golfing Tab')}
-          className="button is-danger is-medium tab-button"
-        >
-          Get in touch today!
-        </a>
+        <div className="buttons has-addons is-centered">
+          <a
+            onClick={() => this.props._toggleModal('Golfing Tab')}
+            className="button is-danger is-medium tab-button"
+          >
+            Get in touch today!
+          </a>
+        </div>
       </section>
     );
   }

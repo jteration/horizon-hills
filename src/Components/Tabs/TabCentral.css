@@ -27,7 +27,7 @@
   text-align: center;
 }
 
-.tab-main-heading {
+.tab-main-heading.tab-main-heading {
   font-size: 5em !important;
   margin-bottom: 0 !important;
 }
@@ -64,7 +64,7 @@
 }
 
 .tabs li.is-active a {
-  color: #881900 !important;
+  color: #69995d !important;
 }
 
 .tabs.is-boxed li.is-active a {
@@ -98,7 +98,7 @@
     text-align: center;
   }
 
-  .tab-main-heading {
+  .tab-main-heading.tab-main-heading {
     font-size: 4em !important;
     margin-bottom: 0 !important;
   }
@@ -111,7 +111,7 @@
     text-align: center;
   }
 
-  .tab-main-heading {
+  .tab-main-heading.tab-main-heading {
     font-size: 3.5em !important;
     margin-bottom: 0 !important;
   }
@@ -124,7 +124,7 @@
     text-align: center;
   }
 
-  .tab-main-heading {
+  .tab-main-heading.tab-main-heading {
     font-size: 3em !important;
     margin-bottom: 0 !important;
   }

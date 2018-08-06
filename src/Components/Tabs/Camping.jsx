@@ -3,7 +3,7 @@ import * as React from 'react';
 class Camping extends React.Component {
   render() {
     return (
-      <section className="section is-flex is-column">
+      <section id="camping" className="section is-flex is-column">
         <h3 className="tab-heading">Camping</h3>
         <img
           alt="Estes Park"
@@ -63,12 +63,14 @@ class Camping extends React.Component {
           Permits are required and the campground supports both tent and RV
           camping. There are cabins available as well.{' '}
         </p>
-        <a
-          onClick={() => this.props._toggleModal('Camping Tab')}
-          className="button is-danger is-medium tab-button"
-        >
-          Get in touch today!
-        </a>
+        <div className="buttons has-addons is-centered">
+          <a
+            onClick={() => this.props._toggleModal('Camping Tab')}
+            className="button is-danger is-medium tab-button"
+          >
+            Get in touch today!
+          </a>
+        </div>
       </section>
     );
   }

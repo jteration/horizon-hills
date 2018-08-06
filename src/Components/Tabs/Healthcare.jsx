@@ -3,7 +3,7 @@ import * as React from 'react';
 class Healthcare extends React.Component {
   render() {
     return (
-      <section className="section is-flex is-column">
+      <section id="healthcare" className="section is-flex is-column">
         <h3 className="tab-heading">Top Tier Healthcare</h3>
         <img
           alt="Man surgerying"
@@ -53,12 +53,14 @@ class Healthcare extends React.Component {
           medical imaging. Dermatology, endocrinology, and pain management
           services are also available at this Kaiser office.{' '}
         </p>
-        <a
-          onClick={() => this.props._toggleModal('Healthcare Tab')}
-          className="button is-danger is-medium tab-button"
-        >
-          Get in touch today!
-        </a>
+        <div className="buttons has-addons is-centered">
+          <a
+            onClick={() => this.props._toggleModal('Healthcare Tab')}
+            className="button is-danger is-medium tab-button"
+          >
+            Get in touch today!
+          </a>
+        </div>
       </section>
     );
   }

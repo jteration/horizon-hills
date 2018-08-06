@@ -8,10 +8,10 @@ class About extends React.Component {
         <div className="container">
           <div className="columns">
             <div className="column is-8 is-offset-2 content">
-              <h2 id="about-title" className="has-text-centered">
+              <h1 id="about-title" className="has-text-centered">
                 <span className="text1 shadow1">Introducing</span>{' '}
                 <span className="text2 shadow2">Horizon Hills</span>
-              </h2>
+              </h1>
               <hr className="green-rule" />
               <p className="about-paragraph has-text-justified">
                 Horizon Hills is a 55+ active adult community in Campion,

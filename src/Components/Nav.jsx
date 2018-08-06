@@ -85,37 +85,138 @@ class Nav extends React.Component {
           </div>
           <div className={this.state.menuClass}>
             <div className="navbar-end is-centered-mobile">
-              <Link
-                onClick={() => this._handleNavClick('About')}
-                to="/#about"
-                className="navbar-item"
-              >
-                About
-              </Link>
-              <hr className="is-hidden-desktop thin-hr" />
-              <Link
-                onClick={() => this._handleNavClick('Buy')}
-                to="/#buy"
-                className="navbar-item"
-              >
-                Buy
-              </Link>
-              <hr className="is-hidden-desktop thin-hr" />
-              <Link
-                onClick={() => this._handleNavClick('Campion')}
-                to="/#features"
-                className="navbar-item"
-              >
-                Campion
-              </Link>
-              <hr className="is-hidden-desktop thin-hr" />
-              <div className="navbar-item">
-                <a
-                  onClick={() => this.props._toggleModal('Nav Bar')}
-                  className="button is-danger"
-                >
-                  Contact
-                </a>
+              <div className="navbar-columns columns is-columns-touch">
+                <div className="navbar-first-column column columns">
+                  <div className="column is-row-desktop">
+                    <Link
+                      onClick={() => this._handleNavClick('About')}
+                      to="/#about"
+                      className="navbar-item"
+                    >
+                      About
+                    </Link>
+                    <hr className="is-hidden-desktop thin-hr" />
+                    <Link
+                      onClick={() => this._handleNavClick('Buy')}
+                      to="/#buy"
+                      className="navbar-item"
+                    >
+                      Buy
+                    </Link>
+                    <hr className="is-hidden-desktop thin-hr" />
+                    <Link
+                      onClick={() => this._handleNavClick('Homes')}
+                      to="/#homes"
+                      className="navbar-item"
+                    >
+                      Homes
+                    </Link>
+                    <hr className="is-hidden-desktop thin-hr" />
+                    <Link
+                      onClick={() => this._handleNavClick('Campion')}
+                      to="/#features"
+                      className="navbar-item is-hidden-touch"
+                    >
+                      Campion
+                    </Link>
+                  </div>
+                  <div className="column is-hidden-desktop">
+                    <Link
+                      onClick={() => this._handleNavClick('Hunting')}
+                      to="/#hunting"
+                      className="navbar-item is-hidden-desktop"
+                    >
+                      Hunting
+                    </Link>
+                    <hr className="is-hidden-desktop thin-hr" />
+                    <Link
+                      onClick={() => this._handleNavClick('Snow')}
+                      to="/#snow"
+                      className="navbar-item is-hidden-desktop"
+                    >
+                      Snow
+                    </Link>
+                    <hr className="is-hidden-desktop thin-hr" />
+                    <Link
+                      onClick={() => this._handleNavClick('Water')}
+                      to="/#water"
+                      className="navbar-item is-hidden-desktop"
+                    >
+                      Water
+                    </Link>
+                    <hr className="is-hidden-desktop thin-hr" />
+                    <Link
+                      onClick={() => this._handleNavClick('Golfing')}
+                      to="/#golfing"
+                      className="navbar-item is-hidden-desktop"
+                    >
+                      Golfing
+                    </Link>
+                    <hr className="is-hidden-desktop thin-hr" />
+                  </div>
+                </div>
+                <div className="column more-padding columns">
+                  <div className="column is-hidden-desktop">
+                    <Link
+                      onClick={() => this._handleNavClick('Hiking')}
+                      to="/#hiking"
+                      className="navbar-item is-hidden-desktop"
+                    >
+                      Hiking
+                    </Link>
+                    <hr className="is-hidden-desktop thin-hr" />
+                    <Link
+                      onClick={() => this._handleNavClick('Biking')}
+                      to="/#biking"
+                      className="navbar-item is-hidden-desktop"
+                    >
+                      Biking
+                    </Link>
+                    <hr className="is-hidden-desktop thin-hr" />
+                    <Link
+                      onClick={() => this._handleNavClick('Camping')}
+                      to="/#camping"
+                      className="navbar-item is-hidden-desktop"
+                    >
+                      Camping
+                    </Link>
+                    <hr className="is-hidden-desktop thin-hr" />
+                    <Link
+                      onClick={() => this._handleNavClick('Healthcare')}
+                      to="/#healthcare"
+                      className="navbar-item is-hidden-desktop"
+                    >
+                      Healthcare
+                    </Link>
+                    <hr className="is-hidden-desktop thin-hr" />
+                  </div>
+                  <div className="column">
+                    <Link
+                      onClick={() => this._handleNavClick('Other')}
+                      to="/#other"
+                      className="navbar-item is-hidden-desktop"
+                    >
+                      Other
+                    </Link>
+                    <hr className="is-hidden-desktop thin-hr" />
+                    <Link
+                      onClick={() => this._handleNavClick('Restrictions')}
+                      to="/#restrictions"
+                      className="navbar-item is-hidden-desktop"
+                    >
+                      Restrictions
+                    </Link>
+                    <hr className="is-hidden-desktop thin-hr" />
+                    <div className="navbar-item">
+                      <a
+                        onClick={() => this.props._toggleModal('Nav Bar')}
+                        className="button is-danger"
+                      >
+                        Contact
+                      </a>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

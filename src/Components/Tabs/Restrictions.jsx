@@ -3,7 +3,7 @@ import * as React from 'react';
 class Restrictions extends React.Component {
   render() {
     return (
-      <section className="section is-flex is-column">
+      <section id="restrictions" className="section is-flex is-column">
         <h2 className="tab-heading">
           Horizon Hills Community Rules and Restrictions
         </h2>
@@ -44,12 +44,14 @@ class Restrictions extends React.Component {
           <li>Small satellite dishes are permitted.</li>
           <li>NO RENTERS ALLOWED - Owner Occupied Only.</li>
         </ul>
-        <a
-          onClick={() => this.props._toggleModal('Restrictions Tab')}
-          className="button is-danger is-medium tab-button"
-        >
-          Get in touch today!
-        </a>
+        <div className="buttons has-addons is-centered">
+          <a
+            onClick={() => this.props._toggleModal('Restrictions Tab')}
+            className="button is-danger is-medium tab-button"
+          >
+            Get in touch today!
+          </a>
+        </div>
       </section>
     );
   }

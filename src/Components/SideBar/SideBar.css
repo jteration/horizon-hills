@@ -11,12 +11,12 @@
 }
 
 .card-header-title {
-  color: #eee !important;
+  color: #1a1a1a !important;
 }
 
 .padded-span {
   padding-left: 5px;
-  color: #eee !important;
+  color: #1a1a1a !important;
 }
 
 .portrait {
@@ -35,7 +35,7 @@
 }
 
 .card-header {
-  background-color: #222 !important;
+  background-color: rgba(105, 153, 93, 0.9) !important;
 }
 
 .fact-answer {

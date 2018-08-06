@@ -3,25 +3,28 @@ html {
 }
 
 html > body {
-  font-size: 1.05rem;
+  font-size: 1.1rem;
   font-weight: 600;
   line-height: 1.55;
   font-family: 'gotham';
 }
 
 main {
-  background-image: url('/img/full-bloom.png');
+  background-image: url('/img/weave.png');
 }
 
 .main-content-wrap-wrap {
   /* padding: 3em 0; */
-  background-color: #001aff10;
+  background-color: #ffffff99;
+  /* background-color: #c7d8c640; */
 }
 
 .main-content-wrap {
   /* margin-top: 3em !important; */
-  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.1), 0 10px 10px rgba(0, 0, 0, 0.09);
-  background-color: #f8f8f8;
+  /* margin-bottom: 3em; */
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.05), 0 10px 10px rgba(0, 0, 0, 0.04);
+  background-color: #fefefe;
+  /* background-color: #a9b7c0; */
 }
 
 .green-rule {

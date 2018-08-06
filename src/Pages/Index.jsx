@@ -45,17 +45,17 @@ class Index extends Component {
         <main>
           <About />
           <div className="main-content-wrap-wrap">
-            <div className="container main-content-wrap">
-              <section className="section">
-                <div className="main-content columns">
-                  <div className="column">
-                    <Sales _toggleModal={this._toggleModal} />
-                  </div>
-                  <div className="side-column column is-4">
-                    <SideBar _toggleModal={this._toggleModal} />
-                  </div>
+            <section className="section">
+              <div className="main-content columns">
+                <div className="column">
+                  <Sales _toggleModal={this._toggleModal} />
                 </div>
-              </section>
+                <div className="side-column column is-4">
+                  <SideBar _toggleModal={this._toggleModal} />
+                </div>
+              </div>
+            </section>
+            <div className="container main-content-wrap">
               <HomeGallery />
               <TabCentral _toggleModal={this._toggleModal} />
             </div>

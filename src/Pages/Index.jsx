@@ -4,6 +4,7 @@ import Nav from '../Components/Nav';
 import Hero from '../Components/Hero';
 import About from '../Components/About';
 import Sales from '../Components/Sales';
+import Map from '../Components/Map';
 import HomeGallery from '../Components/HomeGallery/HomeGallery';
 import TabCentral from '../Components/Tabs/TabCentral';
 import SideBar from '../Components/SideBar/SideBar';
@@ -46,15 +47,18 @@ class Index extends Component {
           <About />
           <div className="main-content-wrap-wrap">
             <section className="section">
-              <div className="main-content columns">
-                <div className="column">
-                  <Sales _toggleModal={this._toggleModal} />
-                </div>
-                <div className="side-column column is-4">
-                  <SideBar _toggleModal={this._toggleModal} />
+              <div className="container">
+                <div className="main-content columns">
+                  <div className="column">
+                    <Sales _toggleModal={this._toggleModal} />
+                  </div>
+                  <div className="side-column column is-4">
+                    <SideBar _toggleModal={this._toggleModal} />
+                  </div>
                 </div>
               </div>
             </section>
+            <Map />
             <div className="container main-content-wrap">
               <HomeGallery />
               <TabCentral _toggleModal={this._toggleModal} />
@@ -66,7 +70,7 @@ class Index extends Component {
           _toggleModal={this._toggleModal}
           modalClass={this.state.modalClass}
         />
-        {/* <Password /> */}
+        <Password />
       </React.Fragment>
     );
   }

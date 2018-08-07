@@ -13,7 +13,6 @@
 
 .shadow1 {
   color: #fff;
-  /* font-family: Arvo; */
   font-weight: bold;
   text-shadow: -2px -2px 0 #222, 2px -2px 0 #222, -2px 2px 0 #222,
     2px 2px 0 #222, 1px 1px 0 #fff, 2px 2px 0 #fff, 3px 3px 0 #fff;
@@ -28,7 +27,6 @@
 
 .shadow2 {
   color: #fff;
-  /* font-family: Arvo; */
   font-family: 'mod';
   font-weight: 600;
   text-shadow: -3px -3px 0 #222, 3px -3px 0 #222, -3px 3px 0 #222,
@@ -57,29 +55,29 @@
 }
 
 @media screen and (max-width: 1280px) {
-  #about-title {
-    font-size: 4.8rem !important;
+  #about-title#about-title {
+    font-size: 4.8rem;
   }
 }
 
 @media screen and (max-width: 930px) {
-  #about-title {
-    font-size: 4.5rem !important;
+  #about-title#about-title {
+    font-size: 4.5rem;
   }
 }
 
 @media screen and (max-width: 768px) {
-  #about-title > .text2 {
-    font-size: 7.5rem !important;
+  #about-title > .text2.text2 {
+    font-size: 7.5rem;
   }
-  #about {
-    padding-top: 1.5rem !important;
+  #about#about {
+    padding-top: 1.5rem;
   }
 }
 
 @media screen and (max-width: 530px) {
-  #about-title > .text2 {
-    font-size: 4.9rem !important;
+  #about-title > .text2.text2 {
+    font-size: 4.9rem;
   }
 }
 
@@ -87,14 +85,14 @@
   .text1 {
     font-size: 35px;
   }
-  #about-title > .text2 {
-    font-size: 80px !important;
+  #about-title > .text2.text2 {
+    font-size: 80px;
   }
 }
 
-section.about {
-  padding-top: 4rem !important;
-  padding-bottom: 4rem !important;
+section.about.about {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
   background-image: url('/img/lozenge3.png');
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.12);
 }

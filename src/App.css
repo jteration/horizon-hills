@@ -13,45 +13,30 @@ main {
   background-image: url('/img/crossword.png');
 }
 
-.main-content-wrap-wrap {
-  /* padding: 3em 0; */
-  /* background-color: #d5c98f60; */
-  /* background-color: #69995d; */
-}
-
-.main-content-wrap {
-  margin-top: 1em !important;
-  /* margin-bottom: 3em; */
-  /* box-shadow: 0 7px 14px rgba(0, 0, 0, 0.05), 0 5px 5px rgba(0, 0, 0, 0.04);
-  background-color: #f8f8f8; */
-  /* background-color: #a9b7c0; */
-}
-
 .box.box {
   background-color: #f8f8f8;
-}
-
-#features {
-  /* padding-top: 0; */
-  /* background-color: #69995d50; */
 }
 
 .green-rule {
   background-color: #69995d;
 }
 
+.side-column {
+  min-width: 450px;
+}
+
 .content h1 {
   font-family: 'gotham-bold';
 }
 
-.content h2 {
-  font-size: 2.8em !important;
-  text-align: center !important;
+.content.content h2 {
+  font-size: 2.8em;
+  text-align: center;
   font-family: 'gotham-bold';
 }
 
 .content h3 {
-  font-size: 1.6em !important;
+  font-size: 1.6em;
   font-family: 'gotham-bold';
 }
 
@@ -64,35 +49,38 @@ a.button {
   transition: all 0.2s ease-out;
 }
 
-a.is-danger {
-  background-color: #a01919 !important;
+a.is-danger.is-danger {
+  background-color: #a01919;
 }
 
-a.is-danger:hover {
-  background-color: #ff0202 !important;
+a.is-danger.is-danger:hover {
+  background-color: #ff0202;
 }
 
-.colored > .container > .navbar-menu > .navbar-end > a.navbar-item:hover {
-  background-color: rgb(170, 170, 170) !important;
+.colored
+  > .container
+  > .navbar-menu
+  > .navbar-end
+  > a.navbar-item.navbar-item:hover {
+  background-color: rgb(170, 170, 170);
   color: #3273dc;
 }
 
-.privacy-section {
+.privacy-section.privacy-section {
   min-height: calc(100vh - 181px);
   background-color: #fefefe;
-  padding-top: 6rem !important;
+  padding-top: 6rem;
 }
 
 @media screen and (max-width: 768px) {
-  .columns {
-    margin: 0 !important;
+  .columns.columns {
+    margin: 0;
   }
   section.section {
     padding: 3rem 0.5rem;
   }
-
-  .content p {
-    text-align: justify !important;
+  .content.content p {
+    text-align: justify;
   }
 }
 

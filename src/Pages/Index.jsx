@@ -45,38 +45,36 @@ class Index extends Component {
         <Hero />
         <main>
           <About />
-          <div className="main-content-wrap-wrap">
-            <section className="section">
-              <div className="container">
-                <div className="main-content columns">
-                  <div className="column">
-                    <Sales _toggleModal={this._toggleModal} />
-                  </div>
-                  <div className="side-column column is-4">
-                    <SideBar _toggleModal={this._toggleModal} />
-                  </div>
+          <section className="section">
+            <div className="container">
+              <div className="main-content columns">
+                <div className="column">
+                  <Sales _toggleModal={this._toggleModal} />
+                </div>
+                <div className="side-column column is-4">
+                  <SideBar _toggleModal={this._toggleModal} />
                 </div>
               </div>
-            </section>
-            <section className="section map-gallery-section">
-              <div className="container map-gallery-wrap box">
-                <Map />
-                <HomeGallery />
-              </div>
-            </section>
-            <section id="features" className="section">
-              <div className="container main-content-wrap">
-                <TabCentral _toggleModal={this._toggleModal} />
-              </div>
-            </section>
-          </div>
+            </div>
+          </section>
+          <section className="section map-gallery-section">
+            <div className="container map-gallery-wrap box">
+              <Map />
+              <HomeGallery />
+            </div>
+          </section>
+          <section id="features" className="section">
+            <div className="container">
+              <TabCentral _toggleModal={this._toggleModal} />
+            </div>
+          </section>
         </main>
         <Footer />
         <Contact
           _toggleModal={this._toggleModal}
           modalClass={this.state.modalClass}
         />
-        <Password />
+        {/* <Password /> */}
       </React.Fragment>
     );
   }

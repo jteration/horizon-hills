@@ -10,9 +10,9 @@ section.gallery-section > .container {
   /* box-shadow: 0 3px 6px rgba(0, 0, 0, 0.08), 0 3px 6px rgba(0, 0, 0, 0.12); */
 }
 
-.map-gallery-wrap {
-  border-radius: 2px !important;
-  box-shadow: 0 7px 14px rgba(0, 0, 0, 0.05), 0 5px 5px rgba(0, 0, 0, 0.04) !important;
+.map-gallery-wrap.map-gallery-wrap {
+  border-radius: 2px;
+  box-shadow: 0 7px 14px rgba(0, 0, 0, 0.05), 0 5px 5px rgba(0, 0, 0, 0.04);
 }
 
 .map-gallery-section {

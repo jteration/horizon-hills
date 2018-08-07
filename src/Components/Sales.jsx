@@ -11,6 +11,7 @@ class Sales extends React.Component {
             <h2 id="purchase" className="sales-h2">
               Purchase a Custom Home in Campion Today
             </h2>
+            <hr className="green-rule sales-rule" />
             <p>
               Groundbreaking for this development is scheduled for August 2018.
               Upon completion, Horizon Hills will be the site of more than 250
@@ -23,7 +24,11 @@ class Sales extends React.Component {
             <p>
               Lots are filling up quickly. If you are interested in securing one
               for yourself, reach out to Jess Rodriguez by phone at
-              (###)-###-####, by email at ???@???.??? or by filling out this{' '}
+              (###)-###-####, by email at{' '}
+              <a href="mailto:contact@horizonhillscampionco.com">
+                contact@horizonhillscampionco.com
+              </a>{' '}
+              or by filling out this{' '}
               <a onClick={() => _toggleModal()}>
                 <strong>Contact Us</strong>
               </a>{' '}

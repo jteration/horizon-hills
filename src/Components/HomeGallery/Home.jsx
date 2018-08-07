@@ -12,7 +12,7 @@ class Home extends React.Component {
     return (
       <React.Fragment>
         <h2>Example Homes</h2>
-        <hr className="green-rule" />
+        <hr className="green-rule homes-rule" />
         <p className="home-description has-text-justified">{description}</p>
         <div className="home-img-container">
           <div onClick={() => _handleArrowClick('left')} className="left-arrow">

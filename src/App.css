@@ -22,8 +22,8 @@ main {
 .main-content-wrap {
   margin-top: 1em !important;
   /* margin-bottom: 3em; */
-  box-shadow: 0 7px 14px rgba(0, 0, 0, 0.05), 0 5px 5px rgba(0, 0, 0, 0.04);
-  background-color: #f8f8f8;
+  /* box-shadow: 0 7px 14px rgba(0, 0, 0, 0.05), 0 5px 5px rgba(0, 0, 0, 0.04);
+  background-color: #f8f8f8; */
   /* background-color: #a9b7c0; */
 }
 

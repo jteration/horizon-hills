@@ -30,11 +30,8 @@ section.gallery-section > .container {
   min-height: 6rem;
 }
 
-.home-img-container {
-  display: flex;
-  align-items: center;
-  margin-top: 1em;
-  user-select: none;
+.slide-container {
+  margin: 0 2rem;
 }
 
 .home-info-container {
@@ -43,20 +40,6 @@ section.gallery-section > .container {
   margin-bottom: 3rem;
   margin-left: 3.4em;
   user-select: none;
-}
-
-.img-container {
-  width: 100%;
-}
-
-.right-arrow:hover {
-  cursor: pointer;
-  color: black;
-}
-
-.left-arrow:hover {
-  cursor: pointer;
-  color: black;
 }
 
 .homes-rule {

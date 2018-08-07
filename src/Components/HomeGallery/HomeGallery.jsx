@@ -1,5 +1,5 @@
 import * as React from 'react';
-import Home from './Home';
+import { Slide, Fade } from 'react-slideshow-image';
 import './HomeGallery.css';
 
 const homeArr = [
@@ -53,50 +53,47 @@ const homeArr = [
   },
 ];
 
+const imgs = [
+  homeArr[0].img.src,
+  homeArr[1].img.src,
+  homeArr[2].img.src,
+  homeArr[3].img.src,
+];
+
 class HomeGallery extends React.Component {
-  state = {
-    activeHome: 0,
-    autoScroll: null,
-  };
-  componentDidMount() {
-    this.setState({
-      autoScroll: setInterval(() => {
-        if (this.state.activeHome === homeArr.length - 1) {
-          this.setState({ activeHome: 0 });
-        } else {
-          const oldHome = this.state.activeHome;
-          const newHome = oldHome + 1;
-          this.setState({ activeHome: newHome });
-        }
-      }, 2500),
-    });
-  }
-  _handleArrowClick = (direction) => {
-    clearInterval(this.state.autoScroll);
-    if (direction === 'left' && this.state.activeHome !== 0) {
-      const currentHome = this.state.activeHome;
-      const newHome = currentHome - 1;
-      this.setState({ activeHome: newHome });
-    }
-    if (direction === 'right' && this.state.activeHome !== homeArr.length - 1) {
-      const currentHome = this.state.activeHome;
-      const newHome = currentHome + 1;
-      this.setState({ activeHome: newHome });
-    }
-  };
-  _renderHomes = () => {
-    return (
-      <Home
-        _handleArrowClick={this._handleArrowClick}
-        home={homeArr[this.state.activeHome]}
-      />
-    );
-  };
   render() {
     return (
       <div className="columns">
         <div className="home-container column is-8 is-offset-2 content">
-          {this._renderHomes()}
+          <h2 className="homes-header">Example Homes</h2>
+          <p className="has-text-justified">
+            All of the homes in Horizon Hills will be pre-manufactured from
+            Champion Homes, with several different options available based on
+            your taste and needs. Select a larger layout with an extra bedroom,
+            or drop the extra bedroom in favor of a larger Master Bedroom,
+            Dining Room, and Living Room.
+          </p>
+          <p className="has-text-justified">
+            Every home will be move-in ready when it's ready for your arrival. A
+            gas range, 18-cubic-foot refrigerator, and wood cabinets highlight
+            our beautiful kitchens, and a 60 inch bathtub in every Master
+            Bathroom will draw out your stress and leave you as relaxed as you
+            deserve.
+          </p>
+          <div className="slide-container">
+            <Slide images={imgs} duration={5000} transitionDuration={1000} />
+          </div>
+          <p className="has-text-centered">
+            More information on individual units is available by request.
+          </p>
+          <div className="buttons is-centered">
+            <a
+              onClick={() => this.props._toggleModal('Home Gallery')}
+              className="button is-danger is-medium"
+            >
+              Request Info
+            </a>
+          </div>
         </div>
       </div>
     );

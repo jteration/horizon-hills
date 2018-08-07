@@ -22,7 +22,7 @@ class Index extends Component {
   }
   _toggleModal = (button) => {
     if (this.state.modalClass === 'modal contact-modal') {
-      ReactGA.modalview('/');
+      ReactGA.modalview('Contact');
       ReactGA.event({
         category: 'Modal',
         action: 'Opened contact modal',

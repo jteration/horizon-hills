@@ -57,5 +57,6 @@ section.gallery-section > .container {
 }
 
 .homes-rule {
-  margin: 1.5rem 3.5rem;
+  width: 55%;
+  margin: 1.5rem auto;
 }

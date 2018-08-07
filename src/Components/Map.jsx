@@ -7,6 +7,7 @@ class Map extends React.Component {
       <React.Fragment>
         <div className="content">
           <h2>Campion, Colorado</h2>
+          <hr className="green-rule maps-rule" />
         </div>
         <div className="columns is-centered is-hidden-tablet">
           <div className="column map-column-mobile">
@@ -15,7 +16,7 @@ class Map extends React.Component {
               width="300"
               height="400"
               id="gmap_canvas"
-              src="https://maps.google.com/maps?q=Campion%2C%20Colorado&t=&z=13&ie=UTF8&iwloc=&output=embed"
+              src="https://www.google.com/maps/d/u/0/embed?mid=1zdnHmRLv40oWoVTIaQh90Ej6SjBVSwFW"
               frameBorder="0"
               scrolling="no"
               marginHeight="0"
@@ -30,7 +31,7 @@ class Map extends React.Component {
               width="600"
               height="500"
               id="gmap_canvas"
-              src="https://maps.google.com/maps?q=Campion%2C%20Colorado&t=&z=13&ie=UTF8&iwloc=&output=embed"
+              src="https://www.google.com/maps/d/u/0/embed?mid=1zdnHmRLv40oWoVTIaQh90Ej6SjBVSwFW"
               frameBorder="0"
               scrolling="no"
               marginHeight="0"

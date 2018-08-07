@@ -33,7 +33,7 @@ class Contact extends React.Component {
               </div>
             </div>
             <div className="card-content content">
-              <img src="/img/logo2.png" />
+              <img src="/img/logo2.png" alt="Horizon Hills Logo" />
               <hr />
               <h2>Contact Horizon Hills</h2>
               <p className="has-text-centered">

@@ -3,6 +3,11 @@
   margin: 0 auto;
 }
 
+.maps-rule {
+  width: 43%;
+  margin: 1.5rem auto;
+}
+
 #map {
   /* padding-top: 0; */
   background-color: #d5c98f;

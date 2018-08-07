@@ -52,7 +52,7 @@
   .expert-columns {
     flex-direction: column;
   }
-  .side-column {
+  .side-column.side-column {
     min-width: 400px;
   }
 }
@@ -61,7 +61,7 @@
   .button-column {
     flex-direction: column;
   }
-  .side-column {
+  .side-column.side-column {
     min-width: 350px;
   }
 }

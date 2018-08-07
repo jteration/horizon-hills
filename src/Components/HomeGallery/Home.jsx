@@ -11,8 +11,7 @@ class Home extends React.Component {
     const img = home.img;
     return (
       <React.Fragment>
-        <h2>Example Homes</h2>
-        <hr className="green-rule homes-rule" />
+        <h2 className="homes-header">Example Homes</h2>
         <p className="home-description has-text-justified">{description}</p>
         <div className="home-img-container">
           <div onClick={() => _handleArrowClick('left')} className="left-arrow">

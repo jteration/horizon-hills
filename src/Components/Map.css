@@ -1,5 +1,14 @@
+.location-header.location-header.location-header {
+  padding-top: 3rem;
+  font-size: 5rem;
+}
+
+.location-sub-header.location-sub-header {
+  font-size: 3rem;
+}
+
 .map-column-mobile {
-  width: 300px;
+  width: 324px;
   margin: 0 auto;
 }
 
@@ -8,7 +17,6 @@
   margin: 1.5rem auto;
 }
 
-#map {
-  /* padding-top: 0; */
-  background-color: #d5c98f;
+iframe {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08), 0 2px 4px rgba(0, 0, 0, 0.12);
 }

@@ -58,7 +58,7 @@ class Index extends Component {
             </div>
           </section>
           <section className="section map-gallery-section">
-            <div className="container map-gallery-wrap box">
+            <div id="map" className="container map-gallery-wrap box">
               <Map />
               <HomeGallery />
             </div>

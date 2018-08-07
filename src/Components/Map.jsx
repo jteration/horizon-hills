@@ -5,9 +5,10 @@ class Map extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <div className="content">
-          <h2>Campion, Colorado</h2>
+        <div className="content has-text-centered">
+          <h2 className="location-header">Your Future Home</h2>
           <hr className="green-rule maps-rule" />
+          <h3 className="location-sub-header">Campion, Colorado</h3>
         </div>
         <div className="columns is-centered is-hidden-tablet">
           <div className="column map-column-mobile">

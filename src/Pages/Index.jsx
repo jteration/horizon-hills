@@ -15,10 +15,28 @@ import Password from '../Components/Password';
 class Index extends Component {
   state = {
     modalClass: 'modal contact-modal',
+    videoInt: null,
   };
   componentWillMount() {
     ReactGA.initialize('UA-121443947-1');
     ReactGA.pageview(window.location.pathname + window.location.search);
+    this.setState({
+      videoInt: setInterval(() => {
+        const video = document.querySelector('video');
+        if (window.scrollY + 100 >= window.innerHeight) {
+          if (!video.paused) {
+            video.pause();
+          }
+        } else {
+          if (video.paused) {
+            video.play();
+          }
+        }
+      }, 500),
+    });
+  }
+  componentWillUnmount() {
+    clearInterval(this.state.videoInt);
   }
   _toggleModal = (button) => {
     if (this.state.modalClass === 'modal contact-modal') {
@@ -74,7 +92,7 @@ class Index extends Component {
           _toggleModal={this._toggleModal}
           modalClass={this.state.modalClass}
         />
-        <Password />
+        {/* <Password /> */}
       </React.Fragment>
     );
   }

@@ -17,6 +17,16 @@
   margin: 1.5rem auto;
 }
 
+.map-container {
+  height: 500px;
+  width: 100%;
+  margin-bottom: -50px;
+  display: inline-block;
+  overflow: hidden;
+}
+
 iframe {
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08), 0 2px 4px rgba(0, 0, 0, 0.12);
+  position: relative;
+  top: -50px;
+  border: none;
 }

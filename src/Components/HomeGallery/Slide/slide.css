@@ -6,6 +6,7 @@
 .react-slideshow-wrapper .images-wrap {
   display: flex;
   flex-wrap: wrap;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1) !important;
 }
 
 .react-slideshow-wrapper .images-wrap div img {

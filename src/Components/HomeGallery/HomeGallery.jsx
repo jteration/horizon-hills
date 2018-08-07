@@ -84,7 +84,7 @@ class HomeGallery extends React.Component {
             <Slideshow
               images={imgs}
               duration={5000}
-              transitionDuration={1000}
+              transitionDuration={1500}
             />
           </div>
           <p className="has-text-centered">

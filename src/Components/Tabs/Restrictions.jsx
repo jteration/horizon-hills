@@ -16,7 +16,7 @@ class Restrictions extends React.Component {
         <hr />
         <ul>
           <li>
-            At least one resident for each home within Sunflower shall be age 55
+            At least one resident for each home within Horizon Hills shall be age 55
             or better.
           </li>
           <li>

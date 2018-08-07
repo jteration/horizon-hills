@@ -58,7 +58,7 @@ class Index extends Component {
             </div>
           </section>
           <section className="section map-gallery-section">
-            <div id="homes" className="container map-gallery-wrap box">
+            <div id="homes" className="container">
               <Map />
               <HomeGallery />
             </div>
@@ -74,7 +74,7 @@ class Index extends Component {
           _toggleModal={this._toggleModal}
           modalClass={this.state.modalClass}
         />
-        <Password />
+        {/* <Password /> */}
       </React.Fragment>
     );
   }

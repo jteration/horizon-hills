@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Slide, Fade } from 'react-slideshow-image';
+import Slideshow from './Slide/Slide';
 import './HomeGallery.css';
 
 const homeArr = [
@@ -81,7 +81,11 @@ class HomeGallery extends React.Component {
             deserve.
           </p>
           <div className="slide-container">
-            <Slide images={imgs} duration={5000} transitionDuration={1000} />
+            <Slideshow
+              images={imgs}
+              duration={5000}
+              transitionDuration={1000}
+            />
           </div>
           <p className="has-text-centered">
             More information on individual units is available by request.

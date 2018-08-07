@@ -41,7 +41,7 @@ class Sales extends React.Component {
               destination. Adults aged 55 and better who enjoy the great
               outdoors, privacy, and independence will find the community at
               Horizon Hills perfect for their needs. For those who love a view,
-              this is likely to be the last mobile home development that will
+              this is likely to be the last manufactured home development that will
               ever be built west of I-25 with an unobstructed view of the front
               range.
             </p>

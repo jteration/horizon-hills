@@ -15,7 +15,7 @@ class Map extends React.Component {
             <div className="map-container">
               <iframe
                 title="mobile map"
-                width="300"
+                width="320"
                 height="400"
                 id="gmap_canvas"
                 src="https://www.google.com/maps/d/u/0/embed?mid=1zdnHmRLv40oWoVTIaQh90Ej6SjBVSwFW"
@@ -28,11 +28,11 @@ class Map extends React.Component {
           </div>
         </div>
         <div className="columns is-centered is-hidden-mobile">
-          <div className="column is-narrow">
+          <div className="column box map-box is-narrow">
             <div className="map-container">
               <iframe
                 title="desktop map"
-                width="600"
+                width="750"
                 height="500"
                 id="gmap_canvas"
                 src="https://www.google.com/maps/d/u/0/embed?mid=1zdnHmRLv40oWoVTIaQh90Ej6SjBVSwFW"

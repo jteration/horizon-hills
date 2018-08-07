@@ -153,9 +153,9 @@ class Entertainment extends React.Component {
   render() {
     return (
       <div className="columns">
-        <div className="column">
+        <div className="column is-10 is-offset-1">
           <div className="columns">
-            <div className="column tab-intro content is-10 is-offset-1">
+            <div className="column tab-intro content">
               <h2 className="has-text-centered tab-main-heading">
                 Still Not Convinced?
               </h2>

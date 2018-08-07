@@ -9,7 +9,7 @@ class Sales extends React.Component {
         <div className="columns">
           <div className="column content">
             <h2 id="purchase" className="sales-h2">
-              Purchase a Manufactured Home in Campion Today
+              Purchase a Custom Home in Campion Today
             </h2>
             <p>
               Groundbreaking for this development is scheduled for August 2018.

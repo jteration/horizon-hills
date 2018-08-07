@@ -4,5 +4,6 @@
 }
 
 #map {
-  padding-top: 0;
+  /* padding-top: 0; */
+  background-color: #d5c98f;
 }

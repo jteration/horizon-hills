@@ -1,13 +1,22 @@
 section.gallery-section {
   padding-left: 0;
   padding-right: 0;
-  /* background-color: #c5c9d6; */
+  background-color: #d5c98f;
   /* background-color: #c7d8c640; */
 }
 
 section.gallery-section > .container {
   border-radius: 3px;
   /* box-shadow: 0 3px 6px rgba(0, 0, 0, 0.08), 0 3px 6px rgba(0, 0, 0, 0.12); */
+}
+
+.map-gallery-wrap {
+  border-radius: 2px !important;
+  box-shadow: 0 7px 14px rgba(0, 0, 0, 0.05), 0 5px 5px rgba(0, 0, 0, 0.04) !important;
+}
+
+.map-gallery-section {
+  background-color: #d5c98f40;
 }
 
 .home-container {

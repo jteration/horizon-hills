@@ -28,7 +28,7 @@ class SideBar extends React.Component {
                   Jess Rodriguez has been working the Colorado real estate
                   market for 800 years
                 </p>
-                <hr />
+                <hr className="green-rule" />
                 <p>
                   Call us at <a href="tel:555-555-1212">555-555-1212</a>
                 </p>

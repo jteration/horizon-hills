@@ -58,11 +58,17 @@ class Index extends Component {
                 </div>
               </div>
             </section>
-            <Map />
-            <div className="container main-content-wrap">
-              <HomeGallery />
-              <TabCentral _toggleModal={this._toggleModal} />
-            </div>
+            <section className="section map-gallery-section">
+              <div className="container map-gallery-wrap box">
+                <Map />
+                <HomeGallery />
+              </div>
+            </section>
+            <section id="features" className="section">
+              <div className="container main-content-wrap">
+                <TabCentral _toggleModal={this._toggleModal} />
+              </div>
+            </section>
           </div>
         </main>
         <Footer />
@@ -70,7 +76,7 @@ class Index extends Component {
           _toggleModal={this._toggleModal}
           modalClass={this.state.modalClass}
         />
-        <Password />
+        {/* <Password /> */}
       </React.Fragment>
     );
   }

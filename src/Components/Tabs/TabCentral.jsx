@@ -152,36 +152,34 @@ class Entertainment extends React.Component {
   };
   render() {
     return (
-      <section id="features" className="section">
-        <div className="columns">
-          <div className="column">
-            <div className="columns">
-              <div className="column tab-intro content is-10 is-offset-1">
-                <h2 className="has-text-centered tab-main-heading">
-                  Still Not Convinced?
-                </h2>
-                <hr className="green-rule" />
-                <p className="tab-main-paragraph">
-                  There are no shortage of activities in the areas surrounding
-                  Horizon Hills. The Rocky Mountains are practically in our
-                  backyard. If you’re looking for biking, hiking, camping,
-                  hunting, water sports, skiing or snowboarding, you’re in the
-                  right place.
-                </p>
-              </div>
-            </div>
-            <div className="tabs is-boxed is-medium is-centered is-hidden-mobile">
-              {this._renderTabs(tabs)}
-            </div>
-            <div className="content is-hidden-mobile tab-info-section">
-              {this._renderActiveContent(this.state.activeTab)}
-            </div>
-            <div className="content is-hidden-tablet tab-info-section">
-              {this._renderActiveContent('all')}
+      <div className="columns">
+        <div className="column">
+          <div className="columns">
+            <div className="column tab-intro content is-10 is-offset-1">
+              <h2 className="has-text-centered tab-main-heading">
+                Still Not Convinced?
+              </h2>
+              <hr className="green-rule" />
+              <p className="tab-main-paragraph">
+                There are no shortage of activities in the areas surrounding
+                Horizon Hills. The Rocky Mountains are practically in our
+                backyard. If you’re looking for biking, hiking, camping,
+                hunting, water sports, skiing or snowboarding, you’re in the
+                right place.
+              </p>
             </div>
           </div>
+          <div className="tabs is-boxed is-medium is-centered is-hidden-mobile">
+            {this._renderTabs(tabs)}
+          </div>
+          <div className="content is-hidden-mobile tab-info-section">
+            {this._renderActiveContent(this.state.activeTab)}
+          </div>
+          <div className="content is-hidden-tablet tab-info-section">
+            {this._renderActiveContent('all')}
+          </div>
         </div>
-      </section>
+      </div>
     );
   }
 }

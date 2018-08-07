@@ -56,8 +56,23 @@ const homeArr = [
 class HomeGallery extends React.Component {
   state = {
     activeHome: 0,
+    autoScroll: null,
   };
+  componentDidMount() {
+    this.setState({
+      autoScroll: setInterval(() => {
+        if (this.state.activeHome === homeArr.length - 1) {
+          this.setState({ activeHome: 0 });
+        } else {
+          const oldHome = this.state.activeHome;
+          const newHome = oldHome + 1;
+          this.setState({ activeHome: newHome });
+        }
+      }, 2500),
+    });
+  }
   _handleArrowClick = (direction) => {
+    clearInterval(this.state.autoScroll);
     if (direction === 'left' && this.state.activeHome !== 0) {
       const currentHome = this.state.activeHome;
       const newHome = currentHome - 1;

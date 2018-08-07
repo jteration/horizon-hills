@@ -7,8 +7,8 @@ class Hero extends React.Component {
       <section className="hero has-bg-image is-fullheight video">
         <div className="hero-video">
           <video playsInline autoPlay muted loop>
-            <source src={`/video/hero.mp4`} type="video/mp4" />
-            <source src={`/video/hero.webm`} type="video/webm" />
+            <source src={'/video/hero.mp4'} type="video/mp4" />
+            <source src={'/video/hero.webm'} type="video/webm" />
           </video>
           <div className="hero-cover" />
         </div>

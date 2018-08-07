@@ -24,9 +24,11 @@ class SideBar extends React.Component {
                 </figure>
               </div>
               <div className="column">
-                <p>
-                  Jess Rodriguez has been working the Colorado real estate
-                  market for 800 years
+                <p className="profile-paragraph">
+                  Interested in learning more about Horizon Hills in Campion,
+                  Colorado? The Real Estate experts at Horizon Hills, with a
+                  combined 50 years of experience, will take care of your needs
+                  and get you into your home on the Front Range.
                 </p>
                 <hr />
                 <p>

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import ReactGA from 'react-ga';
 import Nav from '../Components/Nav';
+import Nav2 from '../Components/Nav2';
 import Hero from '../Components/Hero';
 import About from '../Components/About';
 import Sales from '../Components/Sales';
@@ -41,7 +42,7 @@ class Index extends Component {
   render() {
     return (
       <React.Fragment>
-        <Nav isTransparent={true} _toggleModal={this._toggleModal} />
+        <Nav2 isTransparent={true} _toggleModal={this._toggleModal} />
         <Hero />
         <main>
           <About />
@@ -58,7 +59,7 @@ class Index extends Component {
             </div>
           </section>
           <section className="section map-gallery-section">
-            <div id="map" className="container map-gallery-wrap box">
+            <div id="homes" className="container map-gallery-wrap box">
               <Map />
               <HomeGallery />
             </div>

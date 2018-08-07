@@ -18,8 +18,8 @@
   justify-content: center;
 }
 
-.tab-heading.tab-heading {
-  font-size: 4em;
+.tab-heading.tab-heading.tab-heading {
+  font-size: 3.8em;
   font-family: 'gotham-bold';
   text-align: center;
 }

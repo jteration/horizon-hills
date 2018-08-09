@@ -227,12 +227,18 @@ var Slideshow = (function(_Component) {
 
         clearTimeout(this.timeout);
         index = type === 'next' ? index + 1 : index - 1;
-        this.imageContainer.style.transition =
-          'all ' + this.props.transitionDuration / 1000 + 's';
-        this.imageContainer.style.transform =
-          'translate(-' + this.width * (index + 1) + 'px)';
+        this.imageContainer
+          ? (this.imageContainer.style.transition =
+              'all ' + this.props.transitionDuration / 1000 + 's')
+          : null;
+        this.imageContainer
+          ? (this.imageContainer.style.transform =
+              'translate(-' + this.width * (index + 1) + 'px)')
+          : null;
         setTimeout(function() {
-          _this5.imageContainer.style.transition = 'none';
+          _this5.imageContainer
+            ? (_this5.imageContainer.style.transition = 'none')
+            : null;
           _this5.setState({
             index:
               index < 0

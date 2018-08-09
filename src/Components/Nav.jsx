@@ -1,5 +1,8 @@
 import * as React from 'react';
-import { HashLink as Link } from 'react-router-hash-link';
+import {
+  HashLink as Link,
+  NavHashLink as NavLink,
+} from 'react-router-hash-link';
 import ReactGA from 'react-ga';
 import './Nav.css';
 
@@ -66,17 +69,18 @@ class Nav2 extends React.Component {
       <nav className={this.state.navClass} aria-label="main navigation">
         <div className="container">
           <div className="navbar-brand">
-            <Link
+            <NavLink
               onClick={() => this._handleNavClick('Logo')}
               to="/#"
               className="navbar-item"
             >
               <img alt="Horizon Hills Logo" src={'/img/Logo1.png'} />
               <h2 className="brand-title">
-                <span className="nav-big-letter">H</span>ORIZON{' '}
-                <span className="nav-big-letter">H</span>ILLS
+                <span className="nav-big-letter">H</span>
+                ORIZON <span className="nav-big-letter">H</span>
+                ILLS
               </h2>
-            </Link>
+            </NavLink>
             <a
               role="button"
               className={this.state.burgerClass}

@@ -23,8 +23,8 @@ class Sales extends React.Component {
             </p>
             <p>
               Lots are filling up quickly. If you are interested in securing one
-              for yourself, reach out to Jess Rodriguez by phone at
-              (###)-###-####, by email at{' '}
+              for yourself, reach out to Jess Rodriguez by phone at{' '}
+              <a href="tel:1-970-800-4166">1-970-800-4166</a>, by email at{' '}
               <a href="mailto:contact@horizonhillscampionco.com">
                 contact@horizonhillscampionco.com
               </a>{' '}
@@ -41,9 +41,9 @@ class Sales extends React.Component {
               destination. Adults aged 55 and better who enjoy the great
               outdoors, privacy, and independence will find the community at
               Horizon Hills perfect for their needs. For those who love a view,
-              this is likely to be the last manufactured home development that will
-              ever be built west of I-25 with an unobstructed view of the front
-              range.
+              this is likely to be the last manufactured home development that
+              will ever be built west of I-25 with an unobstructed view of the
+              front range.
             </p>
           </div>
         </div>

@@ -131,6 +131,15 @@ class Nav2 extends React.Component {
                   Contact
                 </a>
               </div>
+              <div className="navbar-item">
+                <a
+                  onClick={() => this._handleNavClick('Phone Number')}
+                  className="button is-danger"
+                  href="tel:1-970-800-4166"
+                >
+                  Tel: 1-970-800-4166
+                </a>
+              </div>
             </div>
             <div className="navbar-end is-hidden-tablet">
               <Link
@@ -234,6 +243,15 @@ class Nav2 extends React.Component {
                   className="button is-danger"
                 >
                   Contact
+                </a>
+              </div>
+              <div className="navbar-item">
+                <a
+                  onClick={() => this._handleNavClick('Phone Number')}
+                  className="button is-danger"
+                  href="tel:1-970-800-4166"
+                >
+                  Tel: 1-970-800-4166
                 </a>
               </div>
             </div>

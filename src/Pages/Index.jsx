@@ -92,7 +92,7 @@ class Index extends Component {
           _toggleModal={this._toggleModal}
           modalClass={this.state.modalClass}
         />
-        {/* <Password /> */}
+        <Password />
       </React.Fragment>
     );
   }

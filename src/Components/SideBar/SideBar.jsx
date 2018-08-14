@@ -24,7 +24,7 @@ class SideBar extends React.Component {
                 </figure>
               </div>
               <div className="column">
-                <p className="profile-paragraph">
+                <p className="profile-paragraph has-text-justified">
                   Interested in learning more about Horizon Hills in Campion,
                   Colorado? The Real Estate experts at Horizon Hills, with a
                   combined 50 years of experience, will take care of your needs
@@ -32,7 +32,7 @@ class SideBar extends React.Component {
                 </p>
                 <hr />
                 <p>
-                  Call us at <a href="tel:555-555-1212">555-555-1212</a>
+                  Call us at <a href="tel:1-970-800-4166">1-970-800-4166</a>
                 </p>
               </div>
             </div>

@@ -37,3 +37,9 @@ iframe {
   top: -50px;
   border: none;
 }
+
+@media screen and (max-width: 768px) {
+  .map-container {
+    height: 399px;
+  }
+}

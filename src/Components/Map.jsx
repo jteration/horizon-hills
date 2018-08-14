@@ -11,7 +11,7 @@ class Map extends React.Component {
           <h3 className="location-sub-header">Campion, Colorado</h3>
         </div>
         <div className="columns is-centered is-hidden-tablet">
-          <div className="column map-column-mobile">
+          <div className="column box map-box map-column-mobile">
             <div className="map-container">
               <iframe
                 title="mobile map"

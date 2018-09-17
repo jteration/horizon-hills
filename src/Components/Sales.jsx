@@ -13,13 +13,12 @@ class Sales extends React.Component {
             </h2>
             <hr className="green-rule sales-rule" />
             <p>
-              Groundbreaking for this development is scheduled for August 2018.
-              Upon completion, Horizon Hills will be the site of more than 250
-              single-family manufactured homes. Each 1500 sq/ft home will
-              feature a dedicated foundation with a crawl space, 3 bedrooms, 2
-              bathrooms, and an attached 2-car garage. The cost of these
-              low-maintenance homes begins at $189,000 with additional options
-              available.
+              Groundbreaking for this development is scheduled for February
+              2019. Upon completion, Horizon Hills will be the site of 269
+              single-family manufactured homes. Each home will feature a
+              dedicated foundation with a crawl space, 3 bedrooms, 2 bathrooms,
+              and an attached 2-car garage. The cost of these low-maintenance
+              homes begins at $199,000 with additional options available.
             </p>
             <p>
               Lots are filling up quickly. If you are interested in securing one
@@ -41,9 +40,9 @@ class Sales extends React.Component {
               destination. Adults aged 55 and better who enjoy the great
               outdoors, privacy, and independence will find the community at
               Horizon Hills perfect for their needs. For those who love a view,
-              this is likely to be the last manufactured home development that
-              will ever be built west of I-25 with an unobstructed view of the
-              front range.
+              this is likely to be the last manufactured home development for a
+              long time west of I-25 with an unobstructed view of the front
+              range.
             </p>
           </div>
         </div>

@@ -74,11 +74,10 @@ class HomeGallery extends React.Component {
             Dining Room, and Living Room.
           </p>
           <p className="has-text-justified">
-            Every home will be move-in ready when it's ready for your arrival. A
-            gas range, 18-cubic-foot refrigerator, and wood cabinets highlight
-            our beautiful kitchens, and a 60 inch bathtub in every Master
-            Bathroom will draw out your stress and leave you as relaxed as you
-            deserve.
+            Every home will be turnkey when it's ready for your arrival. A gas
+            range, 18-cubic-foot refrigerator, and wood cabinets highlight our
+            beautiful kitchens, and a 60 inch bathtub in the Master Bathroom
+            will draw out your stress and leave you as relaxed as you deserve.
           </p>
           <div className="slide-container">
             <Slideshow
@@ -96,6 +95,14 @@ class HomeGallery extends React.Component {
               className="button is-danger is-medium"
             >
               Request Info
+            </a>
+            <a
+              href="/Decor Brochure.pdf"
+              onClick={() => this.props._didDownload()}
+              className="button is-danger is-medium"
+              download
+            >
+              Download Brochure
             </a>
           </div>
         </div>

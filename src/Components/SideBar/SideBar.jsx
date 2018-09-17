@@ -72,7 +72,7 @@ class SideBar extends React.Component {
                     <p>Price Range:</p>
                   </div>
                   <div className="column has-text-right">
-                    <p className="fact-answer">$189K and up</p>
+                    <p className="fact-answer">$199K and up</p>
                   </div>
                 </div>
                 <div className="columns">
@@ -88,7 +88,7 @@ class SideBar extends React.Component {
                     <p>Number of Homes:</p>
                   </div>
                   <div className="column has-text-right">
-                    <p className="fact-answer">275</p>
+                    <p className="fact-answer">269</p>
                   </div>
                 </div>
                 <div className="columns">
@@ -104,15 +104,7 @@ class SideBar extends React.Component {
                     <p>Construction Date:</p>
                   </div>
                   <div className="column has-text-right">
-                    <p className="fact-answer">2018</p>
-                  </div>
-                </div>
-                <div className="columns">
-                  <div className="column is-narrow">
-                    <p>Builder:</p>
-                  </div>
-                  <div className="column has-text-right">
-                    <p className="fact-answer">Champion Homes</p>
+                    <p className="fact-answer">2019</p>
                   </div>
                 </div>
               </div>

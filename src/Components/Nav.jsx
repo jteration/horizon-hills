@@ -137,7 +137,7 @@ class Nav2 extends React.Component {
                   className="button is-danger"
                   href="tel:1-970-800-4166"
                 >
-                  Tel: 1-970-800-4166
+                  1-970-800-4166
                 </a>
               </div>
             </div>
@@ -251,7 +251,7 @@ class Nav2 extends React.Component {
                   className="button is-danger"
                   href="tel:1-970-800-4166"
                 >
-                  Tel: 1-970-800-4166
+                  1-970-800-4166
                 </a>
               </div>
             </div>

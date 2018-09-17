@@ -13,6 +13,14 @@ main {
   background-image: url('/img/crossword.png');
 }
 
+.is-hidden-tablet > .navbar-item {
+  text-align: center;
+}
+
+.is-hidden-tablet > .navbar-item > .navbar-link {
+  padding-right: 0.75rem;
+}
+
 .box.box {
   background-color: #f8f8f8;
 }
@@ -73,6 +81,14 @@ a.is-danger.is-danger:hover {
 }
 
 @media screen and (max-width: 768px) {
+  .navbar-brand.navbar-brand {
+    align-items: center;
+    justify-content: center;
+  }
+  .navbar-brand > .navbar-burger {
+    align-self: flex-end;
+    margin: 0;
+  }
   .columns.columns {
     margin: 0;
   }

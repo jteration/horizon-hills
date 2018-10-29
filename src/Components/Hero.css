@@ -21,6 +21,8 @@ h1.title.is-1 {
   width: 100%;
   z-index: 9999;
   background-color: rgba(176, 208, 255, 0.15);
+  background: url('~/img/HHMountain.jpeg') no-repeat center center fixed;
+  background-size: cover;
 }
 
 .columns > .hero-icon-column {
@@ -44,8 +46,7 @@ h1.title.is-1 {
 
 @media screen and (max-width: 768px) {
   .hero {
-    background: url('/img/HomepageVideoStill.png') no-repeat center center
-      scroll;
+    background: url('~/img/HHMountain.jpeg') no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;

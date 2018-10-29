@@ -59,8 +59,16 @@
   background-color: #fafafa;
 }
 
+.tab-info-section.tab-info-section {
+  margin-bottom: 0 !important;
+}
+
 .tab-info-section.tab-info-section > section > p {
   margin-bottom: 2em;
+}
+
+.bottom-tabs.bottom-tabs {
+  margin-top: 0 !important;
 }
 
 @media screen and (max-width: 768px) {

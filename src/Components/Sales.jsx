@@ -18,7 +18,7 @@ class Sales extends React.Component {
               single-family manufactured homes. Each home will feature a
               dedicated foundation with a crawl space, 3 bedrooms, 2 bathrooms,
               and an attached 2-car garage. The cost of these low-maintenance
-              homes begins at $199,000 with additional options available.
+              homes begins at $207,900 with additional options available.
             </p>
             <p>
               Lots are filling up quickly. If you are interested in securing one

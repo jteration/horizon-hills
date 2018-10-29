@@ -50,14 +50,14 @@ class Entertainment extends React.Component {
   state = {
     activeTab: 'Hunting',
   };
-  _handleTabToggle = (tab) => {
+  _handleTabToggle = tab => {
     ReactGA.event({
       category: 'Click',
       action: 'Clicked a tab: ' + tab,
     });
     this.setState({ activeTab: tab });
   };
-  _renderTabs = (arr) => {
+  _renderTabs = arr => {
     const tabArr = [];
     const tabArr2 = [];
     for (let i = 0; i < arr.length; i += 1) {
@@ -69,7 +69,7 @@ class Entertainment extends React.Component {
               active="is-active"
               text={arr[i].text}
               _handleTabToggle={this._handleTabToggle}
-            />,
+            />
           );
         } else {
           tabArr.push(
@@ -78,7 +78,7 @@ class Entertainment extends React.Component {
               active=""
               text={arr[i].text}
               _handleTabToggle={this._handleTabToggle}
-            />,
+            />
           );
         }
       } else {
@@ -89,7 +89,7 @@ class Entertainment extends React.Component {
               active="is-active"
               text={arr[i].text}
               _handleTabToggle={this._handleTabToggle}
-            />,
+            />
           );
         } else {
           tabArr2.push(
@@ -98,14 +98,14 @@ class Entertainment extends React.Component {
               active=""
               text={arr[i].text}
               _handleTabToggle={this._handleTabToggle}
-            />,
+            />
           );
         }
       }
     }
     return [<ul key="tabs1">{tabArr}</ul>, <ul key="tabs2">{tabArr2}</ul>];
   };
-  _renderActiveContent = (tab) => {
+  _renderActiveContent = tab => {
     switch (tab) {
       case 'all':
         return [

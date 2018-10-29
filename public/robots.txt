@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: http://example.com/sitemap.xml
+Sitemap: http://www.horizonillscampionco.com/sitemap.xml

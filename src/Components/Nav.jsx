@@ -49,7 +49,7 @@ class Nav2 extends React.Component {
       this.setState({ burgerClass: 'navbar-burger', menuClass: 'navbar-menu' });
     }
   };
-  _handleNavClick = (nav) => {
+  _handleNavClick = nav => {
     ReactGA.event({
       category: 'Nav',
       action: 'Clicked ' + nav + ' on navbar',
@@ -129,6 +129,16 @@ class Nav2 extends React.Component {
                   className="button is-danger"
                 >
                   Contact
+                </a>
+              </div>
+              <div className="navbar-item">
+                <a
+                  onClick={() => this._didDownload()}
+                  className="button is-danger"
+                  href="/Horizon Hills Brochure.pdf"
+                  download
+                >
+                  Brochure
                 </a>
               </div>
               <div className="navbar-item">
@@ -243,6 +253,16 @@ class Nav2 extends React.Component {
                   className="button is-danger"
                 >
                   Contact
+                </a>
+              </div>
+              <div className="navbar-item">
+                <a
+                  onClick={() => this._didDownload()}
+                  className="button is-danger"
+                  href="/Horizon Hills Brochure.pdf"
+                  download
+                >
+                  Brochure
                 </a>
               </div>
               <div className="navbar-item">

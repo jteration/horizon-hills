@@ -6,10 +6,10 @@ class Hero extends React.Component {
     return (
       <section className="hero has-bg-image is-fullheight video">
         <div className="hero-video">
-          <video playsInline autoPlay muted loop>
+          {/* <video poster="/img/HH Mountain.jpeg" playsInline autoPlay muted loop>
             <source src={'/video/hero.mp4'} type="video/mp4" />
             <source src={'/video/hero.webm'} type="video/webm" />
-          </video>
+          </video> */}
           <div className="hero-cover" />
         </div>
         <div className="hero-body">

@@ -72,7 +72,7 @@ class SideBar extends React.Component {
                     <p>Price Range:</p>
                   </div>
                   <div className="column has-text-right">
-                    <p className="fact-answer">$199K and up</p>
+                    <p className="fact-answer">$207,900 and up</p>
                   </div>
                 </div>
                 <div className="columns">

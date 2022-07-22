@@ -1,9 +1,9 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
 import App from "./App";
-import registerServiceWorker from "./registerServiceWorker";
+import { register } from "./registerServiceWorker";
 import "bulma/css/bulma.css";
 
 const root = createRoot(document.getElementById("root"));
 root.render(<App />);
-registerServiceWorker();
+register();

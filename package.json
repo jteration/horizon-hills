@@ -2,6 +2,7 @@
   "name": "horizon-hills",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://jteration.github.io/horizon-hills/",
   "dependencies": {
     "bulma": "0.9.4",
     "react": "18.2.0",

@@ -78,7 +78,7 @@ class SlideShow extends React.Component {
 	render() {
 		const { images, duration } = this.props;
 		const index = this.state.index;
-		const style = { transform: `translate(-${(index + 1) * this.width}px)` };
+		const style = { transform: "translate(-${(index + 1) * this.width}px)" };
 		this.timeout = setTimeout(() => {
 			return this.slideImages("next");
 		}, duration);

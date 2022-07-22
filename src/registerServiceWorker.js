@@ -18,10 +18,10 @@ const isLocalhost = () => Boolean(
 let waitWindowLoad
 // https://github.com/yyx990803/register-service-worker/pull/33#discussion_r394181861
 if (typeof window !== 'undefined') {
-  // Typically, a browser that supports `serviceWorker` should also have supported
-  // `Promise`. But as this package can be used in environments without service
+  // Typically, a browser that supports "serviceWorker" should also have supported
+  // "Promise". But as this package can be used in environments without service
   // worker support (in that case it would do nothing), there's a chance that
-  // `Promise` does not exist. So we must check for its existence first.
+  // "Promise" does not exist. So we must check for its existence first.
   if (typeof Promise !== 'undefined') {
     waitWindowLoad = new Promise(resolve => window.addEventListener('load', resolve))
   } else {
@@ -105,12 +105,12 @@ function checkValidServiceWorker (swUrl, emit, registrationOptions) {
       // Ensure service worker exists, and that we really are getting a JS file.
       if (response.status === 404) {
         // No service worker found.
-        emit('error', new Error(`Service worker not found at ${swUrl}`))
+        emit('error', new Error("Service worker not found at ${swUrl}"))
         unregister()
       } else if (response.headers.get('content-type').indexOf('javascript') === -1) {
         emit('error', new Error(
-          `Expected ${swUrl} to have javascript content-type, ` +
-          `but received ${response.headers.get('content-type')}`))
+          "Expected ${swUrl} to have javascript content-type, " +
+          "but received ${response.headers.get('content-type')}"))
         unregister()
       } else {
         // Service worker found. Proceed as normal.

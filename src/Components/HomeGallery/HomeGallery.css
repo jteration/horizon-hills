@@ -1,54 +1,54 @@
 .homes-header.homes-header {
-  margin-top: 1.1428em !important;
-  margin-bottom: 1.1428em !important;
+	margin-top: 1.1428em !important;
+	margin-bottom: 1.1428em !important;
 }
 
 section.gallery-section {
-  padding-left: 0;
-  padding-right: 0;
-  background-color: #d5c98f;
+	padding-left: 0;
+	padding-right: 0;
+	background-color: #d5c98f;
 }
 
 section.gallery-section > .container {
-  border-radius: 3px;
+	border-radius: 3px;
 }
 
 .siteplan-heading.siteplan-heading {
-  margin-top: 0.7em;
-  margin-bottom: 1em !important;
+	margin-top: 0.7em;
+	margin-bottom: 1em !important;
 }
 
 .map-gallery-wrap.map-gallery-wrap {
-  border-radius: 2px;
-  box-shadow: 0 7px 14px rgba(0, 0, 0, 0.05), 0 5px 5px rgba(0, 0, 0, 0.04);
+	border-radius: 2px;
+	box-shadow: 0 7px 14px rgba(0, 0, 0, 0.05), 0 5px 5px rgba(0, 0, 0, 0.04);
 }
 
 .map-gallery-section {
-  background-color: #d5c98f40;
+	background-color: #d5c98f40;
 }
 
 .home-container {
-  display: flex;
-  flex-direction: column;
+	display: flex;
+	flex-direction: column;
 }
 
 .home-description {
-  min-height: 6rem;
+	min-height: 6rem;
 }
 
 .slide-container {
-  margin: 0 2rem;
+	margin: 0 2rem;
 }
 
 .home-info-container {
-  margin-top: 2em;
-  margin-right: 3.4em;
-  margin-bottom: 3rem;
-  margin-left: 3.4em;
-  user-select: none;
+	margin-top: 2em;
+	margin-right: 3.4em;
+	margin-bottom: 3rem;
+	margin-left: 3.4em;
+	user-select: none;
 }
 
 .homes-rule {
-  width: 55%;
-  margin: 1.5rem auto;
+	width: 55%;
+	margin: 1.5rem auto;
 }

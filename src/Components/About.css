@@ -1,102 +1,102 @@
 #about-title {
-  margin-bottom: 0.4em;
-  color: #232322;
-  line-height: 130%;
+	margin-bottom: 0.4em;
+	color: #232322;
+	line-height: 130%;
 }
 
 .text1 {
-  font-size: 60px;
+	font-size: 60px;
 }
 .text2 {
-  font-size: 160px;
+	font-size: 160px;
 }
 
 .shadow1 {
-  color: #fff;
-  font-weight: bold;
-  text-shadow: -2px -2px 0 #222, 2px -2px 0 #222, -2px 2px 0 #222,
-    2px 2px 0 #222, 1px 1px 0 #fff, 2px 2px 0 #fff, 3px 3px 0 #fff;
-  line-height: 0.8em;
-  letter-spacing: 0.1em;
-  transform: scaleY(0.7);
-  -webkit-transform: scaleY(0.7);
-  -moz-transform: scaleY(0.7);
-  margin: 0;
-  text-align: center;
+	color: #fff;
+	font-weight: bold;
+	text-shadow: -2px -2px 0 #222, 2px -2px 0 #222, -2px 2px 0 #222,
+		2px 2px 0 #222, 1px 1px 0 #fff, 2px 2px 0 #fff, 3px 3px 0 #fff;
+	line-height: 0.8em;
+	letter-spacing: 0.1em;
+	transform: scaleY(0.7);
+	-webkit-transform: scaleY(0.7);
+	-moz-transform: scaleY(0.7);
+	margin: 0;
+	text-align: center;
 }
 
 .shadow2 {
-  color: #fff;
-  font-family: 'mod';
-  font-weight: 600;
-  text-shadow: -3px -3px 0 #222, 3px -3px 0 #222, -3px 3px 0 #222,
-    3px 3px 0 #222, 4px 4px 0 #fff, 5px 5px 0 #fff;
-  line-height: 1em;
-  letter-spacing: 0.1em;
-  transform: scaleY(0.7);
-  -webkit-transform: scaleY(0.7);
-  -moz-transform: scaleY(0.7);
-  margin: 0;
-  text-align: center;
+	color: #fff;
+	font-family: "mod";
+	font-weight: 600;
+	text-shadow: -3px -3px 0 #222, 3px -3px 0 #222, -3px 3px 0 #222,
+		3px 3px 0 #222, 4px 4px 0 #fff, 5px 5px 0 #fff;
+	line-height: 1em;
+	letter-spacing: 0.1em;
+	transform: scaleY(0.7);
+	-webkit-transform: scaleY(0.7);
+	-moz-transform: scaleY(0.7);
+	margin: 0;
+	text-align: center;
 }
 
 .about-paragraph {
-  font-size: 120%;
-  color: #fff;
+	font-size: 120%;
+	color: #fff;
 }
 
 @media screen and (max-width: 1087px) {
-  .text1 {
-    font-size: 40px;
-  }
-  .text2 {
-    font-size: 100px;
-  }
+	.text1 {
+		font-size: 40px;
+	}
+	.text2 {
+		font-size: 100px;
+	}
 }
 
 @media screen and (max-width: 1280px) {
-  #about-title#about-title {
-    font-size: 4.8rem;
-  }
+	#about-title#about-title {
+		font-size: 4.8rem;
+	}
 }
 
 @media screen and (max-width: 930px) {
-  #about-title#about-title {
-    font-size: 4.5rem;
-  }
+	#about-title#about-title {
+		font-size: 4.5rem;
+	}
 }
 
 @media screen and (max-width: 768px) {
-  #about-title > .text2.text2 {
-    font-size: 7.5rem;
-  }
-  #about#about {
-    padding-top: 1.5rem;
-  }
+	#about-title > .text2.text2 {
+		font-size: 7.5rem;
+	}
+	#about#about {
+		padding-top: 1.5rem;
+	}
 }
 
 @media screen and (max-width: 530px) {
-  #about-title > .text2.text2 {
-    font-size: 4.9rem;
-  }
+	#about-title > .text2.text2 {
+		font-size: 4.9rem;
+	}
 }
 
 @media screen and (max-width: 470px) {
-  .text1 {
-    font-size: 35px;
-  }
-  #about-title > .text2.text2 {
-    font-size: 80px;
-  }
+	.text1 {
+		font-size: 35px;
+	}
+	#about-title > .text2.text2 {
+		font-size: 80px;
+	}
 }
 
 section.about.about {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
-  background-image: url('/img/lozenge3.png');
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.12);
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+	background-image: url("../../public/img/lozenge3.png");
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.12);
 }
 
 .test {
-  color: #d5c98f;
+	color: #d5c98f;
 }

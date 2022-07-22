@@ -1,135 +1,135 @@
 html {
-  scroll-behavior: smooth;
+	scroll-behavior: smooth;
 }
 
 html > body {
-  font-size: 1.1rem;
-  font-weight: 600;
-  line-height: 1.55;
-  font-family: 'gotham';
+	font-size: 1.1rem;
+	font-weight: 600;
+	line-height: 1.55;
+	font-family: "gotham";
 }
 
 main {
-  background-image: url('/img/crossword.png');
+	background-image: url("../public/img/crossword.png");
 }
 
 .is-hidden-tablet > .navbar-item {
-  text-align: center;
+	text-align: center;
 }
 
 .is-hidden-tablet > .navbar-item > .navbar-link {
-  padding-right: 0.75rem;
+	padding-right: 0.75rem;
 }
 
 .box.box {
-  background-color: #f8f8f8;
+	background-color: #f8f8f8;
 }
 
 .green-rule {
-  background-color: #69995d;
+	background-color: #69995d;
 }
 
 .side-column {
-  min-width: 450px;
+	min-width: 450px;
 }
 
 .content h1 {
-  font-family: 'gotham-bold';
+	font-family: "gotham-bold";
 }
 
 .content.content h2 {
-  font-size: 2.8em;
-  text-align: center;
-  font-family: 'gotham-bold';
+	font-size: 2.8em;
+	text-align: center;
+	font-family: "gotham-bold";
 }
 
 .content h3 {
-  font-size: 1.6em;
-  font-family: 'gotham-bold';
+	font-size: 1.6em;
+	font-family: "gotham-bold";
 }
 
 section.section {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
 }
 
 a.button {
-  transition: all 0.2s ease-out;
+	transition: all 0.2s ease-out;
 }
 
 a.is-danger.is-danger {
-  background-color: #a01919;
+	background-color: #a01919;
 }
 
 a.is-danger.is-danger:hover {
-  background-color: #ff0202;
+	background-color: #ff0202;
 }
 
 .colored
-  > .container
-  > .navbar-menu
-  > .navbar-end
-  > a.navbar-item.navbar-item:hover {
-  background-color: rgb(170, 170, 170);
-  color: #3273dc;
+	> .container
+	> .navbar-menu
+	> .navbar-end
+	> a.navbar-item.navbar-item:hover {
+	background-color: rgb(170, 170, 170);
+	color: #3273dc;
 }
 
 .privacy-section.privacy-section {
-  min-height: calc(100vh - 181px);
-  background-color: #fefefe;
-  padding-top: 6rem;
+	min-height: calc(100vh - 181px);
+	background-color: #fefefe;
+	padding-top: 6rem;
 }
 
 @media screen and (max-width: 768px) {
-  .navbar-brand.navbar-brand {
-    align-items: center;
-    justify-content: center;
-  }
-  .navbar-brand > .navbar-burger {
-    align-self: flex-end;
-    margin: 0;
-  }
-  .columns.columns {
-    margin: 0;
-  }
-  section.section {
-    padding: 3rem 0.5rem;
-  }
-  .content.content p {
-    text-align: justify;
-  }
+	.navbar-brand.navbar-brand {
+		align-items: center;
+		justify-content: center;
+	}
+	.navbar-brand > .navbar-burger {
+		align-self: flex-end;
+		margin: 0;
+	}
+	.columns.columns {
+		margin: 0;
+	}
+	section.section {
+		padding: 3rem 0.5rem;
+	}
+	.content.content p {
+		text-align: justify;
+	}
 }
 
 a.button:active {
-  transform: translateY(calc(-0.1rem + 2px)) translateX(1px);
+	transform: translateY(calc(-0.1rem + 2px)) translateX(1px);
 }
 
 ::selection {
-  background: #abbad8;
-  color: #111;
+	background: #abbad8;
+	color: #111;
 }
 
 ::-moz-selection {
-  background: #abbad8;
-  color: #111;
+	background: #abbad8;
+	color: #111;
 }
 
 ::-webkit-selection {
-  background: #abbad8;
-  color: #111;
+	background: #abbad8;
+	color: #111;
 }
 
 @font-face {
-  font-family: mod;
-  src: url('MOD20.TTF');
+	font-family: mod;
+	src: url("MOD20.TTF");
 }
 
 @font-face {
-  font-family: gotham;
-  src: url('Gotham-Light.otf');
+	font-family: gotham;
+	src: url("Gotham-Light.otf");
 }
 
 @font-face {
-  font-family: gotham-bold;
-  src: url('Gotham-Bold.otf');
+	font-family: gotham-bold;
+	src: url("Gotham-Bold.otf");
 }

@@ -1,8 +1,8 @@
 import * as React from "react";
 import {
-	HashLink as Link,
-	NavHashLink as NavLink
-} from "react-router-hash-link";
+	Link,
+	NavLink
+} from "react-router-dom";
 // import ReactGA from "react-ga";
 import "./Nav.css";
 

@@ -71,10 +71,10 @@ class Nav2 extends React.Component {
 					<div className="navbar-brand">
 						<NavLink
 							onClick={() => this._handleNavClick("Logo")}
-							to="/#"
+							to="/horizon-hills/#"
 							className="navbar-item"
 						>
-							<img alt="Horizon Hills Logo" src={"/img/Logo1.png"} />
+							<img alt="Horizon Hills Logo" src={"/horizon-hills/img/Logo1.png"} />
 							<h2 className="brand-title">
 								<span className="nav-big-letter">H</span>
 								ORIZON <span className="nav-big-letter">H</span>
@@ -97,28 +97,28 @@ class Nav2 extends React.Component {
 						<div className="navbar-end is-hidden-mobile">
 							<Link
 								onClick={() => this._handleNavClick("About")}
-								to="/#about"
+								to="/horizon-hills/#about"
 								className="navbar-item"
 							>
 								About
 							</Link>
 							<Link
 								onClick={() => this._handleNavClick("Buy")}
-								to="/#buy"
+								to="/horizon-hills/#buy"
 								className="navbar-item"
 							>
 								Buy
 							</Link>
 							<Link
 								onClick={() => this._handleNavClick("Homes")}
-								to="/#homes"
+								to="/horizon-hills/#homes"
 								className="navbar-item"
 							>
 								Home
 							</Link>
 							<Link
 								onClick={() => this._handleNavClick("Campion")}
-								to="/#features"
+								to="/horizon-hills/#features"
 								className="navbar-item"
 							>
 								Campion
@@ -135,7 +135,7 @@ class Nav2 extends React.Component {
 								<a
 									onClick={() => this._didDownload()}
 									className="button is-danger"
-									href="/Horizon Hills Brochure.pdf"
+									href="/horizon-hills/Horizon Hills Brochure.pdf"
 									download
 								>
 									Brochure
@@ -154,14 +154,14 @@ class Nav2 extends React.Component {
 						<div className="navbar-end is-hidden-tablet">
 							<Link
 								onClick={() => this._handleNavClick("Buy")}
-								to="/#buy"
+								to="/horizon-hills/#buy"
 								className="navbar-item"
 							>
 								Buy
 							</Link>
 							<Link
 								onClick={() => this._handleNavClick("Homes")}
-								to="/#homes"
+								to="/horizon-hills/#homes"
 								className="navbar-item"
 							>
 								Home
@@ -169,7 +169,7 @@ class Nav2 extends React.Component {
 							<div className="navbar-item has-dropdown is-active">
 								<Link
 									onClick={() => this._handleNavClick("Campion")}
-									to="/#features"
+									to="/horizon-hills/#features"
 									className="navbar-link"
 								>
 									Campion
@@ -259,7 +259,7 @@ class Nav2 extends React.Component {
 								<a
 									onClick={() => this._didDownload()}
 									className="button is-danger"
-									href="/Horizon Hills Brochure.pdf"
+									href="/horizon-hills/Horizon Hills Brochure.pdf"
 									download
 								>
 									Brochure

@@ -11,9 +11,9 @@ class App extends Component {
 		return (
 			<BrowserRouter>
 				<Routes>
-					<Route exact path="/" element={<Index />} />
-					<Route path="/company-info" element={<CompanyInfo />} />
-					<Route path="/privacy-policy" element={<PrivacyPolicy />} />
+					<Route exact path="/horizon-hills" element={<Index />} />
+					<Route path="/horizon-hills/company-info" element={<CompanyInfo />} />
+					<Route path="/horizon-hills/privacy-policy" element={<PrivacyPolicy />} />
 				</Routes>
 			</BrowserRouter>
 		);

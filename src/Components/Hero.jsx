@@ -6,7 +6,7 @@ class Hero extends React.Component {
 		return (
 			<section className="hero has-bg-image is-fullheight video">
 				<div className="hero-video">
-					{/* <video poster="/img/HH Mountain.jpeg" playsInline autoPlay muted loop>
+					{/* <video poster="/horizon-hills/img/HH Mountain.jpeg" playsInline autoPlay muted loop>
             <source src={'/video/hero.mp4'} type="video/mp4" />
             <source src={'/video/hero.webm'} type="video/webm" />
           </video> */}
@@ -16,7 +16,7 @@ class Hero extends React.Component {
 					<div className="container">
 						<div className="columns is-centered">
 							<div className="hero-icon-column column is-narrow">
-								<img className="hero-icon" src={"/img/Logo2.png"} alt="" />
+								<img className="hero-icon" src={"/horizon-hills/img/Logo2.png"} alt="" />
 								<h2 className="hero-tagline">An Active 55+ Living Community</h2>
 							</div>
 						</div>

@@ -3,15 +3,15 @@ import Slideshow from "./Slide/SlideShow";
 import "./HomeGallery.css";
 
 const imgs = [
-	"/img/HomeGallery/Buckhorn-1.jpg",
-	"/img/HomeGallery/Buckhorn-2.jpg",
-	"/img/HomeGallery/Buckhorn-3.jpg",
-	"/img/HomeGallery/Buckhorn-4.jpg",
-	"/img/HomeGallery/Buckhorn-5.jpg",
-	"/img/HomeGallery/Buckhorn-6.jpg",
-	"/img/HomeGallery/Buckhorn-7.jpg",
-	"/img/HomeGallery/Buckhorn-8.jpg",
-	"/img/HomeGallery/Buckhorn-9.jpg"
+	"/horizon-hills/img/HomeGallery/Buckhorn-1.jpg",
+	"/horizon-hills/img/HomeGallery/Buckhorn-2.jpg",
+	"/horizon-hills/img/HomeGallery/Buckhorn-3.jpg",
+	"/horizon-hills/img/HomeGallery/Buckhorn-4.jpg",
+	"/horizon-hills/img/HomeGallery/Buckhorn-5.jpg",
+	"/horizon-hills/img/HomeGallery/Buckhorn-6.jpg",
+	"/horizon-hills/img/HomeGallery/Buckhorn-7.jpg",
+	"/horizon-hills/img/HomeGallery/Buckhorn-8.jpg",
+	"/horizon-hills/img/HomeGallery/Buckhorn-9.jpg"
 ];
 
 class HomeGallery extends React.Component {
@@ -23,7 +23,7 @@ class HomeGallery extends React.Component {
 						The Siteplan
 					</h2>
 					<figure className="image is-3x2">
-						<img src="/img/Siteplan.jpg" />
+						<img src="/horizon-hills/img/Siteplan.jpg" />
 					</figure>
 					<h2 className="homes-header">Example Homes</h2>
 					<p className="has-text-justified">
@@ -57,7 +57,7 @@ class HomeGallery extends React.Component {
 							Request Info
 						</a>
 						<a
-							href="/Horizon Hills Brochure.pdf"
+							href="/horizon-hills/Horizon Hills Brochure.pdf"
 							onClick={() => this.props._didDownload()}
 							className="button is-danger is-medium"
 							download

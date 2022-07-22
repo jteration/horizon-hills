@@ -11,7 +11,7 @@ class Restrictions extends React.Component {
 					alt="Locked door"
 					className="is-centered-img"
 					width="1024"
-					src={"/img/restrictions-thin.jpg"}
+					src={"/horizon-hills/img/restrictions-thin.jpg"}
 				/>
 				<hr />
 				<ul>

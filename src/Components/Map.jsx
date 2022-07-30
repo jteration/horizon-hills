@@ -14,6 +14,7 @@ class Map extends React.Component {
 					<div className="column box map-box map-column-mobile">
 						<div className="map-container">
 							<iframe
+								loading="lazy"
 								src="https://www.google.com/maps/d/embed?mid=1zdnHmRLv40oWoVTIaQh90Ej6SjBVSwFW&ehbc=2E312F"
 								width="320"
 								height="400"
@@ -30,6 +31,7 @@ class Map extends React.Component {
 					<div className="column box map-box is-narrow">
 						<div className="map-container">
 							<iframe
+								loading="lazy"
 								src="https://www.google.com/maps/d/embed?mid=1zdnHmRLv40oWoVTIaQh90Ej6SjBVSwFW&ehbc=2E312F"
 								width="750"
 								height="500"

@@ -9,7 +9,7 @@ class Water extends React.Component {
 					alt="Carter Lake"
 					className="is-centered-img"
 					width="1024"
-					src={"/horizon-hills/img/carter-thin.jpg"}
+					src={"/horizon-hills/img/carter-thin.webp"}
 				/>
 				<hr />
 				<p>

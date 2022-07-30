@@ -9,7 +9,7 @@ class Camping extends React.Component {
 					alt="Estes Park"
 					className="is-centered-img"
 					width="1024"
-					src={"/horizon-hills/img/estes-thin.jpg"}
+					src={"/horizon-hills/img/estes-thin.webp"}
 				/>
 				<hr />
 				<p>

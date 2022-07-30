@@ -11,7 +11,7 @@ class Snow extends React.Component {
 					alt="Winter park"
 					className="is-centered-img"
 					width="1024"
-					src={"/horizon-hills/img/winter-thinopt.jpg"}
+					src={"/horizon-hills/img/winter-thin.webp"}
 				/>
 				<hr />
 				<p>

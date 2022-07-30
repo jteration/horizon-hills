@@ -21,7 +21,7 @@ h1.title.is-1 {
 	width: 100%;
 	z-index: 9999;
 	background-color: rgba(176, 208, 255, 0.15);
-	background: url("../../public/img/HHMountain.jpeg") no-repeat center center
+	background: url("../../public/img/HHMountain.webp") no-repeat center center
 		fixed;
 	background-size: cover;
 }
@@ -47,7 +47,7 @@ h1.title.is-1 {
 
 @media screen and (max-width: 768px) {
 	.hero {
-		background: url("../../public/img/HHMountain.jpeg") no-repeat center center
+		background: url("../../public/img/HHMountain.webp") no-repeat center center
 			scroll;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;

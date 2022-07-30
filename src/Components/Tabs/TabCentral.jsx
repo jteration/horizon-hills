@@ -1,5 +1,5 @@
 import * as React from "react";
-import ReactGA from "react-ga";
+// import ReactGA from "react-ga";
 import Tab from "./Tab";
 import Biking from "./Biking";
 import Camping from "./Camping";
@@ -51,10 +51,10 @@ class Entertainment extends React.Component {
 		activeTab: "Hunting"
 	};
 	_handleTabToggle = (tab) => {
-		ReactGA.event({
-			category: "Click",
-			action: "Clicked a tab: " + tab
-		});
+		// ReactGA.event({
+		// 	category: "Click",
+		// 	action: "Clicked a tab: " + tab
+		// });
 		this.setState({ activeTab: tab });
 	};
 	_renderTabs = (arr) => {

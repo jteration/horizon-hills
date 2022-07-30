@@ -3,15 +3,15 @@ import Slideshow from "./Slide/SlideShow";
 import "./HomeGallery.css";
 
 const imgs = [
-	"/horizon-hills/img/HomeGallery/Buckhorn-1.jpg",
-	"/horizon-hills/img/HomeGallery/Buckhorn-2.jpg",
-	"/horizon-hills/img/HomeGallery/Buckhorn-3.jpg",
-	"/horizon-hills/img/HomeGallery/Buckhorn-4.jpg",
-	"/horizon-hills/img/HomeGallery/Buckhorn-5.jpg",
-	"/horizon-hills/img/HomeGallery/Buckhorn-6.jpg",
-	"/horizon-hills/img/HomeGallery/Buckhorn-7.jpg",
-	"/horizon-hills/img/HomeGallery/Buckhorn-8.jpg",
-	"/horizon-hills/img/HomeGallery/Buckhorn-9.jpg"
+	"/horizon-hills/img/HomeGallery/Buckhorn-1.webp",
+	"/horizon-hills/img/HomeGallery/Buckhorn-2.webp",
+	"/horizon-hills/img/HomeGallery/Buckhorn-3.webp",
+	"/horizon-hills/img/HomeGallery/Buckhorn-4.webp",
+	"/horizon-hills/img/HomeGallery/Buckhorn-5.webp",
+	"/horizon-hills/img/HomeGallery/Buckhorn-6.webp",
+	"/horizon-hills/img/HomeGallery/Buckhorn-7.webp",
+	"/horizon-hills/img/HomeGallery/Buckhorn-8.webp",
+	"/horizon-hills/img/HomeGallery/Buckhorn-9.webp"
 ];
 
 class HomeGallery extends React.Component {
@@ -23,7 +23,7 @@ class HomeGallery extends React.Component {
 						The Siteplan
 					</h2>
 					<figure className="image is-3x2">
-						<img src="/horizon-hills/img/Siteplan.jpg" />
+						<img src="/horizon-hills/img/Siteplan.webp" />
 					</figure>
 					<h2 className="homes-header">Example Homes</h2>
 					<p className="has-text-justified">

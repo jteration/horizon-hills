@@ -5,6 +5,22 @@ import {
 } from "react-router-dom";
 // import ReactGA from "react-ga";
 import "./Nav.css";
+const hashLinks = new Map([
+	["Logo", "hero"],
+	["About", "about"],
+	["Buy", "buy"],
+	["Homes", "homes"],
+	["Campion", "features"],
+	["Biking", "biking"],
+	["Camping", "camping"],
+	["Golfing", "golfing"],
+	["Hiking", "hiking"],
+	["Hunting", "hunting"],
+	["Water Sports", "water"],
+	["Healthcare", "healthcare"],
+	["Other", "other"],
+	["Restrictions", "restrictions"]
+]);
 
 class Nav2 extends React.Component {
 	state = {
@@ -54,6 +70,10 @@ class Nav2 extends React.Component {
 		// 	category: "Nav",
 		// 	action: "Clicked " + nav + " on navbar"
 		// });
+		const hashLink = hashLinks.get(nav);
+		if (hashLink != null) {
+			document.getElementById(hashLink).scrollIntoView();
+		}
 		if (
 			this.state.burgerClass === "navbar-burger is-active" &&
 			this.state.menuClass === "navbar-menu is-active"

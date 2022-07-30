@@ -4,7 +4,7 @@ import "./Hero.css";
 class Hero extends React.Component {
 	render() {
 		return (
-			<section className="hero has-bg-image is-fullheight video">
+			<section id="hero" className="hero has-bg-image is-fullheight video">
 				<div className="hero-video">
 					{/* <video poster="/horizon-hills/img/HH Mountain.jpeg" playsInline autoPlay muted loop>
             <source src={'/video/hero.mp4'} type="video/mp4" />

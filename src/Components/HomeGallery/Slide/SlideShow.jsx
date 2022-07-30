@@ -98,7 +98,7 @@ class SlideShow extends React.Component {
 						}}
 					>
 						<div data-index="-1">
-							<img src={images[images.length - 1]} alt="" />
+							<img loading="lazy" src={images[images.length - 1]} alt="" />
 						</div>
 						{images.map((each, key) => {
 							return (
@@ -107,12 +107,12 @@ class SlideShow extends React.Component {
 									key={key}
 									className={key === index ? "active" : ""}
 								>
-									<img src={each} alt="" />
+									<img loading="lazy" src={each} alt="" />
 								</div>
 							);
 						})}
 						<div data-index="-1">
-							<img src={images[0]} alt="" />
+							<img loading="lazy" src={images[0]} alt="" />
 						</div>
 					</div>
 				</div>

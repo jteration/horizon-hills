@@ -74,7 +74,7 @@ class Nav2 extends React.Component {
 							to="/horizon-hills/#"
 							className="navbar-item"
 						>
-							<img alt="Horizon Hills Logo" src={"/horizon-hills/img/Logo1.webp"} />
+							<img fetchpriority="high" alt="Horizon Hills Logo" src={"/horizon-hills/img/Logo1.webp"} />
 							<h2 className="brand-title">
 								<span className="nav-big-letter">H</span>
 								ORIZON <span className="nav-big-letter">H</span>

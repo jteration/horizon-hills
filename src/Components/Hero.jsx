@@ -16,7 +16,7 @@ class Hero extends React.Component {
 					<div className="container">
 						<div className="columns is-centered">
 							<div className="hero-icon-column column is-narrow">
-								<img className="hero-icon" src={"/horizon-hills/img/Logo2.webp"} alt="" />
+								<img fetchpriority="high" className="hero-icon" src={"/horizon-hills/img/Logo2.webp"} alt="" />
 								<h2 className="hero-tagline">An Active 55+ Living Community</h2>
 							</div>
 						</div>

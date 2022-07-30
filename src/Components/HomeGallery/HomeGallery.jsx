@@ -23,7 +23,7 @@ class HomeGallery extends React.Component {
 						The Siteplan
 					</h2>
 					<figure className="image is-3x2">
-						<img src="/horizon-hills/img/Siteplan.webp" />
+						<img loading="lazy" src="/horizon-hills/img/Siteplan.webp" />
 					</figure>
 					<h2 className="homes-header">Example Homes</h2>
 					<p className="has-text-justified">

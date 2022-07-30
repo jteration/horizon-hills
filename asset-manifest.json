@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/horizon-hills/static/css/main.5132332c.css",
-    "main.js": "/horizon-hills/static/js/main.f1b66877.js",
+    "main.js": "/horizon-hills/static/js/main.90ab553e.js",
     "static/media/HHMountain.webp": "/horizon-hills/static/media/HHMountain.29ecc425d6fe65c53a4d.webp",
     "static/media/MOD20.TTF": "/horizon-hills/static/media/MOD20.1c75344ccc62367136a7.TTF",
     "static/media/Gotham-Bold.otf": "/horizon-hills/static/media/Gotham-Bold.f9a5c9247af2c80333f4.otf",
@@ -10,10 +10,10 @@
     "static/media/crossword.webp": "/horizon-hills/static/media/crossword.3ba60c6fc929f1fbe9b9.webp",
     "static/media/lozenge3.webp": "/horizon-hills/static/media/lozenge3.7c1eb61a3bba869c81ce.webp",
     "main.5132332c.css.map": "/horizon-hills/static/css/main.5132332c.css.map",
-    "main.f1b66877.js.map": "/horizon-hills/static/js/main.f1b66877.js.map"
+    "main.90ab553e.js.map": "/horizon-hills/static/js/main.90ab553e.js.map"
   },
   "entrypoints": [
     "static/css/main.5132332c.css",
-    "static/js/main.f1b66877.js"
+    "static/js/main.90ab553e.js"
   ]
 }

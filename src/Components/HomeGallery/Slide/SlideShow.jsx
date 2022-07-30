@@ -40,9 +40,6 @@ class SlideShow extends React.Component {
 		for (let i = 0; i < allImagesLen; i += 1) {
 			this.allImages[i].style.width = this.width + "px";
 		}
-		// this.allImages.forEach((eachImage, index) => {
-		//   eachImage.style.width = this.width + 'px';
-		// });
 	};
 
 	slideImages = (type) => {

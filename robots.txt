@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: http://www.horizonillscampionco.com/sitemap.xml
+Sitemap: https://jteration.github.io/horizon-hills/sitemap.xml

@@ -23,9 +23,9 @@ class Sales extends React.Component {
 						<p>
 							Lots are filling up quickly. If you are interested in securing one
 							for yourself, reach out to Jess Rodriguez by phone at{" "}
-							<a href="tel:1-970-800-4166">1-970-800-4166</a>, by email at{" "}
-							<a href="mailto:contact@horizonhillscampionco.com">
-								contact@horizonhillscampionco.com
+							<a>1-970-XXX-XXXX</a>, by email at{" "}
+							<a>
+								contact@fakeemail.com
 							</a>{" "}
 							or by filling out this{" "}
 							<a onClick={() => _toggleModal()}>

@@ -165,9 +165,8 @@ class Nav2 extends React.Component {
 								<a
 									onClick={() => this._handleNavClick("Phone Number")}
 									className="button is-danger"
-									href="tel:1-970-800-4166"
 								>
-									1-970-800-4166
+									1-970-XXX-XXXX
 								</a>
 							</div>
 						</div>
@@ -289,9 +288,8 @@ class Nav2 extends React.Component {
 								<a
 									onClick={() => this._handleNavClick("Phone Number")}
 									className="button is-danger"
-									href="tel:1-970-800-4166"
 								>
-									1-970-800-4166
+									1-970-XXX-XXXX
 								</a>
 							</div>
 						</div>

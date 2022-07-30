@@ -32,7 +32,7 @@ class SideBar extends React.Component {
 								</p>
 								<hr />
 								<p>
-									Call us at <a href="tel:1-970-800-4166">1-970-800-4166</a>
+									Call us at <a>1-970-XXX-XXXX</a>
 								</p>
 							</div>
 						</div>

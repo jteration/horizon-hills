@@ -14,16 +14,15 @@ class Map extends React.Component {
 					<div className="column box map-box map-column-mobile">
 						<div className="map-container">
 							<iframe
-								title="mobile map"
+								src="https://www.google.com/maps/d/embed?mid=1zdnHmRLv40oWoVTIaQh90Ej6SjBVSwFW&ehbc=2E312F"
 								width="320"
 								height="400"
 								id="gmap_canvas"
-								src="https://www.google.com/maps/d/u/0/embed?mid=1zdnHmRLv40oWoVTIaQh90Ej6SjBVSwFW"
 								frameBorder="0"
 								scrolling="no"
 								marginHeight="0"
 								marginWidth="0"
-							/>
+							></iframe>
 						</div>
 					</div>
 				</div>
@@ -31,16 +30,15 @@ class Map extends React.Component {
 					<div className="column box map-box is-narrow">
 						<div className="map-container">
 							<iframe
-								title="desktop map"
+								src="https://www.google.com/maps/d/embed?mid=1zdnHmRLv40oWoVTIaQh90Ej6SjBVSwFW&ehbc=2E312F"
 								width="750"
 								height="500"
 								id="gmap_canvas"
-								src="https://www.google.com/maps/d/u/0/embed?mid=1zdnHmRLv40oWoVTIaQh90Ej6SjBVSwFW"
 								frameBorder="0"
 								scrolling="no"
 								marginHeight="0"
 								marginWidth="0"
-							/>
+							></iframe>
 						</div>
 					</div>
 				</div>

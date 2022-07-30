@@ -19,7 +19,7 @@
 }
 
 .map-container {
-	height: 500px;
+	height: 491px;
 	width: 100%;
 	margin-bottom: -58px;
 	display: inline-block;
@@ -35,12 +35,12 @@
 
 iframe {
 	position: relative;
-	top: -50px;
+	top: -60px;
 	border: none;
 }
 
 @media screen and (max-width: 768px) {
 	.map-container {
-		height: 399px;
+		height: 390px;
 	}
 }

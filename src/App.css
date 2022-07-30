@@ -122,14 +122,17 @@ a.button:active {
 @font-face {
 	font-family: mod;
 	src: url("MOD20.TTF");
+	font-display: swap;
 }
 
 @font-face {
 	font-family: gotham;
 	src: url("Gotham-Light.otf");
+	font-display: swap;
 }
 
 @font-face {
 	font-family: gotham-bold;
 	src: url("Gotham-Bold.otf");
+	font-display: swap;
 }

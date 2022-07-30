@@ -8,6 +8,7 @@ class Restrictions extends React.Component {
 					Horizon Hills Community Rules and Restrictions
 				</h2>
 				<img
+					loading="lazy"
 					alt="Locked door"
 					className="is-centered-img"
 					width="1024"

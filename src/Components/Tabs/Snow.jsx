@@ -8,6 +8,7 @@ class Snow extends React.Component {
 					Skiing, Snowboarding, and Fun in the Rockies
 				</h3>
 				<img
+					loading="lazy"
 					alt="Winter park"
 					className="is-centered-img"
 					width="1024"

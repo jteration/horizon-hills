@@ -6,6 +6,7 @@ class Other extends React.Component {
 			<section id="other" className="section is-flex is-column">
 				<h3 className="tab-heading">Other Conveniences</h3>
 				<img
+					loading="lazy"
 					alt="King Soopers"
 					className="is-centered-img"
 					width="1024"

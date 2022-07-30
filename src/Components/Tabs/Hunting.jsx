@@ -6,6 +6,7 @@ class Hunting extends React.Component {
 			<section id="hunting" className="section is-flex is-column">
 				<h3 className="tab-heading">Hunting The Front Range</h3>
 				<img
+					loading="lazy"
 					alt="Pineridge"
 					className="is-centered-img"
 					width="1024"

@@ -6,6 +6,7 @@ class Healthcare extends React.Component {
 			<section id="healthcare" className="section is-flex is-column">
 				<h3 className="tab-heading">Top Tier Healthcare</h3>
 				<img
+					loading="lazy"
 					alt="Man surgerying"
 					className="is-centered-img"
 					width="1024"

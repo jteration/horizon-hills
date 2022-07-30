@@ -6,6 +6,7 @@ class Golfing extends React.Component {
 			<section id="golfing" className="section is-flex is-column">
 				<h3 className="tab-heading">World Class Golf</h3>
 				<img
+					loading="lazy"
 					alt="Man golfing"
 					className="is-centered-img"
 					width="1024"

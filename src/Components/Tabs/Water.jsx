@@ -6,6 +6,7 @@ class Water extends React.Component {
 			<section id="water" className="section is-flex is-column">
 				<h3 className="tab-heading">Water Sports and Fishing</h3>
 				<img
+					loading="lazy"
 					alt="Carter Lake"
 					className="is-centered-img"
 					width="1024"

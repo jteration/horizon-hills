@@ -6,6 +6,7 @@ class Hiking extends React.Component {
 			<section id="hiking" className="section is-flex is-column">
 				<h3 className="tab-heading">Hiking Mountains Big and Small</h3>
 				<img
+					loading="lazy"
 					alt="Horsetooth"
 					className="is-centered-img"
 					width="1024"

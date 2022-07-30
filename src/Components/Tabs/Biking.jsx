@@ -6,6 +6,7 @@ class Biking extends React.Component {
 			<section id="biking" className="section is-flex is-column">
 				<h3 className="tab-heading">Biking Scenic Trails </h3>
 				<img
+					loading="lazy"
 					alt="Devil's Backbone Entrance"
 					className="is-centered-img"
 					width="1024"
